@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e9ebe1"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='5' y='7' width='22' height='18' rx='3' fill='%23496153'/%3E%3Cpath d='M5 17h22M16 7v10M11 17v8' stroke='%23e9ebe1' fill='none'/%3E%3C/svg%3E"><title>P03 円形の石舞台 — Hi2.5D</title>  <script type="module" crossorigin src="./assets/index-C8pzzHMx.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BoilGBm_.css">
+</head>
+<body>
+<header><a href="#" class="brand">Hi2.5D <span>PAINTED ENVIRONMENTS</span></a><span class="edition">STUDY P03 / 2026.10.16</span></header>
+<main>
+<aside class="controls">
+<p class="eyebrow">少ない面に、石の表情を。</p><h1>円形の石舞台<span>The painted arena</span></h1>
+<p class="intro">40mの床にも、寄って見られる描き込みを。<br>床9枚・縁と側面8枚・階段1枚で表現。</p>
+<dl class="metrics"><div><dt>本体の三角形</dt><dd id="triangles"><span>計測中</span></dd></div><div><dt>色テクスチャー</dt><dd>18<span>枚</span></dd></div><div><dt>外径</dt><dd>40<span>m</span></dd></div></dl>
+<section><h2><b>01</b> 見る角度</h2><div class="buttons cameras"><button type="button" data-view="normal" aria-pressed="true">標準</button><button type="button" data-view="low" aria-pressed="false">低角</button><button type="button" data-view="top" aria-pressed="false">真上</button><button type="button" data-view="detail" aria-pressed="false">寄り</button><button type="button" data-view="seam" aria-pressed="false">分割境界</button><button type="button" data-view="edge" aria-pressed="false">縁・階段</button></div></section>
+<section><h2><b>02</b> 表面と形</h2><div class="buttons"><button type="button" data-surface="painted" aria-pressed="true">固有彩色</button><button type="button" data-surface="clay" aria-pressed="false">無地</button><button type="button" data-surface="uv" aria-pressed="false">UV検査</button></div><label class="select-label" for="geometry">面の使い方<select id="geometry"><option value="64">64辺</option><option value="32">32辺</option><option value="96">96辺</option></select></label><label class="toggle" for="wire"><span>三角形を重ねて見る</span><input type="checkbox" id="wire"></label></section>
+<section><h2><b>03</b> 陰影を比べる</h2><div class="buttons"><button type="button" data-lighting="painted" aria-pressed="true">彩色優先</button><button type="button" data-lighting="lit" aria-pressed="false">動的な光</button></div><label class="select-label" for="light">光の向き<select id="light" disabled><option value="soft">柔らかい左光</option><option value="left">低い左光</option><option value="right">低い右光</option></select></label><p class="help" id="lighting-note">画像の描き込みをそのまま表示。凹凸マップは使っていません。</p></section>
+<section><h2><b>04</b> 縮尺を確かめる</h2><label class="toggle" for="scale"><span>2m・5m・8m の比較模型</span><input type="checkbox" id="scale"></label><label class="toggle" for="dimension"><span>直径40mのガイド</span><input type="checkbox" id="dimension"></label></section>
+<div class="actions"><button type="button" id="reset">↺ 初期状態</button><button type="button" id="export">モデルを保存 ↗</button></div><p id="export-status" class="help" role="status"></p>
+</aside>
+<section class="stage" aria-label="3D見本と比較の説明"><div id="viewer" aria-label="直径40mの円形石舞台を回転・拡大して比較できる3D表示" tabindex="0"><div class="viewer-top"><span><i></i> LIVE 3D / <b id="view-label">標準</b></span><span>1 unit = 1 meter</span></div><div id="render-error" role="alert" hidden></div><div class="viewer-bottom"><span id="material-label">PAINTED / 固有彩色</span><span>ドラッグで回転 · ホイールで拡大</span></div></div><div class="observation"><span class="observation-id">P03</span><p id="observation">床は約305px/m。P01の約313px/mを基準に、石の縁の欠け・摩耗・色面を描き直しています。寄りと分割境界で確認できます。</p><button type="button" id="atlas-toggle" aria-expanded="false" aria-controls="atlas-panel">18枚の割付を見る ＋</button></div><div id="atlas-panel" hidden><figure><img id="atlas-image" alt="床9枚、縁と側面8枚、階段1枚のテクスチャー配置一覧"><figcaption>F1–F9：4096² / E1–E8：4096×1024 / S1：2048²。床の画像には16pxの余白を取り、分割位置の外側まで同じ石割りを描いています。<label class="select-label" for="sheet">個別の画像<select id="sheet"></select></label><img id="sheet-image" alt="選択した部分の固有テクスチャー" loading="lazy"><button type="button" id="save-atlas">選択した色画像を保存</button></figcaption></figure></div></section>
+</main>
+<footer><span>FORM &amp; SURFACE / P03</span><p>複数画像で描き込み密度を確保する改訂試作。高解像度の画像を18枚使用し、PCでの確認を想定しています。目的の画質を達成した認定や制作スキル化は、まだ行っていません。</p></footer>
+</body></html>
