@@ -10,6 +10,8 @@
 
 ## 開く
 
+[ブラウザーでサンプルを開く](https://takayoshi0426.github.io/Hi2.5D-texture-demo/)
+
 `index.html` をWebGL2対応ブラウザーで開けます。ビルド・サーバー・外部画像は不要です。
 
 ## GitHub Pages
