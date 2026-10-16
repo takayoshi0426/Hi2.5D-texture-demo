@@ -2,6 +2,7 @@
   "date": "2026-10-17 Asia/Tokyo",
   "checks": [
     "Scene initialized within the geometry budget",
+    "32 distinct baked maps are actually used; wall triangles sample local UV patches instead of restarting the full image",
     "All 12 view presets change the camera and selected view",
     "Scene layers respond to all six controls",
     "AO, painted lighting, broad weather and unpainted comparison change the output",
@@ -16,18 +17,28 @@
     "Direct file:// navigation could not be tested because managed Chromium policy blocks file URLs."
   ],
   "stats": {
-    "triangles": 58484,
-    "meshes": 48,
+    "triangles": 61640,
+    "meshes": 107,
     "spectators": 4682,
-    "sourceColorImages": 3,
+    "sourceColorImages": 35,
+    "uniqueSurfaceMaps": 32,
     "proceduralColorImages": 2,
+    "surfaceFamilies": {
+      "wall": 8,
+      "seat": 8,
+      "floor": 4,
+      "gate": 4,
+      "trim": 4,
+      "rubble": 4
+    },
     "uvChannels": [
-      "uv: painted color",
+      "uv: world-aligned unique surfaces",
       "uv1: world weather coordinates",
       "uv2: world lighting coordinates"
     ],
-    "finish": "vertex-baked shade / AO / broad dampness; independently switchable",
+    "finish": "unique baked material/color masks; vertex-baked shade / AO / broad dampness; independently switchable",
     "version": "P21",
+    "revision": 2,
     "majorDiameter": 148,
     "minorDiameter": 124,
     "fieldMajorDiameter": 48,
@@ -38,12 +49,16 @@
     "seatRows": 21,
     "seed": 2187
   },
+  "uvAudit": {
+    "usedMaps": 32,
+    "smallTriangleFraction": 1
+  },
   "glb": {
-    "meshes": 47,
-    "triangles": 54516,
+    "meshes": 106,
+    "triangles": 57672,
     "instanced": 4682,
     "cutouts": 1,
-    "bytes": 27007940,
+    "bytes": 106735408,
     "root": "P21_Colosseum_of_the_Fallen_Age"
   },
   "errors": [],
