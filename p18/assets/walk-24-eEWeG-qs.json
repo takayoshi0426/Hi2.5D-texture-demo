@@ -16,7 +16,7 @@
   ],
   "atlas": "walk-24.png",
   "registration": "uniform scale per source sheet; whole-frame translation to eye X and floor Y; no per-frame scaling, limb edits, warping or interpolation",
-  "status": "animation study; generated anatomy and temporal continuity require art review",
+  "status": "REJECTED: not a valid walk cycle; support-leg alternation, foot travel and temporal continuity fail. Retained only as failed-study reference.",
   "frames": [
     {
       "index": 0,
