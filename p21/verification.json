@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-17 Asia/Tokyo",
+  "checks": [
+    "Scene initialized within the geometry budget",
+    "All 12 view presets change the camera and selected view",
+    "Scene layers respond to all six controls",
+    "AO, painted lighting, broad weather and unpainted comparison change the output",
+    "Inherited P14 256-sample, two-layer lens renders successfully and changes the image",
+    "GLB exported, then reloaded with spectator instancing and alpha cutouts preserved",
+    "390px mobile controls open, select a view, and close",
+    "Standalone HTML renders as one document with every subresource HTTP request blocked"
+  ],
+  "limitations": [
+    "Software WebGL only; no hardware GPU performance measurement.",
+    "Visual fidelity remains a first environment study for user evaluation.",
+    "Direct file:// navigation could not be tested because managed Chromium policy blocks file URLs."
+  ],
+  "stats": {
+    "triangles": 58484,
+    "meshes": 48,
+    "spectators": 4682,
+    "sourceColorImages": 3,
+    "proceduralColorImages": 2,
+    "uvChannels": [
+      "uv: painted color",
+      "uv1: world weather coordinates",
+      "uv2: world lighting coordinates"
+    ],
+    "finish": "vertex-baked shade / AO / broad dampness; independently switchable",
+    "version": "P21",
+    "majorDiameter": 148,
+    "minorDiameter": 124,
+    "fieldMajorDiameter": 48,
+    "fieldMinorDiameter": 40,
+    "upperHeight": 42,
+    "arcadeBays": 48,
+    "seatingTiers": 3,
+    "seatRows": 21,
+    "seed": 2187
+  },
+  "glb": {
+    "meshes": 47,
+    "triangles": 54516,
+    "instanced": 4682,
+    "cutouts": 1,
+    "bytes": 27007940,
+    "root": "P21_Colosseum_of_the_Fallen_Age"
+  },
+  "errors": [],
+  "ok": true
+}

@@ -1,8 +1,8 @@
 # Hi2.5D Environment Studies
 
-[最新の石舞台サンプルを開く](https://takayoshi0426.github.io/Hi2.5D-texture-demo/latest.html)（最新の基準版：P14）
+[最新の石舞台サンプルを開く](https://takayoshi0426.github.io/Hi2.5D-texture-demo/latest.html)（新背景：P21 / 制作基準：P14）
 
-P14を最新の基準版として管理します。以下は初期の土の比較からP14までの制作履歴です。各節の「スキル化は保留」は当時の状態で、現在は[P14までの制作Skill](https://github.com/takayoshi0426/Hi2.5D-modeling/tree/codex/hi25d-environment-skill-p14/.agents/skills/hi25d-environment-production)にまとめています。
+P14の背景制作を基準に、P21では新しい魔法文明のコロッセオを制作しました。P14の比較用ページも残しています。以下はこれまでの制作履歴です。各節の「スキル化は保留」は当時の状態で、現在は[P14までの制作Skill](https://github.com/takayoshi0426/Hi2.5D-modeling/tree/codex/hi25d-environment-skill-p14/.agents/skills/hi25d-environment-production)にまとめています。
 
 初期の土の比較は、外部画像を使わないThree.jsサンプルです。
 
@@ -144,3 +144,13 @@ P13の舞台・森・遺跡・5種の2Dスプライトを保ち、被写界深�
 絞りf値と撮影スケールを追加。実寸ではぼけの弱い40m舞台を、初期状態は1/10の模型・f/1.8として撮影します。「実寸のまま撮影」も選べます。合焦距離・クリック合焦、手前と奥の倍率、保護する合焦幅、最大ぼけ半径も調整可能です。
 
 画面の色と深度を使う光学近似で、隠れた背景の完全な復元や光路追跡は含みません。画像・モデルの縮尺・GLB保存はP13を継承。中間の半解像度RGBA16F画像7枚を使うためGPU負荷は増えます。P01〜P13は比較用に保持し、制作スキル化は保留。Three.jsライセンスは `p14/THREE-LICENSE.txt`。
+
+## P21 — 堕ちた時代のコロッセオ
+
+[P21を開く](https://takayoshi0426.github.io/Hi2.5D-texture-demo/p21/) · [画像内包の単体HTML](https://takayoshi0426.github.io/Hi2.5D-texture-demo/p21/standalone.html)
+
+添付された設定資料を参考に、照明設備を浮遊結晶灯台、表示設備をルーンの幻影紋章として制作。三層の観客席、四方の大門、外周アーチと門塔、上層の崩落、瓦礫、旗、観客を配置しています。闘技面は48 × 40m。P14の薄レンズ処理を継承しています。
+
+12視点、各レイヤー、彩色・陰影、レンズ、390px画面、GLBの書出しと再読込を検証しました。原画像は3枚、表示全体は58,484三角形（遠景と観客を含む）。陰影と広域劣化は頂点色へ焼いた近似で、P14のAO・ライトマップの再ベイクではありません。参照画像との美術的な一致は第一版として評価待ちです。
+
+制作ソースは私有の `Hi2.5D-modeling` / `codex/p21-fallen-colosseum` に保存。
