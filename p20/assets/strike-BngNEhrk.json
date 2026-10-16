@@ -1,0 +1,835 @@
+{
+  "version": 2,
+  "action": "strike",
+  "method": "procedural 2D curve drawing construction, rasterised offline to complete pose frames; no 3D, no part images, no raster warps; not polished hand-drawn key art",
+  "status": "rough motion study, not final character art",
+  "frameCount": 10,
+  "durationMs": 800,
+  "strideMeters": 0,
+  "stanceFraction": 1,
+  "pixelsPerMeter": 142,
+  "cell": 384,
+  "width": 1920,
+  "height": 768,
+  "baseline": 340,
+  "originX": 200,
+  "keyFrames": [
+    0,
+    2,
+    4,
+    6,
+    9
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "phase": 0,
+      "startMs": 0,
+      "rect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "durationMs": 133.33333333333334,
+      "ticks": 8,
+      "key": true,
+      "name": "構え",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.01661747940322411,
+            "y": 0.33313393308935807,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.097,
+            "y": 0.68
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.2342126522431516,
+            "y": 0.4599541157542154,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.056999999999999995,
+            "y": 0.68
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        86,
+        61,
+        210,
+        280
+      ],
+      "coverage": 33953,
+      "sha256": "6e3752f5cea2832bc29d74b9e2fceb7952e75c12eca16af3d821f140a38994b5"
+    },
+    {
+      "index": 1,
+      "phase": 0.16666666666666666,
+      "startMs": 133.33333333333334,
+      "rect": [
+        384,
+        0,
+        384,
+        384
+      ],
+      "durationMs": 66.66666666666667,
+      "ticks": 4,
+      "key": false,
+      "name": "沈み込み",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.034464393155028916,
+            "y": 0.31067503602373764,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.11199999999999999,
+            "y": 0.645
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.24263705313924983,
+            "y": 0.4599904737808108,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.072,
+            "y": 0.645
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        85,
+        65,
+        202,
+        276
+      ],
+      "coverage": 32650,
+      "sha256": "69f64f5399cff8363802c23b3418954db6970bfe134fc1b93487c455b2d9ca9a"
+    },
+    {
+      "index": 2,
+      "phase": 0.25,
+      "startMs": 200,
+      "rect": [
+        768,
+        0,
+        384,
+        384
+      ],
+      "durationMs": 50,
+      "ticks": 3,
+      "key": true,
+      "name": "溜め",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.023626112713856867,
+            "y": 0.3247416553148917,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.142,
+            "y": 0.65
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.20883213908993414,
+            "y": 0.4586668316554189,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.102,
+            "y": 0.65
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        86,
+        64,
+        192,
+        277
+      ],
+      "coverage": 32646,
+      "sha256": "58fdbcefee6cfd2521225e8eef514547404b5dfef1fc64c8456c7d25e9ed4f6b"
+    },
+    {
+      "index": 3,
+      "phase": 0.3125,
+      "startMs": 250,
+      "rect": [
+        1152,
+        0,
+        384,
+        384
+      ],
+      "durationMs": 16.666666666666668,
+      "ticks": 1,
+      "key": false,
+      "name": "発進",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.02857688647754511,
+            "y": 0.31849134343621904,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.092,
+            "y": 0.663
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.2512257689297941,
+            "y": 0.45982733191461245,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.05199999999999999,
+            "y": 0.663
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        85,
+        62,
+        219,
+        279
+      ],
+      "coverage": 34229,
+      "sha256": "5cb481c66d9ceb9fd4c587c6e3c02aa3579b44123b13a8fd77e64dc3ba11a62f"
+    },
+    {
+      "index": 4,
+      "phase": 0.3333333333333333,
+      "startMs": 266.6666666666667,
+      "rect": [
+        1536,
+        0,
+        384,
+        384
+      ],
+      "durationMs": 50,
+      "ticks": 3,
+      "key": true,
+      "name": "爪の伸展",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.021404665805485168,
+            "y": 0.3274573381567103,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.052,
+            "y": 0.685
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.2741420790005348,
+            "y": 0.45839966764090634,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.012,
+            "y": 0.685
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        86,
+        52,
+        279,
+        289
+      ],
+      "coverage": 37429,
+      "sha256": "67321cc92d2e029e5ec1ea840dbf740432e17ba3e8f0f4acf65ed81d62e744fc"
+    },
+    {
+      "index": 5,
+      "phase": 0.3958333333333333,
+      "startMs": 316.6666666666667,
+      "rect": [
+        0,
+        384,
+        384,
+        384
+      ],
+      "durationMs": 33.333333333333336,
+      "ticks": 2,
+      "key": false,
+      "name": "伸び切り",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.014632653476325086,
+            "y": 0.3354202687889536,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.041999999999999996,
+            "y": 0.696
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.2750054802575975,
+            "y": 0.4583175145130426,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.0019999999999999983,
+            "y": 0.696
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        86,
+        49,
+        284,
+        292
+      ],
+      "coverage": 38057,
+      "sha256": "88f76d81b1cb682a4767b735a31be1e3995f11a80f4f950b49a101a5bafe4fbc"
+    },
+    {
+      "index": 6,
+      "phase": 0.4375,
+      "startMs": 350,
+      "rect": [
+        384,
+        384,
+        384,
+        384
+      ],
+      "durationMs": 66.66666666666667,
+      "ticks": 4,
+      "key": true,
+      "name": "反動",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.02383510571777181,
+            "y": 0.3244834041105833,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.067,
+            "y": 0.678
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.2651018190305231,
+            "y": 0.45913582449596857,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.027,
+            "y": 0.678
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        86,
+        57,
+        240,
+        284
+      ],
+      "coverage": 37457,
+      "sha256": "720ffa06c76cd22f7fe24fe3d361fc7567e49672f7d77c632d470762877693bb"
+    },
+    {
+      "index": 7,
+      "phase": 0.5208333333333334,
+      "startMs": 416.6666666666667,
+      "rect": [
+        768,
+        384,
+        384,
+        384
+      ],
+      "durationMs": 83.33333333333333,
+      "ticks": 5,
+      "key": false,
+      "name": "引き戻し",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.0339247290346239,
+            "y": 0.3114099204332436,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.092,
+            "y": 0.654
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.2569279173850667,
+            "y": 0.4596072484372799,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.05199999999999999,
+            "y": 0.654
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        85,
+        64,
+        204,
+        277
+      ],
+      "coverage": 34256,
+      "sha256": "769af7f6e259cbfd5dd6949cbb11f517d9f662ed1ddbbf5fefe7abc3e357ba17"
+    },
+    {
+      "index": 8,
+      "phase": 0.625,
+      "startMs": 500,
+      "rect": [
+        1152,
+        384,
+        384,
+        384
+      ],
+      "durationMs": 100,
+      "ticks": 6,
+      "key": false,
+      "name": "姿勢の回復",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.02138123163913558,
+            "y": 0.32748570382120934,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.10200000000000001,
+            "y": 0.671
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.235815169611612,
+            "y": 0.4599760090671994,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.062,
+            "y": 0.671
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        85,
+        62,
+        206,
+        279
+      ],
+      "coverage": 33927,
+      "sha256": "64ab3a1f305d22905e83b667854d7b87ed64de2055b1c5606a0a58223cbf42bf"
+    },
+    {
+      "index": 9,
+      "phase": 0.75,
+      "startMs": 600,
+      "rect": [
+        1536,
+        384,
+        384,
+        384
+      ],
+      "durationMs": 200,
+      "ticks": 12,
+      "key": true,
+      "name": "構えへ",
+      "feet": [
+        {
+          "near": false,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.03999999999999998,
+            "y": 0
+          },
+          "ankle": {
+            "x": -0.26,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.01661747940322411,
+            "y": 0.33313393308935807,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.097,
+            "y": 0.68
+          },
+          "angle": 0,
+          "pixel": [
+            205.68,
+            340
+          ]
+        },
+        {
+          "near": true,
+          "phase": 0,
+          "stance": true,
+          "feature": "toe",
+          "support": {
+            "x": 0.54,
+            "y": 0
+          },
+          "ankle": {
+            "x": 0.24,
+            "y": 0.095
+          },
+          "knee": {
+            "x": 0.2342126522431516,
+            "y": 0.4599541157542154,
+            "unreachable": false
+          },
+          "hip": {
+            "x": -0.056999999999999995,
+            "y": 0.68
+          },
+          "angle": 0,
+          "pixel": [
+            276.68,
+            340
+          ]
+        }
+      ],
+      "bounds": [
+        86,
+        61,
+        210,
+        280
+      ],
+      "coverage": 33953,
+      "sha256": "6e3752f5cea2832bc29d74b9e2fceb7952e75c12eca16af3d821f140a38994b5"
+    }
+  ]
+}
