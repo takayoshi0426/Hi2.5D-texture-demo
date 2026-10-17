@@ -2,8 +2,8 @@
   "date": "2026-10-17 Asia/Tokyo",
   "checks": [
     "Scene initialized within the geometry budget",
-    "32 distinct baked maps are actually used; wall triangles sample local UV patches instead of restarting the full image",
-    "All 12 view presets change the camera and selected view",
+    "Distinct baked maps are actually used; wall triangles sample local UV patches instead of restarting the full image",
+    "All 14 view presets change the camera and selected view",
     "Scene layers respond to all six controls",
     "AO, painted lighting, broad weather and unpainted comparison change the output",
     "Inherited P14 256-sample, two-layer lens renders successfully and changes the image",
@@ -17,17 +17,93 @@
     "Direct file:// navigation could not be tested because managed Chromium policy blocks file URLs."
   ],
   "stats": {
-    "triangles": 61640,
-    "meshes": 107,
-    "spectators": 4682,
-    "sourceColorImages": 35,
-    "uniqueSurfaceMaps": 32,
-    "proceduralColorImages": 2,
+    "triangles": 82793,
+    "meshes": 109,
+    "spectators": 3702,
+    "sourceColorImages": 39,
+    "uniqueSurfaceMaps": 35,
+    "proceduralColorImages": 1,
+    "portals": [
+      {
+        "index": 0,
+        "origin": [
+          30,
+          0,
+          0
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "clearWidth": 8.8,
+        "archTop": 10.4,
+        "springHeight": 6,
+        "depth": 17,
+        "probeDepth": 15
+      },
+      {
+        "index": 1,
+        "origin": [
+          1.83697019872103e-15,
+          0,
+          25
+        ],
+        "direction": [
+          6.123233995736766e-17,
+          0,
+          1
+        ],
+        "clearWidth": 8.8,
+        "archTop": 10.4,
+        "springHeight": 6,
+        "depth": 17,
+        "probeDepth": 15
+      },
+      {
+        "index": 2,
+        "origin": [
+          -30,
+          0,
+          3.061616997868383e-15
+        ],
+        "direction": [
+          -1,
+          0,
+          1.2246467991473532e-16
+        ],
+        "clearWidth": 8.8,
+        "archTop": 10.4,
+        "springHeight": 6,
+        "depth": 17,
+        "probeDepth": 15
+      },
+      {
+        "index": 3,
+        "origin": [
+          -5.510910596163089e-15,
+          0,
+          -25
+        ],
+        "direction": [
+          -1.8369701987210297e-16,
+          0,
+          -1
+        ],
+        "clearWidth": 8.8,
+        "archTop": 10.4,
+        "springHeight": 6,
+        "depth": 17,
+        "probeDepth": 15
+      }
+    ],
+    "benchHeight": 0.44,
+    "aisleRise": 0.165,
     "surfaceFamilies": {
       "wall": 8,
       "seat": 8,
       "floor": 4,
-      "gate": 4,
+      "gate": 0,
       "trim": 4,
       "rubble": 4
     },
@@ -38,7 +114,7 @@
     ],
     "finish": "unique baked material/color masks; vertex-baked shade / AO / broad dampness; independently switchable",
     "version": "P21",
-    "revision": 2,
+    "revision": 3,
     "majorDiameter": 148,
     "minorDiameter": 124,
     "fieldMajorDiameter": 48,
@@ -50,15 +126,24 @@
     "seed": 2187
   },
   "uvAudit": {
-    "usedMaps": 32,
+    "usedMaps": 28,
+    "detailMaps": [
+      "bench-0",
+      "bench-1",
+      "portal-0",
+      "portal-1",
+      "portal-2",
+      "portal-3",
+      "vault"
+    ],
     "smallTriangleFraction": 1
   },
   "glb": {
-    "meshes": 106,
-    "triangles": 57672,
-    "instanced": 4682,
-    "cutouts": 1,
-    "bytes": 106735408,
+    "meshes": 108,
+    "triangles": 78825,
+    "instanced": 3702,
+    "cutouts": 8,
+    "bytes": 135611172,
     "root": "P21_Colosseum_of_the_Fallen_Age"
   },
   "errors": [],

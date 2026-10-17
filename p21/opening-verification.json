@@ -1,0 +1,258 @@
+{
+  "probes": [
+    {
+      "gate": 0,
+      "across": -2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": -2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": -2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": 0,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": 0,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": 0,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": 2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": 2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 0,
+      "across": 2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": -2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": -2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": -2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": 0,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": 0,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": 0,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": 2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": 2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 1,
+      "across": 2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": -2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": -2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": -2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": 0,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": 0,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": 0,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": 2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": 2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 2,
+      "across": 2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": -2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": -2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": -2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": 0,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": 0,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": 0,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": 2,
+      "y": 1,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": 2,
+      "y": 4,
+      "clear": true,
+      "hit": null
+    },
+    {
+      "gate": 3,
+      "across": 2,
+      "y": 8,
+      "clear": true,
+      "hit": null
+    }
+  ],
+  "benchHeight": 0.44,
+  "aisleRise": 0.165
+}
