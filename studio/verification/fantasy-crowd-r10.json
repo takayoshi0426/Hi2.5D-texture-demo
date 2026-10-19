@@ -1,0 +1,1507 @@
+{
+  "ok": true,
+  "errors": [],
+  "stages": [
+    {
+      "phase": "before",
+      "stats": {
+        "triangles": 140308,
+        "meshes": 131,
+        "spectators": 3729,
+        "crowdVariants": 16,
+        "sourceColorImages": 41,
+        "uniqueSurfaceMaps": 36,
+        "craftedDetail": {
+          "revision": 8,
+          "reference": "翠影の闘技場",
+          "roundedStones": 372,
+          "carvedInsignia": 4,
+          "fernPlants": 13,
+          "foldedLeaves": 2184,
+          "timberPieces": 8,
+          "sourceFaces": 16
+        },
+        "proceduralColorImages": 5,
+        "portals": [
+          {
+            "index": 0,
+            "origin": [
+              30,
+              0,
+              0
+            ],
+            "direction": [
+              1,
+              0,
+              0
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          },
+          {
+            "index": 1,
+            "origin": [
+              1.83697019872103e-15,
+              0,
+              25
+            ],
+            "direction": [
+              6.123233995736766e-17,
+              0,
+              1
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          },
+          {
+            "index": 2,
+            "origin": [
+              -30,
+              0,
+              3.061616997868383e-15
+            ],
+            "direction": [
+              -1,
+              0,
+              1.2246467991473532e-16
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          },
+          {
+            "index": 3,
+            "origin": [
+              -5.510910596163089e-15,
+              0,
+              -25
+            ],
+            "direction": [
+              -1.8369701987210297e-16,
+              0,
+              -1
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          }
+        ],
+        "benchHeight": 0.44,
+        "aisleRise": 0.165,
+        "surfaceFamilies": {
+          "wall": 8,
+          "seat": 8,
+          "floor": 4,
+          "gate": 0,
+          "trim": 4,
+          "rubble": 4
+        },
+        "uvChannels": [
+          "uv: authored color",
+          "uv1: broad weather coordinates",
+          "uv2: xatlas unique AO / irradiance charts"
+        ],
+        "bakedLighting": {
+          "inputSHA256": "af7f8f690d3beed23395251d25269a4e1894f9dc751b665b6616e1bcd6e64b44",
+          "revision": 7,
+          "unit": "metre",
+          "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+          "seed": 2187,
+          "aoSamples": 32,
+          "aoRadiusMetres": 3.5,
+          "skySamples": 64,
+          "sunSamples": 7,
+          "sunDirection": [
+            0.43133923411369324,
+            0.6018686890602112,
+            -0.6720867156982422
+          ],
+          "sunDiskRadiusDegrees": 1.15,
+          "rayBiasMetres": 0.018,
+          "packingPaddingPixels": 4,
+          "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+          "occluderTriangles": 71710,
+          "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+          "uvFloatCount": 444504,
+          "elapsedSeconds": 300.9777522087097,
+          "atlasCount": 9,
+          "totalPixels": 34524656,
+          "estimatedMipRGBA8MiB": 175.60148111979166,
+          "receivers": 66,
+          "geometryHashesVerified": true,
+          "cavityAO": {
+            "revision": 9,
+            "method": "local gallery / portal cavity AO multiplied into existing ray-traced AO",
+            "galleryRearFactor": 0.22
+          }
+        },
+        "panorama": {
+          "projection": "equirectangular world direction",
+          "horizonV": 0.48,
+          "seamHalfWidth": 0.045,
+          "sunImageU": 0.25,
+          "sunImageV": 0.72,
+          "worldSun": [
+            0.43,
+            0.6,
+            -0.67
+          ],
+          "sourceWidth": 1774,
+          "sourceHeight": 887,
+          "infiniteDistance": true
+        },
+        "groundTransition": {
+          "viewerOnly": true,
+          "innerRadius": 0,
+          "outerRadius": 950,
+          "fullyFadedRadius": 630,
+          "baseTransitionRadius": 91,
+          "receivesTerrainEdgeBake": true,
+          "terrainUVFitError": 1.71070047461086e-07
+        },
+        "finish": "ray-traced AO, sky visibility and soft sunlight in unique chart textures; artist color / broad dampness retained",
+        "version": "P21",
+        "revision": 8,
+        "majorDiameter": 148,
+        "minorDiameter": 124,
+        "fieldMajorDiameter": 48,
+        "fieldMinorDiameter": 40,
+        "upperHeight": 42,
+        "arcadeBays": 48,
+        "seatingTiers": 3,
+        "seatRows": 21,
+        "seed": 2187
+      },
+      "layoutChecks": null
+    },
+    {
+      "phase": "after",
+      "stats": {
+        "triangles": 163726,
+        "meshes": 180,
+        "spectators": 7719,
+        "crowdVariants": 64,
+        "fantasyCrowd": {
+          "revision": 10,
+          "variants": 64,
+          "sourceSheets": 4,
+          "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+          "usableBenchSegments": 1720,
+          "nominalSeats": 7826,
+          "occupiedSeats": 7719,
+          "emptyUsableSeats": 0,
+          "blockedByRubble": 76,
+          "blockedByPortal": 31,
+          "speciesCounts": {
+            "dwarf": 964,
+            "catfolk": 966,
+            "horned": 966,
+            "rabbitfolk": 483,
+            "human": 963,
+            "lizardfolk": 963,
+            "halfling": 964,
+            "elf": 966,
+            "wolffolk": 484
+          },
+          "spectators": 7719
+        },
+        "sourceColorImages": 44,
+        "uniqueSurfaceMaps": 36,
+        "craftedDetail": {
+          "revision": 8,
+          "reference": "翠影の闘技場",
+          "roundedStones": 372,
+          "carvedInsignia": 4,
+          "fernPlants": 13,
+          "foldedLeaves": 2184,
+          "timberPieces": 8,
+          "sourceFaces": 16
+        },
+        "proceduralColorImages": 6,
+        "portals": [
+          {
+            "index": 0,
+            "origin": [
+              30,
+              0,
+              0
+            ],
+            "direction": [
+              1,
+              0,
+              0
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          },
+          {
+            "index": 1,
+            "origin": [
+              1.83697019872103e-15,
+              0,
+              25
+            ],
+            "direction": [
+              6.123233995736766e-17,
+              0,
+              1
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          },
+          {
+            "index": 2,
+            "origin": [
+              -30,
+              0,
+              3.061616997868383e-15
+            ],
+            "direction": [
+              -1,
+              0,
+              1.2246467991473532e-16
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          },
+          {
+            "index": 3,
+            "origin": [
+              -5.510910596163089e-15,
+              0,
+              -25
+            ],
+            "direction": [
+              -1.8369701987210297e-16,
+              0,
+              -1
+            ],
+            "clearWidth": 8.8,
+            "archTop": 10.4,
+            "springHeight": 6,
+            "depth": 18.15,
+            "probeDepth": 15,
+            "outerWidth": 12.5,
+            "outerTop": 11.45,
+            "facadeDepth": 2.75
+          }
+        ],
+        "benchHeight": 0.44,
+        "aisleRise": 0.165,
+        "surfaceFamilies": {
+          "wall": 8,
+          "seat": 8,
+          "floor": 4,
+          "gate": 0,
+          "trim": 4,
+          "rubble": 4
+        },
+        "uvChannels": [
+          "uv: authored color",
+          "uv1: broad weather coordinates",
+          "uv2: xatlas unique AO / irradiance charts"
+        ],
+        "bakedLighting": {
+          "inputSHA256": "af7f8f690d3beed23395251d25269a4e1894f9dc751b665b6616e1bcd6e64b44",
+          "revision": 7,
+          "unit": "metre",
+          "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+          "seed": 2187,
+          "aoSamples": 32,
+          "aoRadiusMetres": 3.5,
+          "skySamples": 64,
+          "sunSamples": 7,
+          "sunDirection": [
+            0.43133923411369324,
+            0.6018686890602112,
+            -0.6720867156982422
+          ],
+          "sunDiskRadiusDegrees": 1.15,
+          "rayBiasMetres": 0.018,
+          "packingPaddingPixels": 4,
+          "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+          "occluderTriangles": 71710,
+          "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+          "uvFloatCount": 444504,
+          "elapsedSeconds": 300.9777522087097,
+          "atlasCount": 9,
+          "totalPixels": 34524656,
+          "estimatedMipRGBA8MiB": 175.60148111979166,
+          "receivers": 66,
+          "geometryHashesVerified": true,
+          "cavityAO": {
+            "revision": 9,
+            "method": "local gallery / portal cavity AO multiplied into existing ray-traced AO",
+            "galleryRearFactor": 0.22
+          }
+        },
+        "panorama": {
+          "projection": "equirectangular world direction",
+          "horizonV": 0.48,
+          "seamHalfWidth": 0.045,
+          "sunImageU": 0.25,
+          "sunImageV": 0.72,
+          "worldSun": [
+            0.43,
+            0.6,
+            -0.67
+          ],
+          "sourceWidth": 1774,
+          "sourceHeight": 887,
+          "infiniteDistance": true
+        },
+        "groundTransition": {
+          "viewerOnly": true,
+          "innerRadius": 0,
+          "outerRadius": 950,
+          "fullyFadedRadius": 630,
+          "baseTransitionRadius": 91,
+          "receivesTerrainEdgeBake": true,
+          "terrainUVFitError": 1.71070047461086e-07
+        },
+        "finish": "ray-traced AO, sky visibility and soft sunlight in unique chart textures; artist color / broad dampness retained",
+        "version": "P21",
+        "revision": 8,
+        "majorDiameter": 148,
+        "minorDiameter": 124,
+        "fieldMajorDiameter": 48,
+        "fieldMinorDiameter": 40,
+        "upperHeight": 42,
+        "arcadeBays": 48,
+        "seatingTiers": 3,
+        "seatRows": 21,
+        "seed": 2187
+      },
+      "layoutChecks": {
+        "blocked": 0,
+        "duplicate": 0,
+        "rows": 21,
+        "variants": 64,
+        "species": 9,
+        "support": [
+          {
+            "tier": 0,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800000858306886
+          },
+          {
+            "tier": 0,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800000858306886
+          },
+          {
+            "tier": 0,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800000858306886
+          },
+          {
+            "tier": 0,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800000858306886
+          },
+          {
+            "tier": 0,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800000858306886
+          },
+          {
+            "tier": 0,
+            "row": 1,
+            "supported": true,
+            "distance": 0.28000000000000025
+          },
+          {
+            "tier": 0,
+            "row": 1,
+            "supported": true,
+            "distance": 0.28000000000000025
+          },
+          {
+            "tier": 0,
+            "row": 1,
+            "supported": true,
+            "distance": 0.28000000000000025
+          },
+          {
+            "tier": 0,
+            "row": 1,
+            "supported": true,
+            "distance": 0.28000000000000025
+          },
+          {
+            "tier": 0,
+            "row": 2,
+            "supported": true,
+            "distance": 0.280000152587891
+          },
+          {
+            "tier": 0,
+            "row": 2,
+            "supported": true,
+            "distance": 0.280000152587891
+          },
+          {
+            "tier": 0,
+            "row": 2,
+            "supported": true,
+            "distance": 0.280000152587891
+          },
+          {
+            "tier": 0,
+            "row": 2,
+            "supported": true,
+            "distance": 0.280000152587891
+          },
+          {
+            "tier": 0,
+            "row": 2,
+            "supported": true,
+            "distance": 0.280000152587891
+          },
+          {
+            "tier": 0,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799998283386236
+          },
+          {
+            "tier": 0,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799998283386236
+          },
+          {
+            "tier": 0,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799998283386236
+          },
+          {
+            "tier": 0,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799998283386236
+          },
+          {
+            "tier": 0,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999998092651435
+          },
+          {
+            "tier": 0,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999998092651435
+          },
+          {
+            "tier": 0,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999998092651435
+          },
+          {
+            "tier": 0,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999998092651435
+          },
+          {
+            "tier": 0,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999998092651435
+          },
+          {
+            "tier": 0,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800001335144051
+          },
+          {
+            "tier": 0,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800001335144051
+          },
+          {
+            "tier": 0,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800001335144051
+          },
+          {
+            "tier": 0,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800001335144051
+          },
+          {
+            "tier": 0,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800001335144051
+          },
+          {
+            "tier": 0,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800001335144051
+          },
+          {
+            "tier": 0,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799998092651368
+          },
+          {
+            "tier": 0,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799998092651368
+          },
+          {
+            "tier": 0,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799998092651368
+          },
+          {
+            "tier": 0,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799998092651368
+          },
+          {
+            "tier": 0,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799998092651368
+          },
+          {
+            "tier": 0,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799998092651368
+          },
+          {
+            "tier": 1,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800004196166981
+          },
+          {
+            "tier": 1,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800004196166981
+          },
+          {
+            "tier": 1,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800004196166981
+          },
+          {
+            "tier": 1,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800004196166981
+          },
+          {
+            "tier": 1,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800004196166981
+          },
+          {
+            "tier": 1,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800004196166981
+          },
+          {
+            "tier": 1,
+            "row": 0,
+            "supported": true,
+            "distance": 0.2800004196166981
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999961853027244
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799997711181632
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 3,
+            "supported": true,
+            "distance": 0.279999923706054
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 4,
+            "supported": true,
+            "distance": 0.28000007629394474
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2800002288818355
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 1,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2800003814697263
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 0,
+            "supported": true,
+            "distance": 0.279999084472653
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 1,
+            "supported": true,
+            "distance": 0.27999923706054375
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 2,
+            "supported": true,
+            "distance": 0.2799993896484345
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 3,
+            "supported": true,
+            "distance": 0.2799995422363253
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 4,
+            "supported": true,
+            "distance": 0.27999969482421605
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 5,
+            "supported": true,
+            "distance": 0.2799998474121068
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          },
+          {
+            "tier": 2,
+            "row": 6,
+            "supported": true,
+            "distance": 0.2799999999999976
+          }
+        ]
+      }
+    }
+  ],
+  "release": 10,
+  "scope": "P21 fantasy crowd; existing r8 architecture and r9 cavity AO retained",
+  "art": "art.json",
+  "export": {
+    "stage": "p21",
+    "portrait": {
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": true,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10.000000000000004,
+        "mode": "front",
+        "position": [
+          9.059812849280403,
+          19.224414549900956,
+          75.13569952208172
+        ],
+        "target": [
+          0,
+          5.87999895791451,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    },
+    "bytes": 250514992,
+    "fighters": [
+      "Fighter_A",
+      "Fighter_B"
+    ],
+    "scenery": "Forest_style_authored_scenery",
+    "images": 51,
+    "meshes": 191
+  },
+  "reloadedGLB": {
+    "ok": true,
+    "errors": [],
+    "galleryLuma": 30.3374597222222,
+    "meshes": 191,
+    "triangles": 524294,
+    "fantasyCrowd": {
+      "revision": 10,
+      "variants": 64,
+      "sourceSheets": 4,
+      "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+      "usableBenchSegments": 1720,
+      "nominalSeats": 7826,
+      "occupiedSeats": 7719,
+      "emptyUsableSeats": 0,
+      "blockedByRubble": 76,
+      "blockedByPortal": 31,
+      "speciesCounts": {
+        "dwarf": 964,
+        "catfolk": 966,
+        "horned": 966,
+        "rabbitfolk": 483,
+        "human": 963,
+        "lizardfolk": 963,
+        "halfling": 964,
+        "elf": 966,
+        "wolffolk": 484
+      },
+      "spectators": 7719
+    },
+    "craft": true,
+    "revision": 8
+  },
+  "camera": "35 degree FOV; existing dolly-only framing and 10 degree pitch limit retained"
+}

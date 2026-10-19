@@ -95,13 +95,13 @@
           "pitchDegrees": 10.000000000000004,
           "mode": "front",
           "position": [
-            9.05981284927579,
-            19.22441455011957,
-            75.13569952204345
+            9.059812849280403,
+            19.224414549900956,
+            75.13569952208172
           ],
           "target": [
             0,
-            5.879998958139917,
+            5.87999895791451,
             0
           ],
           "fov": 35,
@@ -109,14 +109,14 @@
           "tilt": 0
         }
       },
-      "bytes": 243983740,
+      "bytes": 250514992,
       "fighters": [
         "Fighter_A",
         "Fighter_B"
       ],
       "scenery": "Forest_style_authored_scenery",
-      "images": 47,
-      "meshes": 142
+      "images": 51,
+      "meshes": 191
     }
   ],
   "recovery": {

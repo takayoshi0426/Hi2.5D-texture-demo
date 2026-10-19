@@ -44,7 +44,9 @@
     "P14 and P21 timber caps have zero open or reversed welded edges",
     "P21 recessed gallery rear luma below half of r8 at matched 35 degree cameras; AO OFF restores original brightness",
     "Four portals retain original baked shading with multiplicative depth dimming and local floor / ceiling cavity AO",
-    "P21 GLB saved through actual UI click with both fighters and crafted scenery"
+    "P21 GLB saved through actual UI click with both fighters and crafted scenery",
+    "P21 7,719 occupied bench seats with 64 cutout variants across 9 species; stairways and all four monster portals kept clear",
+    "168 actual bench support probes; 21 rows and no consecutive identical spectators"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -61,7 +63,8 @@
     "flight-camera-unit.json",
     "crafted-detail-r8.json",
     "gates-r8.json",
-    "cavity-ao-r9.json"
+    "cavity-ao-r9.json",
+    "fantasy-crowd-r10.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": {
@@ -127,7 +130,8 @@
       "HDR magic circles and floating crystals with cyan stone spill",
       "372 modeled rounded stone elements and 4 carved gate insignia",
       "7 new portal / bench / vault maps plus 12 renewed wall / trim maps",
-      "Local gallery / portal cavity AO supplements existing ray trace; same correction transferred to GLB"
+      "Local gallery / portal cavity AO supplements existing ray trace; same correction transferred to GLB",
+      "Full mixed-species fantasy audience: 64 native seated figures, 4 padded atlases, 7,719 spectators with foot contacts"
     ],
     "hd2d": [
       "unique 92m floor layout with aligned height relief",
@@ -152,7 +156,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 9,
+  "revision": 10,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -167,6 +171,10 @@
   ],
   "r9Evidence": [
     "cavity-ao-r9.json",
+    "forest-exports.json"
+  ],
+  "r10Evidence": [
+    "fantasy-crowd-r10.json",
     "forest-exports.json"
   ]
 }
