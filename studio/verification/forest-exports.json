@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "errors": [],
+  "stages": [
+    {
+      "stage": "p14",
+      "bytes": 38461720,
+      "fighters": [
+        "Fighter_A",
+        "Fighter_B"
+      ],
+      "scenery": "Forest_style_authored_scenery",
+      "images": 17,
+      "meshes": 30
+    },
+    {
+      "stage": "p21",
+      "bytes": 147093932,
+      "fighters": [
+        "Fighter_A",
+        "Fighter_B"
+      ],
+      "scenery": "Forest_style_authored_scenery",
+      "images": 27,
+      "meshes": 129
+    },
+    {
+      "stage": "hd2d",
+      "bytes": 150543180,
+      "fighters": [
+        "Fighter_A",
+        "Fighter_B"
+      ],
+      "scenery": "Forest_style_authored_scenery",
+      "images": 36,
+      "meshes": 139
+    }
+  ]
+}

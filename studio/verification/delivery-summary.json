@@ -30,7 +30,9 @@
     "31 camera, optics and flight unit checks",
     "Winged takeoff, 0–5m ceiling, landing, altitude-aware projectiles and melee across all three backgrounds",
     "All shared camera modes including free/native presets obey a 10 degree downward pitch limit",
-    "Bold VFX before/after comparison at a calibrated 10 degree camera; foreground-depth integration verified with actual impacts across all three backgrounds"
+    "Bold VFX before/after comparison at a calibrated 10 degree camera; foreground-depth integration verified with actual impacts across all three backgrounds",
+    "All three backgrounds assessed using matched before/after cameras, with unblurred environment views and regular combat optics",
+    "Forest scenery and both selected P14 actors retained in GLB exports"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -41,12 +43,10 @@
   "sourceSnapshotFiles": 347,
   "artworkCatalog": "shared-monsters.json",
   "verification": [
-    "flight-camera-unit.json",
-    "flight-camera-verification.json",
-    "bold-vfx-verification.json",
-    "bold-vfx-area.json",
-    "current-effects-verification.json",
-    "source-vfx-outputs.json"
+    "forest-style.json",
+    "forest-exports.json",
+    "source-vfx-outputs.json",
+    "flight-camera-unit.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": "Uploaded HD2D front/angle/close/wide, drag yaw/tilt, arena boundary and source smoothing; downward pitch capped at 10 degrees, including free/native presets",
@@ -93,6 +93,32 @@
       "VFX",
       "focus",
       "camera"
+    ]
+  },
+  "artDirection": {
+    "reference": "P14 forest arena",
+    "p21": [
+      "world-aligned painted stone surfaces",
+      "four newly painted gate facades",
+      "32 bench faces",
+      "16 spectator variants; adjacent duplicates avoided",
+      "new daytime forest panorama"
+    ],
+    "hd2d": [
+      "unique 92m floor layout with aligned height relief",
+      "painted wall, trim, bark and ground",
+      "matching painted sky"
+    ],
+    "shared": [
+      "eight new painted vegetation variants",
+      "plants at portal feet, terraces, platform edges and tree roots",
+      "bevelled stone fragments",
+      "analytic contact shadows"
+    ],
+    "lighting": "Existing geometry AO and fixed sunlight preserved; new decorative objects use painted shading and analytic contact shadows",
+    "sources": [
+      "forest-style-art.json",
+      "forest-materials.json"
     ]
   }
 }
