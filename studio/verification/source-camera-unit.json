@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "file": "scripts/test-source-camera.mjs",
+      "exitCode": 0,
+      "output": "✔ source front/angle/close/wide framing formulas match the uploaded source at its native 43m boundary (1.404182ms)\n✔ follow smoothing uses source 4/sec target and height response; camera stays within each venue (0.219998ms)\n✔ camera remains finite and keeps its turn rate at the boundary over full battle-sized routes (5.355841ms)\nℹ tests 3\nℹ suites 0\nℹ pass 3\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 10.726704\n"
+    },
+    {
+      "file": "references/hd2d-source/src/arena-camera.test.ts",
+      "exitCode": 0,
+      "output": "✔ カメラが東を向く配置では右入力が世界の北、上入力が西になる (0.625732ms)\n✔ ドラッグ・全周の回り込み後も画面の左右前後と移動方向が一致する (8.351584ms)\n✔ カメラ相対入力でも停止・斜め・入力の長さを保持する (0.141791ms)\n✔ 中央の通常構図は維持する (0.202642ms)\n✔ 外周へ急に近づいても指定した旋回速度を超えず、安全な距離へ縮む (0.096935ms)\n✔ 全方向の端・2/5/10m・通常/寄り/斜めでカメラが43m以内に収まる (1.64399ms)\n✔ 手前の外周を横切っても回り込みの向きが突然反転しない (0.981793ms)\n✔ 外周を一周して通常構図へ戻るときもカメラが飛ばない (1.506134ms)\n✔ 二体を撮るときは、安全な構図から不要な自動旋回を始めない (0.197565ms)\n✔ 2/5/10mの二体をPCと縦長画面で収める距離・画角を決める (0.32214ms)\n✔ 速い横移動で中心の追従が遅れても、縦長画面に体の輪郭と余白を収める (0.131756ms)\n✔ 奥行きの間隔を横幅として数えず、二体が前後に並ぶときの不要な引きを抑える (0.078477ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 18.651002\n"
+    },
+    {
+      "file": "references/hd2d-source/src/lens.test.ts",
+      "exitCode": 0,
+      "output": "✔ F1.2を基本に、手前の実輪郭がボケ始める直前まで開く (1.069374ms)\n✔ 前後の入れ替わり・近接同率・戦闘不能でもピントが飛ばない (0.659512ms)\n✔ 35度の画角・24mmセンサーは約38.06mmレンズに対応 (0.08712ms)\n✔ 前後に離れた二体の輪郭を0.45px以下のボケへ収め、手動値より開かない (0.171956ms)\n✔ 同じ奥行きなら手動のF値を保ち、前後差が広がると自動で絞る (0.078026ms)\n✔ 二体の中心が同じ奥行きなら、頭足の奥行き差があっても基本F2に戻る (0.088983ms)\n✔ 前後差の境目でF値が飛ばず、絞りの追従は滑らかに往復する (0.18113ms)\n✔ 焦点面はゼロ、手前は負、後ろは正 (0.055673ms)\n✔ f/8への絞り込みで径は1.4/8倍、出力高さに比例する (0.129784ms)\n✔ 実寸90mの空間はジオラマ換算より深い被写界深度 (0.122803ms)\n✔ 前景captureのfar planeは絞りと描画高さが変わっても負の0.5px CoCになる (0.15447ms)\nℹ tests 11\nℹ suites 0\nℹ pass 11\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 21.300168\n"
+    }
+  ]
+}

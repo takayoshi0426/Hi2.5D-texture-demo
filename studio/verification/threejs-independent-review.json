@@ -1,0 +1,115 @@
+[
+  {
+    "id": "VFX_Colosseum_ClawSlash",
+    "scores": {
+      "read": 2,
+      "timing": 2,
+      "layering": 2,
+      "shape_change": 3,
+      "motion": 2,
+      "placement": 2,
+      "tail": 2,
+      "identity": 2,
+      "coherence": 3
+    },
+    "worst": "placement",
+    "fix": "Raise the crescent layer's sweep center by approximately one quarter of the capsule height during f2\u2013f12 so its brightest crossing passes through the torso.",
+    "verdict": "ship",
+    "observed_frames": [
+      0,
+      2,
+      5,
+      8,
+      12,
+      17,
+      22,
+      28,
+      33
+    ]
+  },
+  {
+    "id": "VFX_Colosseum_HitSpark",
+    "scores": {
+      "read": 3,
+      "timing": 2,
+      "layering": 2,
+      "shape_change": 2,
+      "motion": 2,
+      "placement": 3,
+      "tail": 2,
+      "identity": 2,
+      "coherence": 3
+    },
+    "worst": "motion",
+    "fix": "Move the stone-dust layer slightly downward during f14\u2013f23 so its late dissipation reads more clearly as falling residue.",
+    "verdict": "ship",
+    "observed_frames": [
+      0,
+      1,
+      3,
+      6,
+      9,
+      14,
+      19,
+      23,
+      27
+    ]
+  },
+  {
+    "id": "VFX_Colosseum_Firebolt",
+    "scores": {
+      "read": 2,
+      "timing": 2,
+      "layering": 3,
+      "shape_change": 3,
+      "motion": 3,
+      "placement": 2,
+      "tail": 3,
+      "identity": 2,
+      "coherence": 3
+    },
+    "worst": "read",
+    "fix": "During f0\u2013f3, give the leading fire layer a short tapered flame silhouette behind its bright point so the first lit tiles already read as a fire projectile.",
+    "verdict": "ship",
+    "observed_frames": [
+      0,
+      3,
+      7,
+      13,
+      20,
+      28,
+      36,
+      40,
+      44
+    ]
+  },
+  {
+    "id": "VFX_Colosseum_SpellImpact",
+    "scores": {
+      "read": 3,
+      "timing": 3,
+      "layering": 3,
+      "shape_change": 3,
+      "motion": 2,
+      "placement": 3,
+      "tail": 2,
+      "identity": 2,
+      "coherence": 3
+    },
+    "worst": "motion",
+    "fix": "Increase the upward smoke displacement during f22\u2013f44 so its center finishes above the capsule before dispersing.",
+    "verdict": "ship",
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      15,
+      22,
+      32,
+      44,
+      56
+    ]
+  }
+]

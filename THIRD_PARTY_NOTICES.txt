@@ -2290,3 +2290,10 @@ Repository: https://github.com/sveltejs/zimmerframe
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
+
+
+Three.js battle VFX adaptation and texture sources
+Reference: https://github.com/kanaworksai-hue/effekseer-vfx-skill
+Copyright (c) 2026 東京AI映像合同会社. MIT License.
+Full license: studio/vfx/LICENSE.effekseer-vfx-skill.txt
+Texture generation provenance: studio/vfx/texture-provenance.json
