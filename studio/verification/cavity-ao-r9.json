@@ -1,0 +1,666 @@
+{
+  "ok": true,
+  "errors": [],
+  "captures": [
+    {
+      "phase": "before",
+      "name": "gallery-lower",
+      "mode": "normal",
+      "luma": 69.23960902777777,
+      "range": [
+        45.337,
+        88.4092
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gallery-lower",
+      "mode": "ao",
+      "luma": 250.01215277777777,
+      "range": [
+        250,
+        250.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gallery-lower",
+      "mode": "disabled",
+      "luma": 70.77831423611113,
+      "range": [
+        46.337,
+        90.4092
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gallery-upper",
+      "mode": "normal",
+      "luma": 60.981482291666566,
+      "range": [
+        41.4854,
+        76.83840000000001
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gallery-upper",
+      "mode": "ao",
+      "luma": 251.04340277777771,
+      "range": [
+        250.99999999999997,
+        251.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gallery-upper",
+      "mode": "disabled",
+      "luma": 62.01259791666663,
+      "range": [
+        42.4854,
+        77.8384
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "wide",
+      "mode": "normal",
+      "luma": 84.23146979166654,
+      "range": [
+        41.705999999999996,
+        135.9026
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "wide",
+      "mode": "ao",
+      "luma": 229.36979166666666,
+      "range": [
+        184.99999999999997,
+        251.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "wide",
+      "mode": "disabled",
+      "luma": 93.91905972222229,
+      "range": [
+        57.846399999999996,
+        137.1152
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-0",
+      "mode": "normal",
+      "luma": 29.175261458333303,
+      "range": [
+        14.633799999999999,
+        35.493399999999994
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-0",
+      "mode": "ao",
+      "luma": 254.99999999999994,
+      "range": [
+        254.99999999999997,
+        254.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-0",
+      "mode": "disabled",
+      "luma": 29.175261458333303,
+      "range": [
+        14.633799999999999,
+        35.493399999999994
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-1",
+      "mode": "normal",
+      "luma": 27.90628472222222,
+      "range": [
+        13.633799999999999,
+        34.2086
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-1",
+      "mode": "ao",
+      "luma": 254.99999999999994,
+      "range": [
+        254.99999999999997,
+        254.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-1",
+      "mode": "disabled",
+      "luma": 27.90628472222222,
+      "range": [
+        13.633799999999999,
+        34.2086
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-2",
+      "mode": "normal",
+      "luma": 27.370827430555526,
+      "range": [
+        13.633799999999999,
+        33.2808
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-2",
+      "mode": "ao",
+      "luma": 254.99999999999994,
+      "range": [
+        254.99999999999997,
+        254.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-2",
+      "mode": "disabled",
+      "luma": 27.370827430555526,
+      "range": [
+        13.633799999999999,
+        33.2808
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-3",
+      "mode": "normal",
+      "luma": 29.128010416666662,
+      "range": [
+        14.633799999999999,
+        35.349
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-3",
+      "mode": "ao",
+      "luma": 254.99999999999994,
+      "range": [
+        254.99999999999997,
+        254.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "before",
+      "name": "gate-3",
+      "mode": "disabled",
+      "luma": 29.128010416666662,
+      "range": [
+        14.633799999999999,
+        35.349
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gallery-lower",
+      "mode": "normal",
+      "luma": 30.26946076388885,
+      "range": [
+        17.417199999999998,
+        40.417199999999994
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gallery-lower",
+      "mode": "ao",
+      "luma": 126.71354166666667,
+      "range": [
+        125.99999999999999,
+        127
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gallery-lower",
+      "mode": "disabled",
+      "luma": 70.77831423611113,
+      "range": [
+        46.337,
+        90.4092
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gallery-upper",
+      "mode": "normal",
+      "luma": 25.88206527777778,
+      "range": [
+        15.349,
+        34.2768
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gallery-upper",
+      "mode": "ao",
+      "luma": 127,
+      "range": [
+        127,
+        127
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gallery-upper",
+      "mode": "disabled",
+      "luma": 62.01259791666663,
+      "range": [
+        42.4854,
+        77.8384
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "wide",
+      "mode": "normal",
+      "luma": 84.23146979166654,
+      "range": [
+        41.705999999999996,
+        135.9026
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "wide",
+      "mode": "ao",
+      "luma": 229.36979166666666,
+      "range": [
+        184.99999999999997,
+        251.99999999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "wide",
+      "mode": "disabled",
+      "luma": 93.91905972222229,
+      "range": [
+        57.846399999999996,
+        137.1152
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-0",
+      "mode": "normal",
+      "luma": 12.340368055555555,
+      "range": [
+        4.353,
+        16.2808
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-0",
+      "mode": "ao",
+      "luma": 212,
+      "range": [
+        212,
+        212
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-0",
+      "mode": "disabled",
+      "luma": 17.288269791666643,
+      "range": [
+        7.280799999999999,
+        22.068199999999997
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-1",
+      "mode": "normal",
+      "luma": 11.562252777777791,
+      "range": [
+        4.353,
+        15.1404
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-1",
+      "mode": "ao",
+      "luma": 212,
+      "range": [
+        212,
+        212
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-1",
+      "mode": "disabled",
+      "luma": 16.355319097222225,
+      "range": [
+        6.353,
+        21.0682
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-2",
+      "mode": "normal",
+      "luma": 11.260405208333362,
+      "range": [
+        4.1404,
+        15.0682
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-2",
+      "mode": "ao",
+      "luma": 212,
+      "range": [
+        212,
+        212
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-2",
+      "mode": "disabled",
+      "luma": 15.976244097222207,
+      "range": [
+        6.353,
+        20.352999999999998
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-3",
+      "mode": "normal",
+      "luma": 12.307281597222218,
+      "range": [
+        4.353,
+        16.2808
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-3",
+      "mode": "ao",
+      "luma": 212,
+      "range": [
+        212,
+        212
+      ],
+      "fov": 35
+    },
+    {
+      "phase": "after",
+      "name": "gate-3",
+      "mode": "disabled",
+      "luma": 17.24634131944442,
+      "range": [
+        7.280799999999999,
+        21.352999999999998
+      ],
+      "fov": 35
+    }
+  ],
+  "lighting": {
+    "inputSHA256": "af7f8f690d3beed23395251d25269a4e1894f9dc751b665b6616e1bcd6e64b44",
+    "revision": 7,
+    "unit": "metre",
+    "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+    "seed": 2187,
+    "aoSamples": 32,
+    "aoRadiusMetres": 3.5,
+    "skySamples": 64,
+    "sunSamples": 7,
+    "sunDirection": [
+      0.43133923411369324,
+      0.6018686890602112,
+      -0.6720867156982422
+    ],
+    "sunDiskRadiusDegrees": 1.15,
+    "rayBiasMetres": 0.018,
+    "packingPaddingPixels": 4,
+    "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+    "occluderTriangles": 71710,
+    "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+    "uvFloatCount": 444504,
+    "elapsedSeconds": 300.9777522087097,
+    "atlasCount": 9,
+    "totalPixels": 34524656,
+    "estimatedMipRGBA8MiB": 175.60148111979166,
+    "receivers": 66,
+    "geometryHashesVerified": true,
+    "cavityAO": {
+      "revision": 9,
+      "method": "local gallery / portal cavity AO multiplied into existing ray-traced AO",
+      "galleryRearFactor": 0.22
+    }
+  },
+  "probes": [
+    {
+      "gate": 0,
+      "depth": 0,
+      "ao": 0.8727319573284685
+    },
+    {
+      "gate": 0,
+      "depth": 2,
+      "ao": 0.6560398053161574
+    },
+    {
+      "gate": 0,
+      "depth": 6,
+      "ao": 0.5577670340864427
+    },
+    {
+      "gate": 0,
+      "depth": 12,
+      "ao": 0.5200398047709094
+    },
+    {
+      "gate": 0,
+      "depth": 18,
+      "ao": 0.513245420812539
+    },
+    {
+      "gate": 1,
+      "depth": 0,
+      "ao": 0.8727319573284685
+    },
+    {
+      "gate": 1,
+      "depth": 2,
+      "ao": 0.6560398053161574
+    },
+    {
+      "gate": 1,
+      "depth": 6,
+      "ao": 0.5577670340864427
+    },
+    {
+      "gate": 1,
+      "depth": 12,
+      "ao": 0.5200398047709094
+    },
+    {
+      "gate": 1,
+      "depth": 18,
+      "ao": 0.513245420812539
+    },
+    {
+      "gate": 2,
+      "depth": 0,
+      "ao": 0.8727319573284685
+    },
+    {
+      "gate": 2,
+      "depth": 2,
+      "ao": 0.6560398053161574
+    },
+    {
+      "gate": 2,
+      "depth": 6,
+      "ao": 0.5577670340864427
+    },
+    {
+      "gate": 2,
+      "depth": 12,
+      "ao": 0.5200398047709094
+    },
+    {
+      "gate": 2,
+      "depth": 18,
+      "ao": 0.513245420812539
+    },
+    {
+      "gate": 3,
+      "depth": 0,
+      "ao": 0.8727319573284685
+    },
+    {
+      "gate": 3,
+      "depth": 2,
+      "ao": 0.6560398053161574
+    },
+    {
+      "gate": 3,
+      "depth": 6,
+      "ao": 0.5577670340864427
+    },
+    {
+      "gate": 3,
+      "depth": 12,
+      "ao": 0.5200398047709094
+    },
+    {
+      "gate": 3,
+      "depth": 18,
+      "ao": 0.513245420812539
+    }
+  ],
+  "export": {
+    "stage": "p21",
+    "portrait": {
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": true,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10.000000000000004,
+        "mode": "front",
+        "position": [
+          9.05981284927579,
+          19.22441455011957,
+          75.13569952204345
+        ],
+        "target": [
+          0,
+          5.879998958139917,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    },
+    "bytes": 243983740,
+    "fighters": [
+      "Fighter_A",
+      "Fighter_B"
+    ],
+    "scenery": "Forest_style_authored_scenery",
+    "images": 47,
+    "meshes": 142
+  },
+  "scope": "P21 local AO supplement to r8 geometry; no new ray trace",
+  "measuredRearLuma": {
+    "gallery-lower": {
+      "before": 69.23960902777777,
+      "after": 30.26946076388885
+    },
+    "gallery-upper": {
+      "before": 60.981482291666566,
+      "after": 25.88206527777778
+    }
+  },
+  "reloadedGLB": {
+    "ok": true,
+    "errors": [],
+    "galleryLuma": 30.3374597222222,
+    "meshes": 142,
+    "triangles": 524196,
+    "craft": true,
+    "revision": 8
+  },
+  "exportCavitySampling": {
+    "maxEdgeMetres": 0.55,
+    "displayGeometryUnchanged": true,
+    "nativeRearLuma": 30.33746,
+    "reloadedRearLuma": 30.3374597222222
+  }
+}

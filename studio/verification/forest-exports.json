@@ -39,42 +39,6 @@
       "meshes": 35
     },
     {
-      "stage": "p21",
-      "portrait": {
-        "camera": {
-          "source": "uploaded HD2D",
-          "cutaway": {
-            "active": true,
-            "kind": "foreground cutaway above floor; whole geometry retained for export"
-          },
-          "pitchLimitDegrees": 10,
-          "pitchDegrees": 10.000000000000002,
-          "mode": "front",
-          "position": [
-            9.05981284926979,
-            19.224414550403758,
-            75.1356995219937
-          ],
-          "target": [
-            0,
-            5.879998958432945,
-            0
-          ],
-          "fov": 35,
-          "yaw": 0,
-          "tilt": 0
-        }
-      },
-      "bytes": 174612520,
-      "fighters": [
-        "Fighter_A",
-        "Fighter_B"
-      ],
-      "scenery": "Forest_style_authored_scenery",
-      "images": 47,
-      "meshes": 142
-    },
-    {
       "stage": "hd2d",
       "portrait": {
         "camera": {
@@ -117,6 +81,42 @@
       "scenery": "Forest_style_authored_scenery",
       "images": 38,
       "meshes": 141
+    },
+    {
+      "stage": "p21",
+      "portrait": {
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10.000000000000004,
+          "mode": "front",
+          "position": [
+            9.05981284927579,
+            19.22441455011957,
+            75.13569952204345
+          ],
+          "target": [
+            0,
+            5.879998958139917,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        }
+      },
+      "bytes": 243983740,
+      "fighters": [
+        "Fighter_A",
+        "Fighter_B"
+      ],
+      "scenery": "Forest_style_authored_scenery",
+      "images": 47,
+      "meshes": 142
     }
   ],
   "recovery": {

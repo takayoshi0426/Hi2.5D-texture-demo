@@ -41,7 +41,10 @@
     "Shared native material grain, folded fern leaves and crafted stone/timber verified at matched 35 degree cameras",
     "P21 four sculpted portal insignia, rounded stone faces and high-density wall / trim / bench / vault paint",
     "All 3 GLBs retain crafted scenery and both P14 fighters; saved P21 GLB reloaded and rendered",
-    "P14 and P21 timber caps have zero open or reversed welded edges"
+    "P14 and P21 timber caps have zero open or reversed welded edges",
+    "P21 recessed gallery rear luma below half of r8 at matched 35 degree cameras; AO OFF restores original brightness",
+    "Four portals retain original baked shading with multiplicative depth dimming and local floor / ceiling cavity AO",
+    "P21 GLB saved through actual UI click with both fighters and crafted scenery"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -57,7 +60,8 @@
     "source-vfx-outputs.json",
     "flight-camera-unit.json",
     "crafted-detail-r8.json",
-    "gates-r8.json"
+    "gates-r8.json",
+    "cavity-ao-r9.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": {
@@ -122,7 +126,8 @@
       "solid tier connectors and new geometry lighting bake",
       "HDR magic circles and floating crystals with cyan stone spill",
       "372 modeled rounded stone elements and 4 carved gate insignia",
-      "7 new portal / bench / vault maps plus 12 renewed wall / trim maps"
+      "7 new portal / bench / vault maps plus 12 renewed wall / trim maps",
+      "Local gallery / portal cavity AO supplements existing ray trace; same correction transferred to GLB"
     ],
     "hd2d": [
       "unique 92m floor layout with aligned height relief",
@@ -147,7 +152,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 8,
+  "revision": 9,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -159,5 +164,9 @@
     "gates-r8.json",
     "forest-exports.json",
     "source-vfx-outputs.json"
+  ],
+  "r9Evidence": [
+    "cavity-ao-r9.json",
+    "forest-exports.json"
   ]
 }
