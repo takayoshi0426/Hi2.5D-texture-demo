@@ -1,0 +1,1577 @@
+{
+  "revision": 5,
+  "probes": [
+    {
+      "gate": 0,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367432,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367432,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367432,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456503,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456503,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456503,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367432,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367432,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367432,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.75,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456503,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456503,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456503,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 0,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.4999999999999982,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.4999999999999982,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.4999999999999982,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367433,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367433,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367433,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999982,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999982,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999982,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456579,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456579,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456579,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000018,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000018,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000018,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.40000009536743,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.40000009536743,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.40000009536743,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000018,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000018,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000018,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456428,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456428,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456428,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 1,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.49999999999999645,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.49999999999999645,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.49999999999999645,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367433,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367434,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367434,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999973,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999956,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999956,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999956,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456654,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456654,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456654,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000036,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000036,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000036,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367429,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367429,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367429,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000027,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000036,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000036,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000036,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000044,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000044,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000044,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456354,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456354,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456354,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 2,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.49999999999999467,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.49999999999999467,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.49999999999999467,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367437,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367437,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367437,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999938,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999938,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999938,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999929,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999929,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7499999999999929,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.749999999999992,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.749999999999992,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.749999999999992,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456799,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456799,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456799,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000053,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000053,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-side",
+      "closed": true,
+      "distance": 0.5000000000000053,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367426,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367426,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "entrance-jamb",
+      "closed": true,
+      "distance": 4.400000095367426,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000062,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000062,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000062,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000071,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000071,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.7500000000000071,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.750000000000008,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.750000000000008,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-side",
+      "closed": true,
+      "distance": 0.750000000000008,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456208,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456208,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "rear-wall-junction",
+      "closed": true,
+      "distance": 1.2649113656456277,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "buttress-top",
+      "closed": true,
+      "distance": 0.09999999999999964,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "facade-top",
+      "closed": true,
+      "distance": 0.5,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    },
+    {
+      "gate": 3,
+      "kind": "vault-outer-roof",
+      "closed": true,
+      "distance": 0.350000190734864,
+      "mesh": "gates:vault"
+    }
+  ],
+  "closed": 224,
+  "total": 224,
+  "errors": [],
+  "ok": true
+}

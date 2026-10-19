@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T22:50:15.202Z",
+  "date": "2026-10-19T07:50:02.138Z",
   "checks": [
     "Scene initialized within the geometry budget",
     "Distinct baked maps are actually used; wall triangles sample local UV patches instead of restarting the full image",
@@ -8,7 +8,7 @@
     "AO, painted lighting, broad weather and unpainted comparison change the output",
     "Inherited P14 256-sample, two-layer lens renders successfully and changes the image",
     "GLB exported, then reloaded with spectator instancing and alpha cutouts preserved",
-    "Reloaded unlit GLB retains baked shadows in three camera views; detailed seating keeps its original color images with sampled baked vertex lighting",
+    "Reloaded unlit GLB retains baked shadows in five camera views, including the gate side and passage; detailed seating keeps its original color images with sampled baked vertex lighting",
     "390px mobile controls open, select a view, and close",
     "Standalone HTML renders as one document with every subresource HTTP request blocked"
   ],
@@ -18,7 +18,7 @@
     "Direct file:// navigation could not be tested because managed Chromium policy blocks file URLs."
   ],
   "stats": {
-    "triangles": 85353,
+    "triangles": 85909,
     "meshes": 110,
     "spectators": 3702,
     "sourceColorImages": 39,
@@ -40,8 +40,11 @@
         "clearWidth": 8.8,
         "archTop": 10.4,
         "springHeight": 6,
-        "depth": 17,
-        "probeDepth": 15
+        "depth": 18.15,
+        "probeDepth": 15,
+        "outerWidth": 12.5,
+        "outerTop": 11.45,
+        "facadeDepth": 2.75
       },
       {
         "index": 1,
@@ -58,8 +61,11 @@
         "clearWidth": 8.8,
         "archTop": 10.4,
         "springHeight": 6,
-        "depth": 17,
-        "probeDepth": 15
+        "depth": 18.15,
+        "probeDepth": 15,
+        "outerWidth": 12.5,
+        "outerTop": 11.45,
+        "facadeDepth": 2.75
       },
       {
         "index": 2,
@@ -76,8 +82,11 @@
         "clearWidth": 8.8,
         "archTop": 10.4,
         "springHeight": 6,
-        "depth": 17,
-        "probeDepth": 15
+        "depth": 18.15,
+        "probeDepth": 15,
+        "outerWidth": 12.5,
+        "outerTop": 11.45,
+        "facadeDepth": 2.75
       },
       {
         "index": 3,
@@ -94,8 +103,11 @@
         "clearWidth": 8.8,
         "archTop": 10.4,
         "springHeight": 6,
-        "depth": 17,
-        "probeDepth": 15
+        "depth": 18.15,
+        "probeDepth": 15,
+        "outerWidth": 12.5,
+        "outerTop": 11.45,
+        "facadeDepth": 2.75
       }
     ],
     "benchHeight": 0.44,
@@ -114,8 +126,8 @@
       "uv2: xatlas unique AO / irradiance charts"
     ],
     "bakedLighting": {
-      "inputSHA256": "e28c880c05b23810163ea72f3ff3cf710fcf55d6d1a89773d4202f1d232ab985",
-      "revision": 4,
+      "inputSHA256": "a1c35e830cb0c4e0eb842d8dd7e47a046170cb58504624eba06b712a8c6ffdef",
+      "revision": 5,
       "unit": "metre",
       "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
       "seed": 2187,
@@ -132,13 +144,13 @@
       "rayBiasMetres": 0.018,
       "packingPaddingPixels": 4,
       "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
-      "occluderTriangles": 67230,
+      "occluderTriangles": 67798,
       "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
-      "uvFloatCount": 414702,
-      "elapsedSeconds": 276.19845962524414,
+      "uvFloatCount": 418038,
+      "elapsedSeconds": 284.2693235874176,
       "atlasCount": 9,
-      "totalPixels": 31593024,
-      "estimatedMipRGBA8MiB": 160.6904296875,
+      "totalPixels": 31904960,
+      "estimatedMipRGBA8MiB": 162.27701822916666,
       "receivers": 66,
       "geometryHashesVerified": true
     },
@@ -168,7 +180,7 @@
     },
     "finish": "ray-traced AO, sky visibility and soft sunlight in unique chart textures; artist color / broad dampness retained",
     "version": "P21",
-    "revision": 4,
+    "revision": 5,
     "majorDiameter": 148,
     "minorDiameter": 124,
     "fieldMajorDiameter": 48,
@@ -194,28 +206,38 @@
   },
   "glb": {
     "meshes": 108,
-    "triangles": 78825,
+    "triangles": 79381,
     "instanced": 3702,
     "cutouts": 8,
     "bakedMeshes": 66,
-    "bytes": 131925024,
+    "bytes": 132855696,
     "root": "P21_Colosseum_of_the_Fallen_Age"
   },
   "glbRenderComparison": [
     {
       "view": "stands",
-      "meanAbsoluteChannelDifference": 2.2015202662143905,
+      "meanAbsoluteChannelDifference": 2.306152278734936,
       "maxChannelDifference": 159
     },
     {
       "view": "detail",
-      "meanAbsoluteChannelDifference": 3.9520907957837017,
-      "maxChannelDifference": 83
+      "meanAbsoluteChannelDifference": 3.065592346663698,
+      "maxChannelDifference": 57
     },
     {
       "view": "gate",
-      "meanAbsoluteChannelDifference": 1.3755222351007472,
+      "meanAbsoluteChannelDifference": 1.5536668871295514,
       "maxChannelDifference": 80
+    },
+    {
+      "view": "passage",
+      "meanAbsoluteChannelDifference": 2.1760183311614467,
+      "maxChannelDifference": 130
+    },
+    {
+      "view": "gate-side",
+      "meanAbsoluteChannelDifference": 2.896847653598238,
+      "maxChannelDifference": 78
     }
   ],
   "errors": [],

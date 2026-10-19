@@ -23,12 +23,12 @@
       "elevation": -10,
       "left": [
         166,
-        137,
+        136,
         166
       ],
       "right": [
         166,
-        137,
+        136,
         166
       ],
       "maxJump": 0
@@ -36,13 +36,13 @@
     {
       "elevation": 0,
       "left": [
-        202,
-        154,
+        201,
+        153,
         164
       ],
       "right": [
-        202,
-        154,
+        201,
+        153,
         164
       ],
       "maxJump": 0
@@ -92,8 +92,8 @@
   ],
   "errors": [],
   "info": {
-    "inputSHA256": "e28c880c05b23810163ea72f3ff3cf710fcf55d6d1a89773d4202f1d232ab985",
-    "revision": 4,
+    "inputSHA256": "a1c35e830cb0c4e0eb842d8dd7e47a046170cb58504624eba06b712a8c6ffdef",
+    "revision": 5,
     "unit": "metre",
     "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
     "seed": 2187,
@@ -110,13 +110,13 @@
     "rayBiasMetres": 0.018,
     "packingPaddingPixels": 4,
     "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
-    "occluderTriangles": 67230,
+    "occluderTriangles": 67798,
     "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
-    "uvFloatCount": 414702,
-    "elapsedSeconds": 276.19845962524414,
+    "uvFloatCount": 418038,
+    "elapsedSeconds": 284.2693235874176,
     "atlasCount": 9,
-    "totalPixels": 31593024,
-    "estimatedMipRGBA8MiB": 160.6904296875,
+    "totalPixels": 31904960,
+    "estimatedMipRGBA8MiB": 162.27701822916666,
     "receivers": 66,
     "geometryHashesVerified": true
   },
@@ -132,10 +132,10 @@
   "atlasSamples": [
     {
       "id": "field",
-      "minAO": 56,
+      "minAO": 57,
       "maxAO": 255,
       "minLight": 37,
-      "maxLight": 167,
+      "maxLight": 166,
       "valid": 881492
     },
     {
@@ -175,8 +175,8 @@
       "minAO": 56,
       "maxAO": 255,
       "minLight": 37,
-      "maxLight": 173,
-      "valid": 3969202
+      "maxLight": 174,
+      "valid": 3974187
     },
     {
       "id": "ruins",
