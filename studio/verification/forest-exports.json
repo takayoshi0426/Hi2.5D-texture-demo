@@ -15,13 +15,13 @@
           "pitchDegrees": 10.000000000000002,
           "mode": "front",
           "position": [
-            9.054112482707493,
-            20.596018340558558,
-            75.0884247011651
+            9.054112481978262,
+            20.596018375105473,
+            75.08842469511735
           ],
           "target": [
             0,
-            7.259998955187092,
+            7.259998990808109,
             0
           ],
           "fov": 35,
@@ -29,14 +29,14 @@
           "tilt": 0
         }
       },
-      "bytes": 38461920,
+      "bytes": 46169176,
       "fighters": [
         "Fighter_A",
         "Fighter_B"
       ],
       "scenery": "Forest_style_authored_scenery",
-      "images": 17,
-      "meshes": 30
+      "images": 22,
+      "meshes": 35
     },
     {
       "stage": "p21",
@@ -48,16 +48,16 @@
             "kind": "foreground cutaway above floor; whole geometry retained for export"
           },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 10.000000000000005,
+          "pitchDegrees": 10.000000000000002,
           "mode": "front",
           "position": [
-            9.059812849127121,
-            19.224414557162582,
-            75.1356995208105
+            9.05981284926979,
+            19.224414550403758,
+            75.1356995219937
           ],
           "target": [
             0,
-            5.879998965401907,
+            5.879998958432945,
             0
           ],
           "fov": 35,
@@ -65,14 +65,14 @@
           "tilt": 0
         }
       },
-      "bytes": 144461876,
+      "bytes": 174612520,
       "fighters": [
         "Fighter_A",
         "Fighter_B"
       ],
       "scenery": "Forest_style_authored_scenery",
-      "images": 28,
-      "meshes": 137
+      "images": 47,
+      "meshes": 142
     },
     {
       "stage": "hd2d",
@@ -84,16 +84,16 @@
             "kind": "foreground cutaway above floor; whole geometry retained for export"
           },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 2.722505800799729,
+          "pitchDegrees": 2.72250578038206,
           "mode": "front",
           "position": [
-            9.109309958220704,
-            9.36342957824314,
-            75.54619364226053
+            9.109309958026873,
+            9.363429561203336,
+            75.54619364065304
           ],
           "target": [
             0,
-            5.744998955187092,
+            5.744998965401908,
             0
           ],
           "fov": 35,
@@ -109,14 +109,14 @@
           "shading": "painted colour with soft diffuse lighting and retained geometry AO / sunlight"
         }
       },
-      "bytes": 150543760,
+      "bytes": 151897820,
       "fighters": [
         "Fighter_A",
         "Fighter_B"
       ],
       "scenery": "Forest_style_authored_scenery",
-      "images": 36,
-      "meshes": 139
+      "images": 38,
+      "meshes": 141
     }
   ],
   "recovery": {

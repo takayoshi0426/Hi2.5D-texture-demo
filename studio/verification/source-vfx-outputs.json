@@ -75,11 +75,11 @@
     "codec": "h264",
     "width": 676,
     "height": 472,
-    "duration": "6.611200",
-    "bytes": "172690",
+    "duration": "9.500600",
+    "bytes": "157044",
     "lumaRange": [
       32,
-      234
+      233
     ]
   },
   "ok": true

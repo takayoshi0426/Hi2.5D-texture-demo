@@ -1,0 +1,380 @@
+{
+  "ok": true,
+  "revision": 8,
+  "reference": "翠影の闘技場 / uploaded HD2D modeled detail; P14 painted palette retained",
+  "errors": [],
+  "stages": [
+    {
+      "stage": "p21",
+      "craft": {
+        "revision": 8,
+        "reference": "翠影の闘技場",
+        "roundedStones": 372,
+        "carvedInsignia": 4,
+        "fernPlants": 13,
+        "foldedLeaves": 2184,
+        "timberPieces": 8,
+        "sourceFaces": 16
+      },
+      "surface": {
+        "revision": 8,
+        "source": "native P21 metered materials"
+      },
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "free",
+        "position": [
+          2.334388042133927,
+          5.291476123815066,
+          19.35976839915039
+        ],
+        "target": [
+          0,
+          1.8531,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    },
+    {
+      "stage": "p14",
+      "craft": {
+        "revision": 8,
+        "reference": "翠影の闘技場",
+        "roundedStones": 3,
+        "carvedInsignia": 0,
+        "fernPlants": 12,
+        "foldedLeaves": 2016,
+        "timberPieces": 12,
+        "sourceFaces": 16
+      },
+      "surface": {
+        "revision": 8,
+        "materials": 9,
+        "sourceFaces": 16,
+        "grain": "physical world coordinates with four independently offset samples; unique paint and AO retained"
+      },
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10.000000000000002,
+        "mode": "free",
+        "position": [
+          2.3356604367695053,
+          6.890250264384705,
+          19.370320743067726
+        ],
+        "target": [
+          0,
+          3.45,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    },
+    {
+      "stage": "hd2d",
+      "craft": {
+        "revision": 8,
+        "reference": "翠影の闘技場",
+        "roundedStones": 0,
+        "carvedInsignia": 0,
+        "fernPlants": 15,
+        "foldedLeaves": 2520,
+        "timberPieces": 0,
+        "sourceFaces": 16
+      },
+      "surface": {
+        "revision": 8,
+        "materials": 13,
+        "sourceFaces": 16,
+        "grain": "physical world coordinates with four independently offset samples; unique paint and AO retained"
+      },
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 9.152339049401997,
+        "mode": "free",
+        "position": [
+          2.370301704320604,
+          4.945000000000001,
+          19.65761098990655
+        ],
+        "target": [
+          0,
+          1.7550000000000001,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    }
+  ],
+  "art": {
+    "reference": "翠影の闘技場 / modeled detail in the uploaded HD2D source",
+    "source": "p21/source-art/detail-r8/stone-fragments.png",
+    "nativeSize": [
+      1774,
+      887
+    ],
+    "sha256": "7d34004b18a7a25779521da0f5ea0cdef0b2a5cff32c122d2b0a6b297735a110",
+    "grid": [
+      4,
+      4
+    ],
+    "faces": 16,
+    "physicalFaceMetres": [
+      2.05,
+      1.08
+    ],
+    "nativeDensityPxPerMetre": [
+      216.34146341463418,
+      205.32407407407405
+    ],
+    "processing": "format conversion only for source atlas; painted fragments assembled into physical stone layouts; no claim that source upscaling adds detail"
+  },
+  "materials": {
+    "reference": "翠影の闘技場",
+    "nativeSource": "p21/source-art/detail-r8/stone-fragments.png",
+    "maps": [
+      {
+        "id": "gate-0",
+        "width": 2048,
+        "height": 1536,
+        "path": "p21/assets/detail-r8/gate-0.webp",
+        "bytes": 1659860,
+        "sha256": "95cf16c630c2cb9a78abbb2bed7a5d19cb35b57f080884fa7596e62ee16764c5"
+      },
+      {
+        "id": "gate-1",
+        "width": 2048,
+        "height": 1536,
+        "path": "p21/assets/detail-r8/gate-1.webp",
+        "bytes": 1661846,
+        "sha256": "7751146ae43791d33721c3469dcd71109e47ea932bb3d297b632d9b8d08c860c"
+      },
+      {
+        "id": "gate-2",
+        "width": 2048,
+        "height": 1536,
+        "path": "p21/assets/detail-r8/gate-2.webp",
+        "bytes": 1646510,
+        "sha256": "b7e09171066ca8fa769196d2e6d0056b398eb98a8f35cac17c57162b5888cac2"
+      },
+      {
+        "id": "gate-3",
+        "width": 2048,
+        "height": 1536,
+        "path": "p21/assets/detail-r8/gate-3.webp",
+        "bytes": 1663108,
+        "sha256": "c93d58cd34b726bab113a7c87971b5a32f38e1dfe961028a2def93438dc3cb7e"
+      },
+      {
+        "id": "bench-0",
+        "width": 2048,
+        "height": 2048,
+        "path": "p21/assets/detail-r8/bench-0.webp",
+        "bytes": 1380114,
+        "sha256": "afcce724fba71881924d1a09f73d55f12d6bcb4d5d5d93c4983e6a4f541682e0"
+      },
+      {
+        "id": "bench-1",
+        "width": 2048,
+        "height": 2048,
+        "path": "p21/assets/detail-r8/bench-1.webp",
+        "bytes": 1325804,
+        "sha256": "1a5195ac6368387b441b0a7c9ea4afebfe07a361ed0db41c995e94cb539d5893"
+      },
+      {
+        "id": "vault",
+        "width": 2048,
+        "height": 2048,
+        "path": "p21/assets/detail-r8/vault.webp",
+        "bytes": 2262220,
+        "sha256": "b1ad5e389bd065215eb1759d29a7e5fad51108efcfe30c9f0dce1b7990f7e326"
+      }
+    ]
+  },
+  "exports": [
+    {
+      "stage": "p14",
+      "portrait": {
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10.000000000000002,
+          "mode": "front",
+          "position": [
+            9.054112481978262,
+            20.596018375105473,
+            75.08842469511735
+          ],
+          "target": [
+            0,
+            7.259998990808109,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        }
+      },
+      "bytes": 46169176,
+      "fighters": [
+        "Fighter_A",
+        "Fighter_B"
+      ],
+      "scenery": "Forest_style_authored_scenery",
+      "images": 22,
+      "meshes": 35
+    },
+    {
+      "stage": "p21",
+      "portrait": {
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10.000000000000002,
+          "mode": "front",
+          "position": [
+            9.05981284926979,
+            19.224414550403758,
+            75.1356995219937
+          ],
+          "target": [
+            0,
+            5.879998958432945,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        }
+      },
+      "bytes": 174612520,
+      "fighters": [
+        "Fighter_A",
+        "Fighter_B"
+      ],
+      "scenery": "Forest_style_authored_scenery",
+      "images": 47,
+      "meshes": 142
+    },
+    {
+      "stage": "hd2d",
+      "portrait": {
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 2.72250578038206,
+          "mode": "front",
+          "position": [
+            9.109309958026873,
+            9.363429561203336,
+            75.54619364065304
+          ],
+          "target": [
+            0,
+            5.744998965401908,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "revision": 7,
+          "materials": 22,
+          "mappedMaterials": 16,
+          "mode": "day",
+          "shading": "painted colour with soft diffuse lighting and retained geometry AO / sunlight"
+        }
+      },
+      "bytes": 151897820,
+      "fighters": [
+        "Fighter_A",
+        "Fighter_B"
+      ],
+      "scenery": "Forest_style_authored_scenery",
+      "images": 38,
+      "meshes": 141
+    }
+  ],
+  "reloadedP21GLB": {
+    "ok": true,
+    "errors": [],
+    "meshes": 142,
+    "triangles": 130058,
+    "craft": true,
+    "revision": 8
+  },
+  "timberClosure": {
+    "ok": true,
+    "results": [
+      {
+        "stage": "p14",
+        "triangles": 2304,
+        "weldToleranceMetres": 1e-05,
+        "openOrReversedEdges": 0
+      },
+      {
+        "stage": "p21",
+        "triangles": 1536,
+        "weldToleranceMetres": 1e-05,
+        "openOrReversedEdges": 0
+      }
+    ]
+  },
+  "gateChecks": {
+    "solidTierProbes": 112,
+    "geometryHashesVerified": true,
+    "report": "gates-r8/verification.json"
+  },
+  "lighting": "Existing ray-traced P21 receivers retained; added stone samples baked AO/light at anchor; added foliage/timber use authored contact shadows and soft face shading. New detail was not fully ray traced.",
+  "limitations": [
+    "World-coordinate fine grain on original P14 materials is viewer-only; saved GLBs retain original paint plus new geometry and its textures.",
+    "Software WebGL verification does not measure hardware GPU performance."
+  ],
+  "evidence": [
+    "audit-before.json",
+    "audit-after.json",
+    "p14-closeups.json",
+    "glb-reloaded.json",
+    "timber-closure.json",
+    "../forest-style/exports.json",
+    "../gates-r8/verification.json",
+    "../source-vfx-outputs.json"
+  ]
+}

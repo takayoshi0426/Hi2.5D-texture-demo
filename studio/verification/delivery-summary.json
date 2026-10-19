@@ -37,7 +37,11 @@
     "112 solid tier transition probes and 36 open gate passage probes",
     "Fixed 35 degree lens with dolly-only fitting and 10 degree pitch cap across all 3 stages",
     "HDR magic circles and crystals with local spill; valid HDR GLB emission",
-    "Light recovery leaves stored preferences intact and caps P21 bake GPU dimensions at 2048px"
+    "Light recovery leaves stored preferences intact and caps P21 bake GPU dimensions at 2048px",
+    "Shared native material grain, folded fern leaves and crafted stone/timber verified at matched 35 degree cameras",
+    "P21 four sculpted portal insignia, rounded stone faces and high-density wall / trim / bench / vault paint",
+    "All 3 GLBs retain crafted scenery and both P14 fighters; saved P21 GLB reloaded and rendered",
+    "P14 and P21 timber caps have zero open or reversed welded edges"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -51,7 +55,9 @@
     "forest-style.json",
     "forest-exports.json",
     "source-vfx-outputs.json",
-    "flight-camera-unit.json"
+    "flight-camera-unit.json",
+    "crafted-detail-r8.json",
+    "gates-r8.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": {
@@ -114,7 +120,9 @@
       "new daytime forest panorama",
       "graded portal darkness with textured rear wall",
       "solid tier connectors and new geometry lighting bake",
-      "HDR magic circles and floating crystals with cyan stone spill"
+      "HDR magic circles and floating crystals with cyan stone spill",
+      "372 modeled rounded stone elements and 4 carved gate insignia",
+      "7 new portal / bench / vault maps plus 12 renewed wall / trim maps"
     ],
     "hd2d": [
       "unique 92m floor layout with aligned height relief",
@@ -127,18 +135,28 @@
       "eight new painted vegetation variants",
       "plants at portal feet, terraces, platform edges and tree roots",
       "bevelled stone fragments",
-      "analytic contact shadows"
+      "analytic contact shadows",
+      "16 native stone fragments sampled at physical scale",
+      "folded fern leaves with vein surfaces",
+      "closed irregular timber caps with growth rings"
     ],
     "lighting": "P21 architecture AO, sky and sunlight rebaked for r7; new plants retain painted shading and analytic contact shadows",
     "sources": [
       "forest-style-art.json",
       "forest-materials.json"
-    ]
+    ],
+    "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 7,
+  "revision": 8,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
+    "forest-exports.json",
+    "source-vfx-outputs.json"
+  ],
+  "r8Evidence": [
+    "crafted-detail-r8.json",
+    "gates-r8.json",
     "forest-exports.json",
     "source-vfx-outputs.json"
   ]

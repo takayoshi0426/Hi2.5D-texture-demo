@@ -1,0 +1,1070 @@
+{
+  "ok": true,
+  "errors": [],
+  "revision": 8,
+  "bake": {
+    "inputSHA256": "af7f8f690d3beed23395251d25269a4e1894f9dc751b665b6616e1bcd6e64b44",
+    "revision": 7,
+    "unit": "metre",
+    "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+    "seed": 2187,
+    "aoSamples": 32,
+    "aoRadiusMetres": 3.5,
+    "skySamples": 64,
+    "sunSamples": 7,
+    "sunDirection": [
+      0.43133923411369324,
+      0.6018686890602112,
+      -0.6720867156982422
+    ],
+    "sunDiskRadiusDegrees": 1.15,
+    "rayBiasMetres": 0.018,
+    "packingPaddingPixels": 4,
+    "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+    "occluderTriangles": 71710,
+    "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+    "uvFloatCount": 444504,
+    "elapsedSeconds": 300.9777522087097,
+    "atlasCount": 9,
+    "totalPixels": 34524656,
+    "estimatedMipRGBA8MiB": 175.60148111979166,
+    "receivers": 66,
+    "geometryHashesVerified": true
+  },
+  "probes": [
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 0.4908738521234052,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 0.4908738521234052,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 0.4908738521234052,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 0.6872233929727672,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 0.6872233929727672,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 0.6872233929727672,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 0.8835729338221293,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 0.8835729338221293,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 0.8835729338221293,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 1.0799224746714913,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 1.0799224746714913,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 1.0799224746714913,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 2.061670178918302,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 2.061670178918302,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 2.061670178918302,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 2.2580197197676637,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 2.2580197197676637,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 2.2580197197676637,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 2.454369260617026,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 2.454369260617026,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 2.454369260617026,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 2.650718801466388,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 2.650718801466388,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 2.650718801466388,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 3.6324665057131984,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 3.6324665057131984,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 3.6324665057131984,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 3.8288160465625602,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 3.8288160465625602,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 3.8288160465625602,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 4.025165587411922,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 4.025165587411922,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 4.025165587411922,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 4.221515128261284,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 4.221515128261284,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 4.221515128261284,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 5.203262832508095,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 5.203262832508095,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 5.203262832508095,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 5.399612373357457,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 5.399612373357457,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 5.399612373357457,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 5.595961914206819,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 5.595961914206819,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 5.595961914206819,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 0,
+      "angle": 5.792311455056181,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 0,
+      "angle": 5.792311455056181,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 0,
+      "angle": 5.792311455056181,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 0.4908738521234052,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 0.4908738521234052,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 0.4908738521234052,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 0.6872233929727672,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 0.6872233929727672,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 0.6872233929727672,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 0.8835729338221293,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 0.8835729338221293,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 0.8835729338221293,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 1.0799224746714913,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 1.0799224746714913,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 1.0799224746714913,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 2.061670178918302,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 2.061670178918302,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 2.061670178918302,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 2.2580197197676637,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 2.2580197197676637,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 2.2580197197676637,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 2.454369260617026,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 2.454369260617026,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 2.454369260617026,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 2.650718801466388,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 2.650718801466388,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 2.650718801466388,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 3.6324665057131984,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 3.6324665057131984,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 3.6324665057131984,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 3.8288160465625602,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 3.8288160465625602,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 3.8288160465625602,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 4.025165587411922,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 4.025165587411922,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 4.025165587411922,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 4.221515128261284,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 4.221515128261284,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 4.221515128261284,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 5.203262832508095,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 5.203262832508095,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 5.203262832508095,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 5.399612373357457,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 5.399612373357457,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 5.399612373357457,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 5.595961914206819,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 5.595961914206819,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 5.595961914206819,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 1,
+      "angle": 5.792311455056181,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "gallery-soffit",
+      "tier": 1,
+      "angle": 5.792311455056181,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "tier-support",
+      "tier": 1,
+      "angle": 5.792311455056181,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 0.4908738521234052,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 0.6872233929727672,
+      "closed": true,
+      "mesh": "architecture:wall-0"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 0.8835729338221293,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 1.0799224746714913,
+      "closed": true,
+      "mesh": "architecture:wall-1"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 2.061670178918302,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 2.2580197197676637,
+      "closed": true,
+      "mesh": "architecture:wall-2"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 2.454369260617026,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 2.650718801466388,
+      "closed": true,
+      "mesh": "architecture:wall-3"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 3.6324665057131984,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 3.8288160465625602,
+      "closed": true,
+      "mesh": "architecture:wall-4"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 4.025165587411922,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 4.221515128261284,
+      "closed": true,
+      "mesh": "architecture:wall-5"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 5.203262832508095,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 5.399612373357457,
+      "closed": true,
+      "mesh": "architecture:wall-6"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 5.595961914206819,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    },
+    {
+      "kind": "last-row-riser",
+      "tier": 2,
+      "angle": 5.792311455056181,
+      "closed": true,
+      "mesh": "architecture:wall-7"
+    }
+  ],
+  "clearance": [
+    {
+      "gate": 0,
+      "x": -2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": -2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": -2,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": 0,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": 0,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": 0,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": 2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": 2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 0,
+      "x": 2,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": -2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": -2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": -2,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": 0,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": 0,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": 0,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": 2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": 2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 1,
+      "x": 2,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": -2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": -2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": -2,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": 0,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": 0,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": 0,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": 2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": 2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 2,
+      "x": 2,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": -2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": -2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": -2,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": 0,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": 0,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": 0,
+      "y": 8,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": 2,
+      "y": 1,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": 2,
+      "y": 4,
+      "clear": true
+    },
+    {
+      "gate": 3,
+      "x": 2,
+      "y": 8,
+      "clear": true
+    }
+  ],
+  "receivers": [
+    {
+      "name": "gates:portal-0",
+      "gradient": true,
+      "baked": true
+    },
+    {
+      "name": "gates:vault",
+      "gradient": true,
+      "baked": true
+    },
+    {
+      "name": "gates:dark",
+      "gradient": true,
+      "baked": true
+    },
+    {
+      "name": "gates:portal-1",
+      "gradient": true,
+      "baked": true
+    },
+    {
+      "name": "gates:portal-2",
+      "gradient": true,
+      "baked": true
+    },
+    {
+      "name": "gates:portal-3",
+      "gradient": true,
+      "baked": true
+    }
+  ]
+}
