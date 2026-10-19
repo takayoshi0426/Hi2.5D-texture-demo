@@ -1,0 +1,340 @@
+{
+  "date": "2026-10-19T09:44:06.505Z",
+  "checks": [
+    "Three stages render; common views, DOF, aperture, manual focus, native settings, screenshot and GLB work; settings restore after switching",
+    "Common click-to-focus reaches the native P14 picker",
+    "390px stage selector and shared controls fit and operate",
+    "Back navigation restores the chosen background; inactive stages are disposed",
+    "P21 and HD2D recordings decode to nonblank frames; recording locks stage selection and preserves output dimensions across resize"
+  ],
+  "stages": [
+    {
+      "id": "p14",
+      "views": 25,
+      "initial": {
+        "dof": true,
+        "fStop": 1.8,
+        "min": 0.7,
+        "max": 16,
+        "focusMode": "auto",
+        "distance": 35.7,
+        "views": [
+          {
+            "id": "0",
+            "name": "3体を比較",
+            "selected": true
+          },
+          {
+            "id": "1",
+            "name": "2mの小獣",
+            "selected": false
+          },
+          {
+            "id": "2",
+            "name": "4mの鳥",
+            "selected": false
+          },
+          {
+            "id": "3",
+            "name": "8mの青竜",
+            "selected": false
+          },
+          {
+            "id": "4",
+            "name": "森の全景",
+            "selected": false
+          },
+          {
+            "id": "5",
+            "name": "俯瞰",
+            "selected": false
+          },
+          {
+            "id": "6",
+            "name": "舞台",
+            "selected": false
+          },
+          {
+            "id": "7",
+            "name": "森の道",
+            "selected": false
+          },
+          {
+            "id": "8",
+            "name": "木立",
+            "selected": false
+          },
+          {
+            "id": "9",
+            "name": "林床",
+            "selected": false
+          },
+          {
+            "id": "10",
+            "name": "入口の道",
+            "selected": false
+          },
+          {
+            "id": "11",
+            "name": "崩れ壁",
+            "selected": false
+          },
+          {
+            "id": "12",
+            "name": "石の門",
+            "selected": false
+          },
+          {
+            "id": "13",
+            "name": "小屋の陰",
+            "selected": false
+          },
+          {
+            "id": "14",
+            "name": "水槽",
+            "selected": false
+          },
+          {
+            "id": "15",
+            "name": "礼拝堂跡",
+            "selected": false
+          },
+          {
+            "id": "16",
+            "name": "見張り塔",
+            "selected": false
+          },
+          {
+            "id": "17",
+            "name": "柱廊",
+            "selected": false
+          },
+          {
+            "id": "18",
+            "name": "奥の廃屋",
+            "selected": false
+          },
+          {
+            "id": "19",
+            "name": "番所跡",
+            "selected": false
+          },
+          {
+            "id": "20",
+            "name": "密集林",
+            "selected": false
+          },
+          {
+            "id": "21",
+            "name": "真上",
+            "selected": false
+          },
+          {
+            "id": "22",
+            "name": "階段",
+            "selected": false
+          },
+          {
+            "id": "23",
+            "name": "外周",
+            "selected": false
+          },
+          {
+            "id": "24",
+            "name": "湿り・苔",
+            "selected": false
+          }
+        ]
+      },
+      "note": true,
+      "canvas": [
+        1100,
+        690
+      ],
+      "glb": {
+        "bytes": 37413616,
+        "nodes": 34,
+        "meshes": 26
+      }
+    },
+    {
+      "id": "p21",
+      "views": 14,
+      "initial": {
+        "dof": false,
+        "fStop": 2.8,
+        "min": 0.7,
+        "max": 16,
+        "focusMode": "auto",
+        "distance": 50,
+        "views": [
+          {
+            "id": "0",
+            "name": "観客席から",
+            "selected": true
+          },
+          {
+            "id": "1",
+            "name": "闘技面から",
+            "selected": false
+          },
+          {
+            "id": "2",
+            "name": "全体の俯瞰",
+            "selected": false
+          },
+          {
+            "id": "3",
+            "name": "見取り図",
+            "selected": false
+          },
+          {
+            "id": "4",
+            "name": "東",
+            "selected": false
+          },
+          {
+            "id": "5",
+            "name": "西",
+            "selected": false
+          },
+          {
+            "id": "6",
+            "name": "南",
+            "selected": false
+          },
+          {
+            "id": "7",
+            "name": "北",
+            "selected": false
+          },
+          {
+            "id": "8",
+            "name": "魔獣の大門",
+            "selected": false
+          },
+          {
+            "id": "9",
+            "name": "大門の控え通路",
+            "selected": false
+          },
+          {
+            "id": "10",
+            "name": "通路と長椅子",
+            "selected": false
+          },
+          {
+            "id": "11",
+            "name": "上層の崩落",
+            "selected": false
+          },
+          {
+            "id": "12",
+            "name": "結晶の灯台",
+            "selected": false
+          },
+          {
+            "id": "13",
+            "name": "座面と縁の接写",
+            "selected": false
+          }
+        ]
+      },
+      "note": true,
+      "canvas": [
+        1100,
+        690
+      ],
+      "recording": {
+        "bytes": 119311,
+        "width": 1100,
+        "height": 690,
+        "mean": 87.19604492187477,
+        "variance": 1385.98584481736,
+        "decoder": "ffmpeg"
+      },
+      "glb": {
+        "bytes": 132856212,
+        "nodes": 121,
+        "meshes": 108
+      }
+    },
+    {
+      "id": "hd2d",
+      "views": 4,
+      "initial": {
+        "dof": true,
+        "fStop": 1.2,
+        "min": 1.2,
+        "max": 8,
+        "focusMode": "auto",
+        "distance": 26.698134099271414,
+        "views": [
+          {
+            "id": "0",
+            "name": "横・追従",
+            "selected": true
+          },
+          {
+            "id": "1",
+            "name": "斜め",
+            "selected": false
+          },
+          {
+            "id": "2",
+            "name": "寄り",
+            "selected": false
+          },
+          {
+            "id": "3",
+            "name": "全景",
+            "selected": false
+          }
+        ]
+      },
+      "note": false,
+      "canvas": [
+        978,
+        613
+      ],
+      "recording": {
+        "bytes": 92541,
+        "width": 978,
+        "height": 612,
+        "mean": 62.22111002604155,
+        "variance": 771.1679343581259,
+        "decoder": "ffmpeg"
+      },
+      "battle": {
+        "active": true,
+        "time": 0.18330000000001745,
+        "actors": [
+          {
+            "x": -7.211730965055536,
+            "z": 4.6044134736641755,
+            "hp": 100
+          },
+          {
+            "x": 4.878473293664722,
+            "z": 4.977894765961239,
+            "hp": 100
+          }
+        ]
+      },
+      "glb": {
+        "bytes": 174065296,
+        "nodes": 139,
+        "meshes": 131
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "limitations": [
+    "Software WebGL; no hardware GPU performance guarantee.",
+    "HD2D uses replacement artwork because the uploaded ZIP excludes original assets.",
+    "HD2D GLB contains geometry/basic materials, not the full custom-shader finish."
+  ],
+  "resumedFrom": "2026-10-19T09:35:42.436Z",
+  "ok": true
+}

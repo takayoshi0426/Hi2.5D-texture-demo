@@ -1,0 +1,31 @@
+{
+  "size": 4096,
+  "extent": 136,
+  "depthPacking": "RGBDepthPacking",
+  "matrix": [
+    0.001565430280624557,
+    0.002762297584487637,
+    0.0010103413867364817,
+    0,
+    1.0204255741040042e-19,
+    0.0020485106036221335,
+    -0.0016640916958012637,
+    0,
+    0.0033265393463271843,
+    -0.0012999047456412405,
+    -0.0004754547702289325,
+    0,
+    0.5,
+    0.4918059575855115,
+    0.5452444325174693,
+    1
+  ],
+  "sunDirection": [
+    -17,
+    28,
+    8
+  ],
+  "casters": 19,
+  "bias": 0.0002,
+  "method": "Offline fixed world-space direct-sun depth atlas from actual static geometry and alpha-tested leaves. Excludes actor, animated cloth and meadow. Not RGB GI."
+}

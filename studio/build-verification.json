@@ -1,0 +1,13 @@
+{
+  "stages": [
+    "p21",
+    "p14",
+    "hd2d"
+  ],
+  "errors": [],
+  "failed": [],
+  "repeatedFocusDoesNotRetrigger": true,
+  "actorPhysicalHeight": 5.0043911320334855,
+  "sourceClickFocus": true,
+  "ok": true
+}

@@ -1,0 +1,3 @@
+Three.js: MIT. See THREE-LICENSE.txt.
+Poly Haven materials: CC0-1.0, https://polyhaven.com/license .
+The source-reference stage uses owner P14/P21 artwork in place of missing original artwork.

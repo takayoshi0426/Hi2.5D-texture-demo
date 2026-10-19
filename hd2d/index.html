@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><meta name="theme-color" content="#152629"><meta name="description" content="ドット絵のモンスターと3Dの石造闘技場を組み合わせた、ブラウザで動くHD2Dのテストサンプル。"><link rel="icon" type="image/svg+xml" href="data:,"><title>翠影の闘技場 — HD2D SAMPLE</title><style>.reference-source-notice{color:#514b35;z-index:5;background:#f2e7c6eb;max-width:90%;padding:7px 12px;font:10px/1.6 sans-serif;position:fixed;bottom:94px;left:50%;transform:translate(-50%)}</style>  <script type="module" crossorigin src="./assets/index-CMDGoAu7.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CGAdk1l7.css">
+</head>
+<body>
+  <main id="app"><p class="reference-source-notice">素材補完版：添付ZIPにない原画はP14・P21の素材等で代用しています。</p>
+    <canvas id="scene" aria-label="石造闘技場と二体のモスホーン。戦闘開始で模擬戦、矢印キーと攻撃ボタンで手動操作できます。"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <header class="masthead">
+      <div class="identity"><span class="crest" aria-hidden="true">✦</span><div><p class="eyebrow">THE VERDANT COLOSSEUM</p><h1>翠影の闘技場</h1></div></div>
+      <div class="header-actions"><span class="live-badge"><i></i>試作の庭</span><button id="record-toggle" class="record-button" disabled aria-pressed="false">録画</button><output id="record-time" hidden aria-label="録画時間">00:00</output><a id="record-save" class="record-save" hidden download>保存</a><button id="settings-toggle" class="icon-button" aria-label="表示設定を開く" aria-expanded="false" aria-controls="settings-panel">☷</button></div>
+    </header>
+    <div id="loading" role="status"><span class="loading-star">✦</span><p>闘技場をひらいています</p></div>
+    <div id="error" role="alert" hidden></div>
+    <aside class="creature-info"><span class="small-label">深緑の守護獣</span><h2>モスホーン</h2><p>古い石の庭に、森の息吹が宿る。</p><div class="life-bar"><span></span></div><span class="creature-level">FOREST GUARDIAN <b id="size-readout">体高 5 m</b></span></aside>
+    <aside class="arena-map" aria-label="闘技場内の位置"><canvas id="map" width="240" height="240" aria-label="直径90mの闘技場と現在位置"></canvas><span>ARENA <b>Ø 90 m</b></span><output id="position-readout">中央から 0 m</output></aside>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <section class="battle-hud" aria-label="二体の戦闘シミュレーション">
+      <div class="battle-fighters"><div><span>モスホーン A</span><meter id="hp-a" min="0" max="100" value="100" aria-label="モスホーンAのHP"></meter><output id="hp-a-text">100 / 100</output></div><b aria-hidden="true">VS</b><div><span>琥珀のモスホーン B</span><meter id="hp-b" min="0" max="100" value="100" aria-label="モスホーンBのHP"></meter><output id="hp-b-text">100 / 100</output></div></div>
+      <p id="battle-status" role="status">二体の模擬戦を始められます</p>
+      <div class="battle-buttons"><button id="battle-start">戦闘開始</button><button id="battle-auto" aria-pressed="true" aria-label="自動戦闘とAの手動操作を切り替える">自動戦闘</button><button id="battle-exit" hidden>自由に歩く</button></div>
+    </section>
+    <output id="battle-damage" class="battle-damage" hidden aria-label="被ダメージ"></output>
+    <section id="settings-panel" class="settings-panel" aria-label="表示設定" hidden>
+      <div class="panel-heading"><h2>庭の見え方</h2><button id="settings-close" class="icon-button" aria-label="表示設定を閉じる">×</button></div>
+      <label class="switch-row" for="stage-picker"><span>ステージ</span><select id="stage-picker"><option value="verdant">翠影の闘技場</option></select></label>
+      <fieldset><legend>時間</legend><div class="segmented"><button data-light="dusk" aria-pressed="true">夕暮れ</button><button data-light="day" aria-pressed="false">昼</button><button data-light="night" aria-pressed="false">夜</button></div></fieldset>
+      <fieldset><legend>視点</legend><div class="segmented"><button data-camera="front" aria-pressed="true">横・追従</button><button data-camera="angle" aria-pressed="false">斜め</button><button data-camera="close" aria-pressed="false">寄り</button><button data-camera="wide" aria-pressed="false">全景</button></div></fieldset>
+      <fieldset><legend>モスホーン Aの体高</legend><div class="segmented"><button data-size="2" aria-pressed="false">2 m</button><button data-size="5" aria-pressed="true">5 m</button><button data-size="10" aria-pressed="false">10 m</button></div></fieldset>
+      <label class="switch-row"><span>モンスターの影</span><input id="shadow" type="checkbox" checked></label>
+      <label class="switch-row"><span>光のにじみ</span><input id="bloom" type="checkbox" checked></label>
+      <label class="switch-row"><span>レンズの被写界深度</span><input id="dof" type="checkbox" checked></label>
+      <label class="switch-row" for="aperture"><span>基本の絞り <output id="aperture-readout">f/1.2</output></span><input id="aperture" type="range" min="1.2" max="8" step="0.1" value="1.2" aria-label="レンズの基本の絞り"></label>
+      <label class="switch-row" for="battle-focus"><span>手前のピントを自動補正<br><output id="battle-focus-readout">戦闘中に作動</output></span><input id="battle-focus" type="checkbox" checked></label>
+      <label class="switch-row" for="iris"><span>絞り羽根</span><select id="iris"><option value="6">6枚</option><option value="8">8枚</option><option value="32">円形</option></select></label>
+      <label class="switch-row" for="bokeh-boost"><span>明点のボケ <output id="bokeh-readout">0.8</output></span><input id="bokeh-boost" type="range" min="0" max="3" step="0.1" value="0.8" aria-label="明点のボケの強調量"></label>
+      <label class="switch-row"><span>光を含む霧</span><input id="fog" type="checkbox" checked></label>
+      <label class="switch-row" for="haze"><span>霞の濃さ <output id="haze-readout">35%</output></span><input id="haze" type="range" min="0" max="100" step="5" value="35"></label>
+      <label class="switch-row" for="baked-ao"><span>接地部の陰影</span><input id="baked-ao" type="checkbox" checked></label>
+      <label class="switch-row" for="baked-sun"><span>背景の焼き付け影</span><input id="baked-sun" type="checkbox" checked></label>
+      <label class="switch-row" for="backdrop"><span>遠景の山並み・樹林</span><input id="backdrop" type="checkbox" checked></label>
+      <label class="switch-row" for="clouds"><span>空の雲</span><input id="clouds" type="checkbox" checked></label>
+      <label class="switch-row"><span>ボケ量を確認</span><input id="coc" type="checkbox"></label>
+      <label class="switch-row"><span>深度を確認</span><input id="depth" type="checkbox"></label>
+      <label class="switch-row"><span>動画にHPを表示</span><input id="record-hud" type="checkbox" checked></label>
+      <p class="settings-note">右上の「録画」で開始、「保存」で終了。動画は現在の縦横比・無音で保存します。</p>
+      <div class="panel-buttons"><button id="occlusion">巨木の後ろへ</button><button id="reset">元の位置へ</button></div>
+      <p class="settings-note">矢印 / WASD：画面基準で走る　Space：攻撃<br>ドラッグ：視点　Esc：設定を閉じる<br>直径90m・1単位=1m。カメラは移動に追従。</p>
+      <output id="diagnostics">描画を準備中</output>
+    </section>
+    <footer class="game-controls">
+      <div class="movement" role="group" aria-label="移動"><button data-move="left" aria-label="左へ移動">‹</button><div class="vertical-movement"><button data-move="up" aria-label="奥へ移動">⌃</button><button data-move="down" aria-label="手前へ移動">⌄</button></div><button data-move="right" aria-label="右へ移動">›</button></div>
+      <div class="action-controls"><button id="attack" class="attack-button"><span aria-hidden="true">✧</span><span>ひと振り</span><kbd>SPACE</kbd></button><button id="pause" class="pause-button" aria-pressed="false" aria-label="一時停止">Ⅱ</button></div>
+    </footer>
+    <p class="scene-caption"><span></span>風と光、石とドット。<span></span></p>
+  </main>
+  
+</body>
+</html>
