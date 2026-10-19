@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "method": "RGB difference above 24 versus each version without VFX; arena crop y=180..630; identical 10 degree / 45 degree FOV camera",
+  "comparisons": [
+    {
+      "effect": "impact",
+      "visiblePixels": {
+        "before": 954,
+        "after": 12450
+      },
+      "areaRatio": 13.050314465408805
+    },
+    {
+      "effect": "projectile",
+      "visiblePixels": {
+        "before": 314,
+        "after": 2253
+      },
+      "areaRatio": 7.17515923566879
+    },
+    {
+      "effect": "slash",
+      "visiblePixels": {
+        "before": 30,
+        "after": 1488
+      },
+      "areaRatio": 49.6
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "ok": true,
+  "errors": [],
+  "cases": [
+    {
+      "version": "before",
+      "kind": "impact",
+      "camera": {
+        "source": "uploaded HD2D",
+        "mode": "free",
+        "position": [
+          2.4,
+          5.291274218027606,
+          24.65400722499104
+        ],
+        "target": [
+          0,
+          1.7999999999999998,
+          5
+        ],
+        "fov": 45,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 1,
+        "peakMeshes": 26,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 25,
+        "projectiles": 0,
+        "budget": 240
+      },
+      "hp": [
+        100,
+        92
+      ]
+    },
+    {
+      "version": "before",
+      "kind": "projectile",
+      "camera": {
+        "source": "uploaded HD2D",
+        "mode": "free",
+        "position": [
+          2.4,
+          5.291274218027606,
+          24.65400722499104
+        ],
+        "target": [
+          0,
+          1.7999999999999998,
+          5
+        ],
+        "fov": 45,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 1,
+        "impact": 1,
+        "peakMeshes": 26,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 4,
+        "projectiles": 1,
+        "budget": 240
+      },
+      "hp": [
+        100,
+        100
+      ]
+    },
+    {
+      "version": "before",
+      "kind": "slash",
+      "camera": {
+        "source": "uploaded HD2D",
+        "mode": "free",
+        "position": [
+          2.4,
+          5.291274218027606,
+          24.65400722499104
+        ],
+        "target": [
+          0,
+          1.7999999999999998,
+          5
+        ],
+        "fov": 45,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "effects": {
+        "slash": 1,
+        "hit": 1,
+        "projectile": 1,
+        "impact": 1,
+        "peakMeshes": 31,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 29,
+        "projectiles": 0,
+        "budget": 240
+      },
+      "hp": [
+        100,
+        86
+      ]
+    },
+    {
+      "version": "after",
+      "kind": "impact",
+      "camera": {
+        "source": "uploaded HD2D",
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "free",
+        "position": [
+          2.4,
+          5.291274218027606,
+          24.65400722499104
+        ],
+        "target": [
+          0,
+          1.7999999999999998,
+          5
+        ],
+        "fov": 45,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 1,
+        "peakMeshes": 37,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 36,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "hp": [
+        100,
+        92
+      ]
+    },
+    {
+      "version": "after",
+      "kind": "projectile",
+      "camera": {
+        "source": "uploaded HD2D",
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "free",
+        "position": [
+          2.4,
+          5.291274218027606,
+          24.65400722499104
+        ],
+        "target": [
+          0,
+          1.7999999999999998,
+          5
+        ],
+        "fov": 45,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 1,
+        "impact": 1,
+        "peakMeshes": 37,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 6,
+        "projectiles": 1,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "hp": [
+        100,
+        100
+      ]
+    },
+    {
+      "version": "after",
+      "kind": "slash",
+      "camera": {
+        "source": "uploaded HD2D",
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "free",
+        "position": [
+          2.4,
+          5.291274218027606,
+          24.65400722499104
+        ],
+        "target": [
+          0,
+          1.7999999999999998,
+          5
+        ],
+        "fov": 45,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "effects": {
+        "slash": 1,
+        "hit": 1,
+        "projectile": 1,
+        "impact": 1,
+        "peakMeshes": 46,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 44,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "hp": [
+        100,
+        86
+      ]
+    }
+  ]
+}

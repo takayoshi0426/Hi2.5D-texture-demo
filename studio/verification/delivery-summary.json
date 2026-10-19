@@ -1,0 +1,98 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "id": "p14",
+      "views": 30,
+      "unit": "metre"
+    },
+    {
+      "id": "p21",
+      "views": 19,
+      "unit": "metre"
+    },
+    {
+      "id": "hd2d",
+      "views": 5,
+      "unit": "metre"
+    }
+  ],
+  "checks": [
+    "Common P14 artwork selection, authored heights, movement and two-actor combat",
+    "Common optics, scale, camera modes, capture and export",
+    "GLBs retain both selected fighters",
+    "P21 and HD2D video files decode to nonblank images",
+    "Settings survive background switches; reset survives reload",
+    "Collision-driven slash/hit/projectile/impact in all 3 backgrounds",
+    "Independent Web filmstrip review of all 4 effects on bright and dark backgrounds",
+    "Old artwork/quality preferences migrate while source camera/lens defaults reset",
+    "390px camera fits complete 8m actor artwork; reset persists; H.264 recording decodes to nonblank image",
+    "31 camera, optics and flight unit checks",
+    "Winged takeoff, 0–5m ceiling, landing, altitude-aware projectiles and melee across all three backgrounds",
+    "All shared camera modes including free/native presets obey a 10 degree downward pitch limit",
+    "Bold VFX before/after comparison at a calibrated 10 degree camera; foreground-depth integration verified with actual impacts across all three backgrounds"
+  ],
+  "limitations": [
+    "Actors use P14 single-pose 2D artwork",
+    "HD2D uses replacement artwork; source ZIP omitted original assets",
+    "HD2D GLB retains geometry and basic materials",
+    "Software WebGL checks do not measure hardware GPU performance"
+  ],
+  "sourceSnapshotFiles": 347,
+  "artworkCatalog": "shared-monsters.json",
+  "verification": [
+    "flight-camera-unit.json",
+    "flight-camera-verification.json",
+    "bold-vfx-verification.json",
+    "bold-vfx-area.json",
+    "current-effects-verification.json",
+    "source-vfx-outputs.json"
+  ],
+  "outputs": "shared-battle-outputs.json",
+  "camera": "Uploaded HD2D front/angle/close/wide, drag yaw/tilt, arena boundary and source smoothing; downward pitch capped at 10 degrees, including free/native presets",
+  "lens": {
+    "pipeline": "Uploaded 192-sample FocusPass and foreground separation across all 3 backgrounds",
+    "fStop": 1.2,
+    "scale": "1:24",
+    "maxBlurPx": 22,
+    "blades": 6,
+    "boost": 0.8
+  },
+  "vfx": {
+    "renderer": "Three.js",
+    "effects": [
+      "triple claw crescent",
+      "fracturing hit spark",
+      "larger firebolt with bright flame wake",
+      "fire impact with ground shock ring"
+    ],
+    "review": "vfx/work/threejs-independent-review.json",
+    "nativeEffekseerCompiled": false,
+    "presentation": "bold-vfx-v4",
+    "reviewEvidence": "threejs-bold-r4-20261019"
+  },
+  "flight": {
+    "actors": [
+      "robot",
+      "harpy",
+      "dragon"
+    ],
+    "ceilingDefaultMeters": 3,
+    "ceilingRangeMeters": [
+      0,
+      5
+    ],
+    "cruise": "min(body height × 0.45, ceiling)",
+    "groundedMelee": "descend when approaching a ground opponent",
+    "death": "land",
+    "altitudeAware": [
+      "body",
+      "ground shadow",
+      "projectile",
+      "hit test",
+      "VFX",
+      "focus",
+      "camera"
+    ]
+  }
+}

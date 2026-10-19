@@ -1,0 +1,510 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "stage": "p14",
+      "state": {
+        "effects": {
+          "slash": 0,
+          "hit": 0,
+          "projectile": 0,
+          "impact": 1,
+          "peakMeshes": 37,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 36,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "camera": {
+          "source": "uploaded HD2D",
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 6.854183732214248,
+          "mode": "front",
+          "position": [
+            -18.892157259891754,
+            6.459999999999999,
+            2.021483135601021
+          ],
+          "target": [
+            0.6960061779970892,
+            4.08,
+            4.910055989201033
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 14.15251768207642,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true
+        },
+        "settings": {
+          "arts": [
+            "toad",
+            "harpy"
+          ],
+          "sizes": [
+            2,
+            4
+          ],
+          "visible": true,
+          "paused": false,
+          "camera": "front",
+          "auto": true,
+          "dof": true,
+          "fStop": 1.2,
+          "sceneScale": 0.041666666666666664,
+          "focusMode": "auto",
+          "distance": 30,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "yaw": 0,
+          "tilt": 0,
+          "nearBlur": 1,
+          "farBlur": 1,
+          "sharpRange": 0,
+          "recordHUD": true,
+          "subjectFocus": true,
+          "effects": true,
+          "flightCeiling": 3,
+          "quality": "low"
+        },
+        "actors": [
+          {
+            "x": -5.387946612569991,
+            "z": 4.812942118756112
+          },
+          {
+            "x": 6.779958968564169,
+            "z": 5.007169859645954
+          }
+        ],
+        "unit": "metre",
+        "arena": [
+          37,
+          37
+        ],
+        "active": true,
+        "time": 0.1,
+        "winner": null,
+        "fighters": [
+          {
+            "actor": {
+              "x": -5.387946612569991,
+              "z": 4.812942118756112,
+              "time": 0.1,
+              "attackTime": -1,
+              "impacts": 0,
+              "size": 2,
+              "canFly": false,
+              "flightCeiling": 3,
+              "flightHeight": 0
+            },
+            "hp": 100,
+            "cooldown": 0,
+            "hurt": 0,
+            "phase": "離脱",
+            "hits": 1,
+            "travelled": 0.6400000000000013,
+            "heading": -0.2966079247289784,
+            "attackKind": "melee",
+            "rangedCooldown": 0.05000000000000001,
+            "shots": 0,
+            "rangedHits": 1,
+            "art": "toad",
+            "heightMeters": 2,
+            "flightHeightMeters": 0,
+            "ground": 1.3554937328498078,
+            "bounds": [
+              0.4715443630954894,
+              2,
+              2.2811850173063664
+            ]
+          },
+          {
+            "actor": {
+              "x": 6.779958968564169,
+              "z": 5.007169859645954,
+              "time": 0.1,
+              "attackTime": -1,
+              "impacts": 0,
+              "size": 4,
+              "canFly": true,
+              "flightCeiling": 3,
+              "flightHeight": 1.8
+            },
+            "hp": 92,
+            "cooldown": 0.5499999999999998,
+            "hurt": 0.24999999999999997,
+            "phase": "被弾",
+            "hits": 0,
+            "travelled": 0.7800000000000002,
+            "heading": 0.01596094299321042,
+            "attackKind": "melee",
+            "rangedCooldown": 1.6,
+            "shots": 0,
+            "rangedHits": 0,
+            "art": "harpy",
+            "heightMeters": 4,
+            "flightHeightMeters": 1.8,
+            "ground": 1.5244255528176203,
+            "bounds": [
+              0.5803216340783255,
+              4.010760001341646,
+              4.131482048520677
+            ]
+          }
+        ],
+        "projectiles": []
+      },
+      "coreMeshes": 2
+    },
+    {
+      "stage": "p21",
+      "state": {
+        "effects": {
+          "slash": 0,
+          "hit": 0,
+          "projectile": 0,
+          "impact": 1,
+          "peakMeshes": 37,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 36,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "camera": {
+          "source": "uploaded HD2D",
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 6.85418373221425,
+          "mode": "front",
+          "position": [
+            -19.08033161839102,
+            5.08,
+            4.023797377133649
+          ],
+          "target": [
+            0.699320380123444,
+            2.7,
+            4.921219695589496
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 14.091590062780426,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true
+        },
+        "settings": {
+          "arts": [
+            "toad",
+            "harpy"
+          ],
+          "sizes": [
+            2,
+            4
+          ],
+          "visible": true,
+          "paused": false,
+          "camera": "front",
+          "auto": true,
+          "dof": true,
+          "fStop": 1.2,
+          "sceneScale": 0.041666666666666664,
+          "focusMode": "auto",
+          "distance": 30,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "yaw": 0,
+          "tilt": 0,
+          "nearBlur": 1,
+          "farBlur": 1,
+          "sharpRange": 0,
+          "recordHUD": true,
+          "subjectFocus": true,
+          "effects": true,
+          "flightCeiling": 3,
+          "quality": "low"
+        },
+        "actors": [
+          {
+            "x": -5.381327731471897,
+            "z": 4.836156708546584
+          },
+          {
+            "x": 6.779968491718785,
+            "z": 5.006282682632407
+          }
+        ],
+        "unit": "metre",
+        "arena": [
+          46,
+          38
+        ],
+        "active": true,
+        "time": 0.1,
+        "winner": null,
+        "fighters": [
+          {
+            "actor": {
+              "x": -5.381327731471897,
+              "z": 4.836156708546584,
+              "time": 0.1,
+              "attackTime": -1,
+              "impacts": 0,
+              "size": 2,
+              "canFly": false,
+              "flightCeiling": 3,
+              "flightHeight": 0
+            },
+            "hp": 100,
+            "cooldown": 0,
+            "hurt": 0,
+            "phase": "離脱",
+            "hits": 1,
+            "travelled": 0.6399999999999986,
+            "heading": -0.2588873538510184,
+            "attackKind": "melee",
+            "rangedCooldown": 0.05000000000000001,
+            "shots": 0,
+            "rangedHits": 1,
+            "art": "toad",
+            "heightMeters": 2,
+            "flightHeightMeters": 0,
+            "ground": 0.12,
+            "bounds": [
+              0.13789330371147912,
+              2,
+              2.3253267740990093
+            ]
+          },
+          {
+            "actor": {
+              "x": 6.779968491718785,
+              "z": 5.006282682632407,
+              "time": 0.1,
+              "attackTime": -1,
+              "impacts": 0,
+              "size": 4,
+              "canFly": true,
+              "flightCeiling": 3,
+              "flightHeight": 1.8
+            },
+            "hp": 92,
+            "cooldown": 0.5499999999999998,
+            "hurt": 0.24999999999999997,
+            "phase": "被弾",
+            "hits": 0,
+            "travelled": 0.7800000000000007,
+            "heading": 0.013988219234215612,
+            "attackKind": "melee",
+            "rangedCooldown": 1.6,
+            "shots": 0,
+            "rangedHits": 0,
+            "art": "harpy",
+            "heightMeters": 4,
+            "flightHeightMeters": 1.8,
+            "ground": 0.12,
+            "bounds": [
+              0.2574041818128858,
+              4.00269089074437,
+              4.156330609992141
+            ]
+          }
+        ],
+        "projectiles": []
+      },
+      "coreMeshes": 2
+    },
+    {
+      "stage": "hd2d",
+      "state": {
+        "effects": {
+          "slash": 0,
+          "hit": 0,
+          "projectile": 0,
+          "impact": 1,
+          "peakMeshes": 37,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 36,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "camera": {
+          "source": "uploaded HD2D",
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 6.614026086715481,
+          "mode": "front",
+          "position": [
+            3.162508204980978,
+            4.945000202304873,
+            25.325768731727386
+          ],
+          "target": [
+            0.7053276854256567,
+            2.565,
+            4.9476461082026315
+          ],
+          "fov": 41.82002762510989,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 19.850148969001776,
+          "fStop": 2.014411149378508,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true
+        },
+        "settings": {
+          "arts": [
+            "toad",
+            "harpy"
+          ],
+          "sizes": [
+            2,
+            4
+          ],
+          "visible": true,
+          "paused": false,
+          "camera": "front",
+          "auto": true,
+          "dof": true,
+          "fStop": 1.2,
+          "sceneScale": 0.041666666666666664,
+          "focusMode": "auto",
+          "distance": 30,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "yaw": 0,
+          "tilt": 0,
+          "nearBlur": 1,
+          "farBlur": 1,
+          "sharpRange": 0,
+          "recordHUD": true,
+          "subjectFocus": true,
+          "effects": true,
+          "flightCeiling": 3,
+          "quality": "low"
+        },
+        "actors": [
+          {
+            "x": -5.369330689734216,
+            "z": 4.891113724056321
+          },
+          {
+            "x": 6.7799860605855296,
+            "z": 5.0041784923489425
+          }
+        ],
+        "unit": "metre",
+        "arena": [
+          82,
+          82
+        ],
+        "active": true,
+        "time": 0.1,
+        "winner": null,
+        "fighters": [
+          {
+            "actor": {
+              "x": -5.369330689734216,
+              "z": 4.891113724056321,
+              "time": 0.1,
+              "attackTime": -1,
+              "impacts": 0,
+              "size": 2,
+              "canFly": false,
+              "flightCeiling": 3,
+              "flightHeight": 0
+            },
+            "hp": 100,
+            "cooldown": 0,
+            "hurt": 0,
+            "phase": "離脱",
+            "hits": 1,
+            "travelled": 0.640000000000002,
+            "heading": -0.17096646811978894,
+            "attackKind": "melee",
+            "rangedCooldown": 0.05000000000000001,
+            "shots": 0,
+            "rangedHits": 1,
+            "art": "toad",
+            "heightMeters": 2,
+            "flightHeightMeters": 0,
+            "ground": -0.015,
+            "bounds": [
+              2.1495758753676597,
+              2,
+              0.8974868943820482
+            ]
+          },
+          {
+            "actor": {
+              "x": 6.7799860605855296,
+              "z": 5.0041784923489425,
+              "time": 0.1,
+              "attackTime": -1,
+              "impacts": 0,
+              "size": 4,
+              "canFly": true,
+              "flightCeiling": 3,
+              "flightHeight": 1.8
+            },
+            "hp": 92,
+            "cooldown": 0.5499999999999998,
+            "hurt": 0.24999999999999997,
+            "phase": "被弾",
+            "hits": 0,
+            "travelled": 0.7799999999999996,
+            "heading": 0.00930599693256969,
+            "attackKind": "melee",
+            "rangedCooldown": 1.6,
+            "shots": 0,
+            "rangedHits": 0,
+            "art": "harpy",
+            "heightMeters": 4,
+            "flightHeightMeters": 1.8,
+            "ground": -0.015,
+            "bounds": [
+              4.19187485146203,
+              4.099279018717634,
+              0.728949204839278
+            ]
+          }
+        ],
+        "projectiles": []
+      },
+      "coreMeshes": 2
+    }
+  ],
+  "errors": []
+}
