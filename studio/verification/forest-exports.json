@@ -4,7 +4,32 @@
   "stages": [
     {
       "stage": "p14",
-      "bytes": 38461720,
+      "portrait": {
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10.000000000000002,
+          "mode": "front",
+          "position": [
+            9.054112482707493,
+            20.596018340558558,
+            75.0884247011651
+          ],
+          "target": [
+            0,
+            7.259998955187092,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        }
+      },
+      "bytes": 38461920,
       "fighters": [
         "Fighter_A",
         "Fighter_B"
@@ -15,18 +40,76 @@
     },
     {
       "stage": "p21",
-      "bytes": 147093932,
+      "portrait": {
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10.000000000000005,
+          "mode": "front",
+          "position": [
+            9.059812849127121,
+            19.224414557162582,
+            75.1356995208105
+          ],
+          "target": [
+            0,
+            5.879998965401907,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        }
+      },
+      "bytes": 144461876,
       "fighters": [
         "Fighter_A",
         "Fighter_B"
       ],
       "scenery": "Forest_style_authored_scenery",
-      "images": 27,
-      "meshes": 129
+      "images": 28,
+      "meshes": 137
     },
     {
       "stage": "hd2d",
-      "bytes": 150543180,
+      "portrait": {
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 2.722505800799729,
+          "mode": "front",
+          "position": [
+            9.109309958220704,
+            9.36342957824314,
+            75.54619364226053
+          ],
+          "target": [
+            0,
+            5.744998955187092,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "revision": 7,
+          "materials": 22,
+          "mappedMaterials": 16,
+          "mode": "day",
+          "shading": "painted colour with soft diffuse lighting and retained geometry AO / sunlight"
+        }
+      },
+      "bytes": 150543760,
       "fighters": [
         "Fighter_A",
         "Fighter_B"
@@ -35,5 +118,47 @@
       "images": 36,
       "meshes": 139
     }
-  ]
+  ],
+  "recovery": {
+    "quality": "low",
+    "stored": "{broken settings",
+    "bakedSizes": [
+      [
+        1048,
+        1536
+      ],
+      [
+        404,
+        672
+      ],
+      [
+        2046,
+        2048
+      ],
+      [
+        1676,
+        2048
+      ],
+      [
+        1724,
+        1720
+      ],
+      [
+        2044,
+        2048
+      ],
+      [
+        896,
+        892
+      ],
+      [
+        532,
+        544
+      ],
+      [
+        428,
+        400
+      ]
+    ]
+  }
 }

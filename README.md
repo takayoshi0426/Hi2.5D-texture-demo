@@ -2,6 +2,8 @@
 
 [P14・P21・添付HD2Dを選べる背景スタジオ](https://takayoshi0426.github.io/Hi2.5D-texture-demo/latest.html)（初期背景：P21 / 制作基準：P14）
 
+最新のr7では、P21の四方の門を奥へ滑らかに暗くし、観客席の階をつなぐ面と影・AOを作り直しました。魔法陣と浮遊結晶は、発光する芯・にじみ・近くの石への光を重ねています。共通カメラは35度の固定画角とドリー移動、俯角10度まで。添付背景の石・木・植生もP14を基準に柔らかな光へ調整しています。
+
 P14の背景制作を基準に、P21では新しい魔法文明のコロッセオを制作しました。P14の比較用ページも残しています。以下はこれまでの制作履歴です。各節の「スキル化は保留」は当時の状態で、現在は[P14までの制作Skill](https://github.com/takayoshi0426/Hi2.5D-modeling/tree/codex/hi25d-environment-skill-p14/.agents/skills/hi25d-environment-production)にまとめています。
 
 初期の土の比較は、外部画像を使わないThree.jsサンプルです。

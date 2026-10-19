@@ -4,6 +4,14 @@
     {
       "stage": "p14",
       "hover": {
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "plantVariants": 8,
+          "plants": 45,
+          "stoneFragments": 0,
+          "contactShadows": 36,
+          "placement": "portal feet, broken terraces, wall edges and tree roots; combat routes kept clear"
+        },
         "effects": {
           "slash": 0,
           "hit": 0,
@@ -19,25 +27,29 @@
         },
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 10.000000000000002,
           "mode": "front",
           "position": [
-            2.274531938489468,
-            7.430212633373458,
-            18.86336408122346
+            2.5918971910993704,
+            7.897667524027717,
+            21.495367705971752
           ],
           "target": [
             0,
-            4.079999999912623,
+            4.079999999860318,
             0
           ],
-          "fov": 40.07574702298177,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         "optics": {
-          "focus": 19.27226784450912,
+          "focus": 21.96423327131122,
           "fStop": 1.2,
           "dof": true,
           "scale": 0.041666666666666664,
@@ -126,9 +138,9 @@
             "flightHeightMeters": 0,
             "ground": 1.367367929668306,
             "bounds": [
-              2.1733967606095526,
+              2.1964428579551587,
               2,
-              0.8381561253860024
+              0.7757563672235956
             ]
           },
           {
@@ -141,7 +153,7 @@
               "size": 4,
               "canFly": true,
               "flightCeiling": 3,
-              "flightHeight": 1.7999999998252465
+              "flightHeight": 1.7999999997206366
             },
             "hp": 100,
             "cooldown": 0,
@@ -156,80 +168,96 @@
             "rangedHits": 0,
             "art": "harpy",
             "heightMeters": 4,
-            "flightHeightMeters": 1.7999999998252465,
+            "flightHeightMeters": 1.7999999997206366,
             "ground": 1.558519239510009,
             "bounds": [
-              4.206425820482746,
-              4.0925229324983725,
-              0.594783314033012
+              4.2307182449841125,
+              4.100573965299997,
+              0.4630683436567312
             ]
           }
         ],
         "projectiles": []
       },
       "ground": 1.5835192395100088,
-      "bodyFoot": 1.7999999998252465,
+      "bodyFoot": 1.7999999997206366,
       "shadow": 0,
       "views": [
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 10.000000000000002,
           "mode": "front",
           "position": [
-            2.274531938489468,
-            7.430212633373458,
-            18.86336408122346
+            2.5918971910993704,
+            7.897667524027717,
+            21.495367705971752
           ],
           "target": [
             0,
-            4.079999999912623,
+            4.079999999860318,
             0
           ],
-          "fov": 40.07574702298177,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 10.000000000000002,
+          "pitchDegrees": 10.000000000000004,
           "mode": "angle",
           "position": [
-            11.498541708984751,
-            7.430212633373458,
-            15.12559217243206
+            13.069257044402553,
+            7.8878559148318494,
+            17.191767186951548
           ],
           "target": [
             0,
-            4.079999999912623,
+            4.079999999860318,
             0
           ],
-          "fov": 40.738123355367996,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 7.491707107870267,
+          "pitchDegrees": 8.357740287782278,
           "mode": "close",
           "position": [
-            2.1665678431786177,
-            6.459999999999999,
-            17.967986002293966
+            2.595324608662227,
+            7.265042184101771,
+            21.52379229049945
           ],
           "target": [
             0,
-            4.079999999912623,
+            4.079999999860318,
             0
           ],
-          "fov": 42.07731043303974,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 10,
           "mode": "wide",
@@ -243,13 +271,17 @@
             3.5,
             0
           ],
-          "fov": 64,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         }
       ],
       "free": {
         "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
         "pitchLimitDegrees": 10,
         "pitchDegrees": 10,
         "mode": "free",
@@ -263,11 +295,19 @@
           3.5,
           0
         ],
-        "fov": 64,
+        "fov": 35,
         "yaw": 0,
         "tilt": 0
       },
       "combat": {
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "plantVariants": 8,
+          "plants": 45,
+          "stoneFragments": 0,
+          "contactShadows": 36,
+          "placement": "portal feet, broken terraces, wall edges and tree roots; combat routes kept clear"
+        },
         "effects": {
           "slash": 2,
           "hit": 1,
@@ -283,6 +323,10 @@
         },
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 9.406002652593349,
           "mode": "front",
@@ -301,8 +345,8 @@
           "tilt": 0
         },
         "optics": {
-          "focus": 19.83593441330471,
-          "fStop": 1.9581621547112458,
+          "focus": 19.835665204636005,
+          "fStop": 1.9580501910822068,
           "dof": true,
           "scale": 0.041666666666666664,
           "maxBlur": 22,
@@ -438,63 +482,67 @@
       "portrait": {
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 10.000000000000004,
+          "pitchDegrees": 10.000000000000002,
           "mode": "front",
           "position": [
-            -10.585116478186453,
-            11.306016098491373,
-            -15.778317690527897
+            -23.362342301204798,
+            15.350036158267994,
+            -34.82422319895182
           ],
           "target": [
             2.198415908245324,
             7.259999997531366,
             3.2769884665594247
           ],
-          "fov": 68.55163573242332,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         "bounds": [
           [
-            -0.5668266301572578,
-            0.3478509874588573,
-            0.9904708799337764
+            -0.57666825054159,
+            0.34894939930409996,
+            0.9957247865625694
           ],
           [
-            0.6004605265714525,
-            0.3449348300229936,
-            0.9904585281383483
+            0.5983444887112442,
+            0.3491566620517756,
+            0.995723077708121
           ],
           [
-            -0.5349052495375922,
-            -0.20596228630049318,
-            0.9911107193514502
+            -0.5584250112573111,
+            -0.21668624298788158,
+            0.9958659166960693
           ],
           [
-            0.556403952880107,
-            -0.2093386573194311,
-            0.9910999230263184
+            0.5803972160572998,
+            -0.21668977753450722,
+            0.9958643114864584
           ],
           [
-            -0.26652344047544113,
-            0.0166055814806357,
-            0.9924761296813123
+            -0.259216416589061,
+            0.02910974144015685,
+            0.9961889202719423
           ],
           [
-            0.18589086962170018,
-            0.033848561093210855,
-            0.9924664182555306
+            0.25600176451609674,
+            0.024583568796537135,
+            0.9961905975437845
           ],
           [
-            -0.23045025958509024,
-            -0.20671472143841893,
-            0.9926267003178603
+            -0.2637329372032393,
+            -0.22415147001385596,
+            0.9962507337294391
           ],
           [
-            0.21329921945737196,
-            -0.19007525185626734,
-            0.9926173589490572
+            0.24375798567279747,
+            -0.2285081568130568,
+            0.9962523610454546
           ]
         ]
       }
@@ -502,6 +550,14 @@
     {
       "stage": "p21",
       "hover": {
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "plantVariants": 8,
+          "plants": 88,
+          "stoneFragments": 32,
+          "contactShadows": 88,
+          "placement": "portal feet, broken terraces, wall edges and tree roots; combat routes kept clear"
+        },
         "effects": {
           "slash": 0,
           "hit": 0,
@@ -517,25 +573,29 @@
         },
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 10.000000000000002,
           "mode": "front",
           "position": [
-            2.3343880421339276,
-            6.138376123700706,
-            19.359768399150393
+            2.5899019442474476,
+            6.5147286770952695,
+            21.47882053546918
           ],
           "target": [
             0,
-            2.6999999998856383,
+            2.699999999860318,
             0
           ],
-          "fov": 38.975562118060886,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         "optics": {
-          "focus": 19.779981150451995,
+          "focus": 21.94730912634216,
           "fStop": 1.2,
           "dof": true,
           "scale": 0.041666666666666664,
@@ -624,9 +684,9 @@
             "flightHeightMeters": 0,
             "ground": 0.12,
             "bounds": [
-              2.178328829161009,
-              1.9999999999999998,
-              0.8252531015368573
+              2.196319239140941,
+              2,
+              0.7761062873920873
             ]
           },
           {
@@ -639,7 +699,7 @@
               "size": 4,
               "canFly": true,
               "flightCeiling": 3,
-              "flightHeight": 1.7999999997712766
+              "flightHeight": 1.7999999997206366
             },
             "hp": 100,
             "cooldown": 0,
@@ -654,80 +714,96 @@
             "rangedHits": 0,
             "art": "harpy",
             "heightMeters": 4,
-            "flightHeightMeters": 1.7999999997712766,
+            "flightHeightMeters": 1.7999999997206366,
             "ground": 0.12,
             "bounds": [
-              4.215284983510184,
-              4.097756494719125,
-              0.5673380452714006
+              4.230636253374472,
+              4.100571945640203,
+              0.46379985957216235
             ]
           }
         ],
         "projectiles": []
       },
       "ground": 0.145,
-      "bodyFoot": 1.7999999997712766,
+      "bodyFoot": 1.7999999997206366,
       "shadow": 0,
       "views": [
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 10.000000000000002,
           "mode": "front",
           "position": [
-            2.3343880421339276,
-            6.138376123700706,
-            19.359768399150393
+            2.5899019442474476,
+            6.5147286770952695,
+            21.47882053546918
           ],
           "target": [
             0,
-            2.6999999998856383,
+            2.699999999860318,
             0
           ],
-          "fov": 38.975562118060886,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 10.000000000000002,
+          "pitchDegrees": 10.000000000000004,
           "mode": "angle",
           "position": [
-            11.80113491185277,
-            6.138376123700706,
-            15.523634071706589
+            13.058187096506325,
+            6.5046305771992765,
+            17.177205382377878
           ],
           "target": [
             0,
-            2.6999999998856383,
+            2.699999999860318,
             0
           ],
-          "fov": 39.44862159807863,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 7.491707107954248,
+          "pitchDegrees": 8.357740287782281,
           "mode": "close",
           "position": [
-            2.1665678431786177,
-            5.08,
-            17.967986002293966
+            2.594317154855373,
+            5.883805813567315,
+            21.515437179000635
           ],
           "target": [
             0,
-            2.6999999998856383,
+            2.699999999860318,
             0
           ],
-          "fov": 42.05930405927561,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 10.000000000000002,
           "mode": "wide",
@@ -741,13 +817,17 @@
             2.12,
             0
           ],
-          "fov": 64,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         }
       ],
       "free": {
         "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
         "pitchLimitDegrees": 10,
         "pitchDegrees": 10,
         "mode": "free",
@@ -761,11 +841,19 @@
           2.12,
           0
         ],
-        "fov": 64,
+        "fov": 35,
         "yaw": 0,
         "tilt": 0
       },
       "combat": {
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "plantVariants": 8,
+          "plants": 88,
+          "stoneFragments": 32,
+          "contactShadows": 88,
+          "placement": "portal feet, broken terraces, wall edges and tree roots; combat routes kept clear"
+        },
         "effects": {
           "slash": 2,
           "hit": 1,
@@ -781,6 +869,10 @@
         },
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 9.406003222372338,
           "mode": "front",
@@ -799,8 +891,8 @@
           "tilt": 0
         },
         "optics": {
-          "focus": 20.10213694691497,
-          "fStop": 2.0169667070353396,
+          "focus": 20.102061033472513,
+          "fStop": 2.017018018226941,
           "dof": true,
           "scale": 0.041666666666666664,
           "maxBlur": 22,
@@ -936,63 +1028,67 @@
       "portrait": {
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 10,
+          "pitchDegrees": 9.999999999999998,
           "mode": "front",
           "position": [
-            -11.461341302435315,
-            10.057248060087609,
-            -15.776173666294698
+            -24.54278657147686,
+            13.981651660956631,
+            -33.782369182580204
           ],
           "target": [
             2.4629252774441923,
             5.879999997531366,
             3.390138717517344
           ],
-          "fov": 66.68045144443869,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         "bounds": [
           [
-            -0.5678403216539882,
-            0.3481248086931011,
-            0.9816140165360638
+            -0.574541262547217,
+            0.3501008379829729,
+            0.9914179542160306
           ],
           [
-            0.5974218042751565,
-            0.3471338791017695,
-            0.9815847569797296
+            0.5987671878629777,
+            0.35029272729561445,
+            0.99141418603557
           ],
           [
-            -0.5343574148297465,
-            -0.20552084960802772,
-            0.9827928012419541
+            -0.5564035354770552,
+            -0.21476644720592228,
+            0.9916994090464479
           ],
           [
-            0.5583921414134426,
-            -0.2072513728637721,
-            0.9827670697534788
+            0.5808210255503995,
+            -0.21480584058624033,
+            0.9916958690752598
           ],
           [
-            -0.26876694780499577,
-            0.0171215033738443,
-            0.985363357836839
+            -0.26023984172527853,
+            0.02924045648219158,
+            0.9923435506081869
           ],
           [
-            0.1862392579280585,
-            0.034305961651229636,
-            0.9853462321004218
+            0.25431218447560605,
+            0.02484831901990059,
+            0.9923469752059131
           ],
           [
-            -0.23302217197813474,
-            -0.2078210112731048,
-            0.9856395961796232
+            -0.26450544693263034,
+            -0.2236595035844416,
+            0.9924672867275014
           ],
           [
-            0.2137498035713017,
-            -0.19119772999715656,
-            0.9856230872654299
+            0.24231348956198842,
+            -0.22788194029402042,
+            0.992470609119941
           ]
         ]
       }
@@ -1000,6 +1096,14 @@
     {
       "stage": "hd2d",
       "hover": {
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "plantVariants": 8,
+          "plants": 69,
+          "stoneFragments": 0,
+          "contactShadows": 48,
+          "placement": "portal feet, broken terraces, wall edges and tree roots; combat routes kept clear"
+        },
         "effects": {
           "slash": 0,
           "hit": 0,
@@ -1015,25 +1119,29 @@
         },
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 6.8541837325604344,
+          "pitchDegrees": 6.8541837326126975,
           "mode": "front",
           "position": [
-            2.3703017043206036,
-            4.945,
-            19.65761098990655
+            2.5859673675008814,
+            5.161548078020434,
+            21.446189930279573
           ],
           "target": [
             0,
-            2.5649999998786392,
+            2.564999999860318,
             0
           ],
-          "fov": 38.26882917163815,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         "optics": {
-          "focus": 19.92820626890417,
+          "focus": 21.742708783182596,
           "fStop": 1.2,
           "dof": true,
           "scale": 0.041666666666666664,
@@ -1122,9 +1230,9 @@
             "flightHeightMeters": 0,
             "ground": -0.015,
             "bounds": [
-              2.18114370894364,
+              2.1960747839598547,
               2,
-              0.8177843789690278
+              0.7767977296605914
             ]
           },
           {
@@ -1137,7 +1245,7 @@
               "size": 4,
               "canFly": true,
               "flightCeiling": 3,
-              "flightHeight": 1.7999999997572789
+              "flightHeight": 1.7999999997206366
             },
             "hp": 100,
             "cooldown": 0,
@@ -1152,80 +1260,96 @@
             "rangedHits": 0,
             "art": "harpy",
             "heightMeters": 4,
-            "flightHeightMeters": 1.7999999997572789,
+            "flightHeightMeters": 1.7999999997206366,
             "ground": -0.015,
             "bounds": [
-              4.218296409405349,
-              4.098698412719374,
-              0.5515016581735228
+              4.230473826151817,
+              4.100567944648729,
+              0.4652455701986724
             ]
           }
         ],
         "projectiles": []
       },
       "ground": 0.010000000000000002,
-      "bodyFoot": 1.7999999997572789,
+      "bodyFoot": 1.7999999997206366,
       "shadow": 0,
       "views": [
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 6.8541837325604344,
+          "pitchDegrees": 6.8541837326126975,
           "mode": "front",
           "position": [
-            2.3703017043206036,
-            4.945,
-            19.65761098990655
+            2.5859673675008814,
+            5.161548078020434,
+            21.446189930279573
           ],
           "target": [
             0,
-            2.5649999998786392,
+            2.564999999860318,
             0
           ],
-          "fov": 38.26882917163815,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 10.000000000000002,
+          "pitchDegrees": 10.000000000000004,
           "mode": "angle",
           "position": [
-            11.982690833573583,
-            6.056274217906246,
-            15.762459211271306
+            13.055199601281004,
+            6.368760141234474,
+            17.173275524528165
           ],
           "target": [
             0,
-            2.5649999998786392,
+            2.564999999860318,
             0
           ],
-          "fov": 38.72690568301853,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 7.49170710797603,
+          "pitchDegrees": 8.357740287782281,
           "mode": "close",
           "position": [
-            2.1665678431786177,
-            4.945,
-            17.967986002293966
+            2.594317154855373,
+            5.748805813567315,
+            21.515437179000635
           ],
           "target": [
             0,
-            2.5649999998786392,
+            2.564999999860318,
             0
           ],
-          "fov": 42.0593040592747,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 10.000000000000002,
           "mode": "wide",
@@ -1239,13 +1363,17 @@
             1.985,
             0
           ],
-          "fov": 64,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         }
       ],
       "free": {
         "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
         "pitchLimitDegrees": 10,
         "pitchDegrees": 10,
         "mode": "free",
@@ -1259,11 +1387,19 @@
           1.985,
           0
         ],
-        "fov": 64,
+        "fov": 35,
         "yaw": 0,
         "tilt": 0
       },
       "combat": {
+        "artDirection": {
+          "reference": "P14 forest arena",
+          "plantVariants": 8,
+          "plants": 69,
+          "stoneFragments": 0,
+          "contactShadows": 48,
+          "placement": "portal feet, broken terraces, wall edges and tree roots; combat routes kept clear"
+        },
         "effects": {
           "slash": 2,
           "hit": 1,
@@ -1279,6 +1415,10 @@
         },
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
           "pitchDegrees": 9.40600265259335,
           "mode": "front",
@@ -1434,63 +1574,67 @@
       "portrait": {
         "camera": {
           "source": "uploaded HD2D",
+          "cutaway": {
+            "active": true,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
           "pitchLimitDegrees": 10,
-          "pitchDegrees": 2.7225037173316546,
+          "pitchDegrees": 2.722503717331654,
           "mode": "front",
           "position": [
-            14.561907688718188,
-            7.1049999999999995,
-            31.692585291873435
+            16.109555421656086,
+            7.719761346820411,
+            44.52768431241105
           ],
           "target": [
             11.138138560255094,
             5.744999997531366,
             3.2982583064528583
           ],
-          "fov": 55,
+          "fov": 35,
           "yaw": 0,
           "tilt": 0
         },
         "bounds": [
           [
-            -0.5018294169002456,
-            0.33748460564880095,
-            0.9881131863835424
+            -0.5794718629033315,
+            0.39168407087639306,
+            0.9920291362774198
           ],
           [
-            0.517931502172791,
-            0.3383885260119724,
-            0.9881037838424482
+            0.6021094030171021,
+            0.39142756433809806,
+            0.9920260068038803
           ],
           [
-            -0.49439048459484475,
-            -0.16433310563083867,
-            0.9882744796330951
+            -0.5750321950866997,
+            -0.19056441290365325,
+            0.9921092789268042
           ],
           [
-            0.5128470057658996,
-            -0.16379502783540317,
-            0.9882653066296301
+            0.596278329350894,
+            -0.1910145645196945,
+            0.9921062036206665
           ],
           [
-            -0.24683928629822516,
-            0.009547179859912745,
-            0.9861470767516695
+            -0.340911205570423,
+            -0.006174667779626022,
+            0.9911199786415276
           ],
           [
-            0.3226305300204703,
-            -0.016988303683645116,
-            0.9861649530709501
+            0.2924723783198539,
+            0.0007206749559190348,
+            0.9911210303802639
           ],
           [
-            -0.29289428384503113,
-            -0.276369816775937,
-            0.9862780527567212
+            -0.3268789978073056,
+            -0.3254054890528303,
+            0.9911659346380718
           ],
           [
-            0.27169704706124576,
-            -0.3023399882613629,
-            0.9862956205615953
+            0.3036302377568216,
+            -0.3185084312567762,
+            0.9911669768570122
           ]
         ]
       }

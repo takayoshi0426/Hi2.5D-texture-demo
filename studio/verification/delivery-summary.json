@@ -27,12 +27,17 @@
     "Independent Web filmstrip review of all 4 effects on bright and dark backgrounds",
     "Old artwork/quality preferences migrate while source camera/lens defaults reset",
     "390px camera fits complete 8m actor artwork; reset persists; H.264 recording decodes to nonblank image",
-    "31 camera, optics and flight unit checks",
+    "Camera, optics and flight unit checks",
     "Winged takeoff, 0–5m ceiling, landing, altitude-aware projectiles and melee across all three backgrounds",
     "All shared camera modes including free/native presets obey a 10 degree downward pitch limit",
     "Bold VFX before/after comparison at a calibrated 10 degree camera; foreground-depth integration verified with actual impacts across all three backgrounds",
     "All three backgrounds assessed using matched before/after cameras, with unblurred environment views and regular combat optics",
-    "Forest scenery and both selected P14 actors retained in GLB exports"
+    "Forest scenery and both selected P14 actors retained in GLB exports",
+    "Four portal corridors grade gradually toward a textured closed end; transfer retained in GLB",
+    "112 solid tier transition probes and 36 open gate passage probes",
+    "Fixed 35 degree lens with dolly-only fitting and 10 degree pitch cap across all 3 stages",
+    "HDR magic circles and crystals with local spill; valid HDR GLB emission",
+    "Light recovery leaves stored preferences intact and caps P21 bake GPU dimensions at 2048px"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -49,7 +54,11 @@
     "flight-camera-unit.json"
   ],
   "outputs": "shared-battle-outputs.json",
-  "camera": "Uploaded HD2D front/angle/close/wide, drag yaw/tilt, arena boundary and source smoothing; downward pitch capped at 10 degrees, including free/native presets",
+  "camera": {
+    "behavior": "Uploaded HD2D front/angle/close/wide, drag yaw/tilt, arena boundary and source smoothing; downward pitch capped at 10 degrees, including free/native presets",
+    "fixedFovDegrees": 35,
+    "framing": "dolly only; viewer foreground cutaway for exterior retreat"
+  },
   "lens": {
     "pipeline": "Uploaded 192-sample FocusPass and foreground separation across all 3 backgrounds",
     "fStop": 1.2,
@@ -102,12 +111,17 @@
       "four newly painted gate facades",
       "32 bench faces",
       "16 spectator variants; adjacent duplicates avoided",
-      "new daytime forest panorama"
+      "new daytime forest panorama",
+      "graded portal darkness with textured rear wall",
+      "solid tier connectors and new geometry lighting bake",
+      "HDR magic circles and floating crystals with cyan stone spill"
     ],
     "hd2d": [
       "unique 92m floor layout with aligned height relief",
       "painted wall, trim, bark and ground",
-      "matching painted sky"
+      "matching painted sky",
+      "P14 painted diffuse shading and softer timber detail",
+      "daylight initial preset with retained day / dusk / night switching"
     ],
     "shared": [
       "eight new painted vegetation variants",
@@ -115,10 +129,17 @@
       "bevelled stone fragments",
       "analytic contact shadows"
     ],
-    "lighting": "Existing geometry AO and fixed sunlight preserved; new decorative objects use painted shading and analytic contact shadows",
+    "lighting": "P21 architecture AO, sky and sunlight rebaked for r7; new plants retain painted shading and analytic contact shadows",
     "sources": [
       "forest-style-art.json",
       "forest-materials.json"
     ]
-  }
+  },
+  "revision": 7,
+  "r7Evidence": [
+    "gates-r7.json",
+    "painted-dolly-r7.json",
+    "forest-exports.json",
+    "source-vfx-outputs.json"
+  ]
 }

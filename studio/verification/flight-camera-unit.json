@@ -4,22 +4,27 @@
     {
       "file": "scripts/test-source-camera.mjs",
       "exitCode": 0,
-      "output": "✔ source front/angle/close/wide framing formulas retain the uploaded horizontal framing with the requested 10 degree pitch cap (1.180869ms)\n✔ follow smoothing uses source 4/sec target and height response; camera stays within each venue (0.286496ms)\n✔ camera remains finite and keeps its turn rate at the boundary over full battle-sized routes (7.064559ms)\n✔ follow, wide and free cameras never exceed 10 degrees, including boundary lift, drag and vertical native presets (4.633773ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 17.534057\n"
-    },
-    {
-      "file": "scripts/test-flight.mjs",
-      "exitCode": 0,
-      "output": "✔ winged actors rise gradually, respect the configured ceiling and descend for contact/death (3.508267ms)\n✔ battle reset preserves flight capability and limit; projectiles collide at the airborne height (1.213939ms)\n✔ grounded melee cannot damage a body above reach (0.707273ms)\n✔ flying/grounded matchups finish in all three arenas without exceeding the altitude cap (143.73654ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 157.564921\n"
+      "output": "✔ source camera anchors retain the uploaded behaviour with a fixed 35 degree lens and 10 degree pitch cap (1.14763ms)\n✔ follow smoothing uses source 4/sec response; horizontal anchors respect each venue before dolly (4.276194ms)\n✔ camera remains finite and keeps its turn rate at the boundary over full battle-sized routes (13.92359ms)\n✔ follow, wide and free cameras never exceed 10 degrees, including boundary lift, drag and vertical native presets (10.278548ms)\n✔ dolly fits full bounds using only view-axis translation at an unchanged 35 degree lens (0.309261ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 42.133594\n"
     },
     {
       "file": "references/hd2d-source/src/arena-camera.test.ts",
       "exitCode": 0,
-      "output": "✔ カメラが東を向く配置では右入力が世界の北、上入力が西になる (0.654435ms)\n✔ ドラッグ・全周の回り込み後も画面の左右前後と移動方向が一致する (1.695116ms)\n✔ カメラ相対入力でも停止・斜め・入力の長さを保持する (0.166919ms)\n✔ 中央の通常構図は維持する (0.216662ms)\n✔ 外周へ急に近づいても指定した旋回速度を超えず、安全な距離へ縮む (0.170384ms)\n✔ 全方向の端・2/5/10m・通常/寄り/斜めでカメラが43m以内に収まる (17.240844ms)\n✔ 手前の外周を横切っても回り込みの向きが突然反転しない (0.532964ms)\n✔ 外周を一周して通常構図へ戻るときもカメラが飛ばない (0.783447ms)\n✔ 二体を撮るときは、安全な構図から不要な自動旋回を始めない (0.094501ms)\n✔ 2/5/10mの二体をPCと縦長画面で収める距離・画角を決める (0.24172ms)\n✔ 速い横移動で中心の追従が遅れても、縦長画面に体の輪郭と余白を収める (0.14036ms)\n✔ 奥行きの間隔を横幅として数えず、二体が前後に並ぶときの不要な引きを抑える (0.12098ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 32.435751\n"
+      "output": ""
     },
     {
       "file": "references/hd2d-source/src/lens.test.ts",
       "exitCode": 0,
-      "output": "✔ F1.2を基本に、手前の実輪郭がボケ始める直前まで開く (1.507756ms)\n✔ 前後の入れ替わり・近接同率・戦闘不能でもピントが飛ばない (1.618041ms)\n✔ 35度の画角・24mmセンサーは約38.06mmレンズに対応 (0.138367ms)\n✔ 前後に離れた二体の輪郭を0.45px以下のボケへ収め、手動値より開かない (0.297774ms)\n✔ 同じ奥行きなら手動のF値を保ち、前後差が広がると自動で絞る (0.24107ms)\n✔ 二体の中心が同じ奥行きなら、頭足の奥行き差があっても基本F2に戻る (0.191024ms)\n✔ 前後差の境目でF値が飛ばず、絞りの追従は滑らかに往復する (0.301038ms)\n✔ 焦点面はゼロ、手前は負、後ろは正 (0.079739ms)\n✔ f/8への絞り込みで径は1.4/8倍、出力高さに比例する (0.124325ms)\n✔ 実寸90mの空間はジオラマ換算より深い被写界深度 (0.142112ms)\n✔ 前景captureのfar planeは絞りと描画高さが変わっても負の0.5px CoCになる (0.217955ms)\nℹ tests 11\nℹ suites 0\nℹ pass 11\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 11.121739\n"
+      "output": ""
+    },
+    {
+      "file": "scripts/test-flight.mjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "scripts/test-shared-battle.mjs",
+      "exitCode": 0,
+      "output": ""
     }
   ]
 }
