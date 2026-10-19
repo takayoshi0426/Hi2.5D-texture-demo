@@ -1,0 +1,207 @@
+{
+  "checks": [
+    "Nine nonuniform bake textures loaded; near contact AO and cast sunlight vary on actual receiver surfaces",
+    "Same-camera beauty, AO-only and irradiance-only captures made with crowd hidden",
+    "Rendered 360-degree wrap has <=2/255 discontinuity at six elevations, including near both poles"
+  ],
+  "seam": [
+    {
+      "elevation": -80,
+      "left": [
+        108,
+        84,
+        86
+      ],
+      "right": [
+        108,
+        84,
+        86
+      ],
+      "maxJump": 0
+    },
+    {
+      "elevation": -10,
+      "left": [
+        166,
+        137,
+        166
+      ],
+      "right": [
+        166,
+        137,
+        166
+      ],
+      "maxJump": 0
+    },
+    {
+      "elevation": 0,
+      "left": [
+        202,
+        154,
+        164
+      ],
+      "right": [
+        202,
+        154,
+        164
+      ],
+      "maxJump": 0
+    },
+    {
+      "elevation": 20,
+      "left": [
+        186,
+        128,
+        145
+      ],
+      "right": [
+        186,
+        128,
+        145
+      ],
+      "maxJump": 0
+    },
+    {
+      "elevation": 60,
+      "left": [
+        86,
+        99,
+        171
+      ],
+      "right": [
+        86,
+        99,
+        171
+      ],
+      "maxJump": 0
+    },
+    {
+      "elevation": 88,
+      "left": [
+        56,
+        83,
+        166
+      ],
+      "right": [
+        56,
+        83,
+        166
+      ],
+      "maxJump": 0
+    }
+  ],
+  "errors": [],
+  "info": {
+    "inputSHA256": "e28c880c05b23810163ea72f3ff3cf710fcf55d6d1a89773d4202f1d232ab985",
+    "revision": 4,
+    "unit": "metre",
+    "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+    "seed": 2187,
+    "aoSamples": 32,
+    "aoRadiusMetres": 3.5,
+    "skySamples": 64,
+    "sunSamples": 7,
+    "sunDirection": [
+      0.43133923411369324,
+      0.6018686890602112,
+      -0.6720867156982422
+    ],
+    "sunDiskRadiusDegrees": 1.15,
+    "rayBiasMetres": 0.018,
+    "packingPaddingPixels": 4,
+    "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+    "occluderTriangles": 67230,
+    "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+    "uvFloatCount": 414702,
+    "elapsedSeconds": 276.19845962524414,
+    "atlasCount": 9,
+    "totalPixels": 31593024,
+    "estimatedMipRGBA8MiB": 160.6904296875,
+    "receivers": 66,
+    "geometryHashesVerified": true
+  },
+  "groundTransition": {
+    "viewerOnly": true,
+    "innerRadius": 0,
+    "outerRadius": 950,
+    "fullyFadedRadius": 630,
+    "baseTransitionRadius": 91,
+    "receivesTerrainEdgeBake": true,
+    "terrainUVFitError": 1.71070047461086e-7
+  },
+  "atlasSamples": [
+    {
+      "id": "field",
+      "minAO": 56,
+      "maxAO": 255,
+      "minLight": 37,
+      "maxLight": 167,
+      "valid": 881492
+    },
+    {
+      "id": "terrain",
+      "minAO": 152,
+      "maxAO": 255,
+      "minLight": 38,
+      "maxLight": 196,
+      "valid": 214706
+    },
+    {
+      "id": "seats",
+      "minAO": 56,
+      "maxAO": 255,
+      "minLight": 37,
+      "maxLight": 199,
+      "valid": 9894897
+    },
+    {
+      "id": "architecture",
+      "minAO": 56,
+      "maxAO": 255,
+      "minLight": 37,
+      "maxLight": 181,
+      "valid": 5969089
+    },
+    {
+      "id": "exterior",
+      "minAO": 56,
+      "maxAO": 255,
+      "minLight": 37,
+      "maxLight": 191,
+      "valid": 2307620
+    },
+    {
+      "id": "gates",
+      "minAO": 56,
+      "maxAO": 255,
+      "minLight": 37,
+      "maxLight": 173,
+      "valid": 3969202
+    },
+    {
+      "id": "ruins",
+      "minAO": 56,
+      "maxAO": 255,
+      "minLight": 37,
+      "maxLight": 185,
+      "valid": 670449
+    },
+    {
+      "id": "banners",
+      "minAO": 66,
+      "maxAO": 249,
+      "minLight": 37,
+      "maxLight": 155,
+      "valid": 245077
+    },
+    {
+      "id": "vegetation",
+      "minAO": 56,
+      "maxAO": 254,
+      "minLight": 37,
+      "maxLight": 76,
+      "valid": 108640
+    }
+  ],
+  "ok": true
+}

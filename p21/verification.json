@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17 Asia/Tokyo",
+  "date": "2026-10-17T22:50:15.202Z",
   "checks": [
     "Scene initialized within the geometry budget",
     "Distinct baked maps are actually used; wall triangles sample local UV patches instead of restarting the full image",
@@ -8,6 +8,7 @@
     "AO, painted lighting, broad weather and unpainted comparison change the output",
     "Inherited P14 256-sample, two-layer lens renders successfully and changes the image",
     "GLB exported, then reloaded with spectator instancing and alpha cutouts preserved",
+    "Reloaded unlit GLB retains baked shadows in three camera views; detailed seating keeps its original color images with sampled baked vertex lighting",
     "390px mobile controls open, select a view, and close",
     "Standalone HTML renders as one document with every subresource HTTP request blocked"
   ],
@@ -17,8 +18,8 @@
     "Direct file:// navigation could not be tested because managed Chromium policy blocks file URLs."
   ],
   "stats": {
-    "triangles": 82793,
-    "meshes": 109,
+    "triangles": 85353,
+    "meshes": 110,
     "spectators": 3702,
     "sourceColorImages": 39,
     "uniqueSurfaceMaps": 35,
@@ -108,13 +109,66 @@
       "rubble": 4
     },
     "uvChannels": [
-      "uv: world-aligned unique surfaces",
-      "uv1: world weather coordinates",
-      "uv2: world lighting coordinates"
+      "uv: authored color",
+      "uv1: broad weather coordinates",
+      "uv2: xatlas unique AO / irradiance charts"
     ],
-    "finish": "unique baked material/color masks; vertex-baked shade / AO / broad dampness; independently switchable",
+    "bakedLighting": {
+      "inputSHA256": "e28c880c05b23810163ea72f3ff3cf710fcf55d6d1a89773d4202f1d232ab985",
+      "revision": 4,
+      "unit": "metre",
+      "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+      "seed": 2187,
+      "aoSamples": 32,
+      "aoRadiusMetres": 3.5,
+      "skySamples": 64,
+      "sunSamples": 7,
+      "sunDirection": [
+        0.43133923411369324,
+        0.6018686890602112,
+        -0.6720867156982422
+      ],
+      "sunDiskRadiusDegrees": 1.15,
+      "rayBiasMetres": 0.018,
+      "packingPaddingPixels": 4,
+      "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+      "occluderTriangles": 67230,
+      "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+      "uvFloatCount": 414702,
+      "elapsedSeconds": 276.19845962524414,
+      "atlasCount": 9,
+      "totalPixels": 31593024,
+      "estimatedMipRGBA8MiB": 160.6904296875,
+      "receivers": 66,
+      "geometryHashesVerified": true
+    },
+    "panorama": {
+      "projection": "equirectangular world direction",
+      "horizonV": 0.48,
+      "seamHalfWidth": 0.045,
+      "sunImageU": 0.75,
+      "sunImageV": 0.684,
+      "worldSun": [
+        0.43,
+        0.6,
+        -0.67
+      ],
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "infiniteDistance": true
+    },
+    "groundTransition": {
+      "viewerOnly": true,
+      "innerRadius": 0,
+      "outerRadius": 950,
+      "fullyFadedRadius": 630,
+      "baseTransitionRadius": 91,
+      "receivesTerrainEdgeBake": true,
+      "terrainUVFitError": 1.71070047461086e-7
+    },
+    "finish": "ray-traced AO, sky visibility and soft sunlight in unique chart textures; artist color / broad dampness retained",
     "version": "P21",
-    "revision": 3,
+    "revision": 4,
     "majorDiameter": 148,
     "minorDiameter": 124,
     "fieldMajorDiameter": 48,
@@ -143,9 +197,27 @@
     "triangles": 78825,
     "instanced": 3702,
     "cutouts": 8,
-    "bytes": 135611172,
+    "bakedMeshes": 66,
+    "bytes": 131925024,
     "root": "P21_Colosseum_of_the_Fallen_Age"
   },
+  "glbRenderComparison": [
+    {
+      "view": "stands",
+      "meanAbsoluteChannelDifference": 2.2015202662143905,
+      "maxChannelDifference": 159
+    },
+    {
+      "view": "detail",
+      "meanAbsoluteChannelDifference": 3.9520907957837017,
+      "maxChannelDifference": 83
+    },
+    {
+      "view": "gate",
+      "meanAbsoluteChannelDifference": 1.3755222351007472,
+      "maxChannelDifference": 80
+    }
+  ],
   "errors": [],
   "ok": true
 }
