@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "id": "p14",
+      "views": 30,
+      "unit": "metre"
+    },
+    {
+      "id": "p21",
+      "views": 19,
+      "unit": "metre"
+    },
+    {
+      "id": "hd2d",
+      "views": 5,
+      "unit": "metre"
+    }
+  ],
+  "checks": [
+    "Common P14 artwork selection, authored heights, movement and two-actor combat",
+    "Common optics, scale, camera modes, capture and export",
+    "GLBs retain both selected fighters",
+    "P21 and HD2D video files decode to nonblank images",
+    "Settings survive background switches; reset survives reload"
+  ],
+  "limitations": [
+    "Actors use P14 single-pose 2D artwork",
+    "HD2D uses replacement artwork; source ZIP omitted original assets",
+    "HD2D GLB retains geometry and basic materials",
+    "Software WebGL checks do not measure hardware GPU performance"
+  ]
+}

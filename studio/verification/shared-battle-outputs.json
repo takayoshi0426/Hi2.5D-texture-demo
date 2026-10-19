@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "outputs": [
+    {
+      "stage": "p14",
+      "glb": {
+        "bytes": 36188752,
+        "sha256": "02084eb1df1887a94d1e9a18e5717a7e2a70f076ea43ed2f96664ef8ee3cdda3",
+        "fighters": [
+          "Fighter_A",
+          "Fighter_B"
+        ],
+        "meshes": 26
+      }
+    },
+    {
+      "stage": "p21",
+      "glb": {
+        "bytes": 135384136,
+        "sha256": "afacbdfeca093ab7fe3def350827396afb396a743373d589c6df214bb77b2f80",
+        "fighters": [
+          "Fighter_A",
+          "Fighter_B"
+        ],
+        "meshes": 114
+      },
+      "video": {
+        "bytes": 53567,
+        "width": 1100,
+        "height": 690,
+        "codec": "h264"
+      }
+    },
+    {
+      "stage": "hd2d",
+      "glb": {
+        "bytes": 174721884,
+        "sha256": "c928f511892e1558ddabbff6cf2d88cb6b77a6a7fb91d548ed0a338680ffb5cb",
+        "fighters": [
+          "Fighter_A",
+          "Fighter_B"
+        ],
+        "meshes": 133
+      },
+      "video": {
+        "bytes": 47682,
+        "width": 714,
+        "height": 448,
+        "codec": "h264"
+      }
+    }
+  ]
+}

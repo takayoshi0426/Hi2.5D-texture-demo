@@ -1,0 +1,87 @@
+{
+  "source": "legacy/p14/assets/monsters-Crb9On47.webp",
+  "sourceSHA256": "628a55b2cb8712760137ce93b89cf2c4caa01aaa059b7ce2868f92a82005bf72",
+  "units": "metres",
+  "originalHeights": [
+    2,
+    4,
+    8
+  ],
+  "assets": [
+    {
+      "id": "pink",
+      "name": "紅鰓の小獣",
+      "height": 2,
+      "widthRatio": 1.0530785562632696,
+      "rect": [
+        8,
+        196,
+        496,
+        471
+      ],
+      "file": "studio/public/monsters/pink.png",
+      "sha256": "c4e5e735953c0736f46682e4ef5ec7ca6b1cec6ad79b919f110b7fe603558a5f",
+      "resized": false
+    },
+    {
+      "id": "toad",
+      "name": "岩喉の大蛙",
+      "height": 2,
+      "widthRatio": 1.1647058823529413,
+      "rect": [
+        520,
+        219,
+        495,
+        425
+      ],
+      "file": "studio/public/monsters/toad.png",
+      "sha256": "e689fe829565e7cefee27ae29282a404d0ed6b785811e75531f45b244ca13294",
+      "resized": false
+    },
+    {
+      "id": "robot",
+      "name": "白殻の機械鳥",
+      "height": 4,
+      "widthRatio": 1.0853391684901532,
+      "rect": [
+        1032,
+        203,
+        496,
+        457
+      ],
+      "file": "studio/public/monsters/robot.png",
+      "sha256": "3040c08b7d02ac2c49eeb2569aeac0831910fabbd392d5b7acfe1d03477dcc29",
+      "resized": false
+    },
+    {
+      "id": "harpy",
+      "name": "蒼羽の鳥人",
+      "height": 4,
+      "widthRatio": 1.039832285115304,
+      "rect": [
+        1544,
+        193,
+        496,
+        477
+      ],
+      "file": "studio/public/monsters/harpy.png",
+      "sha256": "90a5dd185b597d48c4ea8ad3eb4d1a367c6d46ef5f618d51a27e285e0c5845d0",
+      "resized": false
+    },
+    {
+      "id": "dragon",
+      "name": "氷鱗の古竜",
+      "height": 8,
+      "widthRatio": 1.0650684931506849,
+      "rect": [
+        402,
+        872,
+        1244,
+        1168
+      ],
+      "file": "studio/public/monsters/dragon.png",
+      "sha256": "6f48f52aa9f66429961945a582188ba620a66e409b6ac382bb03eea00cd6b89c",
+      "resized": false
+    }
+  ]
+}
