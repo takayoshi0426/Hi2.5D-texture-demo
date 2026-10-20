@@ -456,5 +456,148 @@
       }
     }
   ],
-  "errors": []
+  "errors": [],
+  "browserShortcuts": {
+    "ok": true,
+    "keys": [
+      {
+        "document": 0,
+        "code": "KeyR",
+        "prevented": true
+      },
+      {
+        "document": 0,
+        "code": "KeyR",
+        "ctrlKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyR",
+        "metaKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyR",
+        "altKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyF",
+        "prevented": true
+      },
+      {
+        "document": 0,
+        "code": "KeyF",
+        "ctrlKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyF",
+        "metaKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyF",
+        "altKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyJ",
+        "prevented": true
+      },
+      {
+        "document": 0,
+        "code": "KeyJ",
+        "ctrlKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyJ",
+        "metaKey": true,
+        "prevented": false
+      },
+      {
+        "document": 0,
+        "code": "KeyJ",
+        "altKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyR",
+        "prevented": true
+      },
+      {
+        "document": 1,
+        "code": "KeyR",
+        "ctrlKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyR",
+        "metaKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyR",
+        "altKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyF",
+        "prevented": true
+      },
+      {
+        "document": 1,
+        "code": "KeyF",
+        "ctrlKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyF",
+        "metaKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyF",
+        "altKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyJ",
+        "prevented": true
+      },
+      {
+        "document": 1,
+        "code": "KeyJ",
+        "ctrlKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyJ",
+        "metaKey": true,
+        "prevented": false
+      },
+      {
+        "document": 1,
+        "code": "KeyJ",
+        "altKey": true,
+        "prevented": false
+      }
+    ]
+  }
 }
