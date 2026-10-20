@@ -49,7 +49,9 @@
     "168 actual bench support probes; 21 rows and no consecutive identical spectators",
     "Reported architecture:trim-0 error reproduced with a 0.00002m coordinate change; verified canonical geometry allows startup",
     "All 66 original geometry hashes verified; real shape changes and corrupt reference data rejected",
-    "First-frame GPU sizing bounded at 2560x1440 CSS / DPR 2; crowd and 35 degree lens retained"
+    "First-frame GPU sizing bounded at 2560x1440 CSS / DPR 2; crowd and 35 degree lens retained",
+    "Both full monster silhouettes kept within 0.30 output-pixel CoC during idle, battle, flight, paused/dead states and free camera across all three stages",
+    "Aperture closes immediately for new depth ranges and reopens smoothly without losing either subject; manual focus and DOF controls retained"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -68,7 +70,8 @@
     "gates-r8.json",
     "cavity-ao-r9.json",
     "fantasy-crowd-r10.json",
-    "desktop-r11.json"
+    "desktop-r11.json",
+    "pair-focus-r12.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": {
@@ -82,7 +85,8 @@
     "scale": "1:24",
     "maxBlurPx": 22,
     "blades": 6,
-    "boost": 0.8
+    "boost": 0.8,
+    "autofocus": "Both complete monster meshes; harmonic near/far focus; F value protects 0.30 output-pixel CoC; immediate closing and gradual reopening"
   },
   "vfx": {
     "renderer": "Three.js",
@@ -160,7 +164,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 11,
+  "revision": 12,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -183,5 +187,8 @@
   ],
   "r11Evidence": [
     "desktop-r11.json"
+  ],
+  "r12Evidence": [
+    "pair-focus-r12.json"
   ]
 }
