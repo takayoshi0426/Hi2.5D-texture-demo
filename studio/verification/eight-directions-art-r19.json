@@ -1,0 +1,77 @@
+{
+  "revision": 19,
+  "monsters": [
+    {
+      "id": "pink",
+      "tool": "image_gen.imagegen",
+      "reference": "studio/public/monsters/pink.png",
+      "generatedSource": "exec-6f40f78c-4568-4c85-a1c1-930e93f15a43.png",
+      "file": "studio/public/monsters/pink-eight-r19.png",
+      "bytes": 1963276,
+      "sha256": "73400d4f6b880aed85917a36d0b9872fb300ee131dae32fe5ab4a1fa9d8cf687",
+      "directions": 8,
+      "pixelEdits": false,
+      "frameOrderVisuallyReviewed": true,
+      "transparentPixels": 733801,
+      "decodedBytes": 6294152
+    },
+    {
+      "id": "toad",
+      "tool": "image_gen.imagegen",
+      "reference": "studio/public/monsters/toad.png",
+      "generatedSource": "exec-97fb8e3a-94d8-443b-9d1e-0221c25dec59.png",
+      "file": "studio/public/monsters/toad-eight-r19.png",
+      "bytes": 2127807,
+      "sha256": "8fdc594ac2278f01f774bf01f49c1e5d3db424549d3624858e74072553a10683",
+      "directions": 8,
+      "pixelEdits": false,
+      "frameOrderVisuallyReviewed": true,
+      "transparentPixels": 609916,
+      "decodedBytes": 6294152
+    },
+    {
+      "id": "robot",
+      "tool": "image_gen.imagegen",
+      "reference": "studio/public/monsters/robot.png",
+      "generatedSource": "exec-5b4e253b-65f8-4061-b1e3-6c206f7f672b.png",
+      "file": "studio/public/monsters/robot-eight-r19.png",
+      "bytes": 2150269,
+      "sha256": "2bca2d469eeac15ba1dc7d9140c5e4795b024c7c57e1c209cbc1781dc9200349",
+      "directions": 8,
+      "pixelEdits": false,
+      "frameOrderVisuallyReviewed": true,
+      "transparentPixels": 727076,
+      "decodedBytes": 6294152
+    },
+    {
+      "id": "harpy",
+      "tool": "image_gen.imagegen",
+      "reference": "studio/public/monsters/harpy.png",
+      "generatedSource": "exec-e01d5fba-f76b-4646-9711-87e023878d68.png",
+      "file": "studio/public/monsters/harpy-eight-r19.png",
+      "bytes": 2256038,
+      "sha256": "e403733c2b9eda4ebbdcb0386805e4a8a67f78a937639d3492c381c4e5944569",
+      "directions": 8,
+      "pixelEdits": false,
+      "frameOrderVisuallyReviewed": true,
+      "transparentPixels": 685900,
+      "decodedBytes": 6294152
+    },
+    {
+      "id": "dragon",
+      "tool": "image_gen.imagegen",
+      "reference": "studio/public/monsters/dragon.png",
+      "generatedSource": "exec-126ac0ed-b1ed-47fe-ad36-88e02eed6085.png",
+      "file": "studio/public/monsters/dragon-eight-r19.png",
+      "bytes": 2370549,
+      "sha256": "6057b0e3f7867ceb6f3e477dbfee7d9abe51cb110a68ec7592148e99dec2da01",
+      "directions": 8,
+      "pixelEdits": false,
+      "frameOrderVisuallyReviewed": true,
+      "transparentPixels": 659820,
+      "decodedBytes": 6294152
+    }
+  ],
+  "totalDirections": 40,
+  "initialLoad": "Only selected monster atlases; bounded shared loader; no mipmaps"
+}

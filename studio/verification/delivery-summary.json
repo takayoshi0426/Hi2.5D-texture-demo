@@ -62,10 +62,11 @@
     "All five P14 monster artworks face the opponent with independent horizontal UV reflection in all three backgrounds, including crossed positions and reverse cameras; overlap deadband and export UVs verified",
     "Flying monsters circle, shoot from altitude and dive into aerial melee; grounded monsters jump and parry projectiles with timed reflection. Shared manual J/F/R controls, all-arena simulation and real browser verification, finite HDR and bounded particle cleanup",
     "Protected camera-depth interval spans both complete monsters with 0.2m margins; foreground and background reach strong aperture blur outside it, with default radius 64. Shared interval/capture uniforms across all stages, persisted-setting migration, override behavior, checkerboard contrast and finite HDR tested",
-    "Natural depth blur defaults to amount 12, 1.5m sharp-range padding and 8m transition; all three controls are adjustable. Explicit browser defaults survive temporary adjustments/reload, apply across stages and can be restored to factory settings; two full silhouettes stay sharp"
+    "Natural depth blur defaults to amount 12, 1.5m sharp-range padding and 8m transition; all three controls are adjustable. Explicit browser defaults survive temporary adjustments/reload, apply across stages and can be restored to factory settings; two full silhouettes stay sharp",
+    "Five P14 monsters have forty authored directional views. World facing and camera bearing select eight views with 5 degree hysteresis; independent per-actor UVs preserve shared textures, metre heights, flight, pair focus and GLB export. Only selected atlases load initially."
   ],
   "limitations": [
-    "Actors use P14 single-pose 2D artwork",
+    "Actors use eight authored directional still poses; walk/attack/flapping remain procedural transforms",
     "HD2D uses replacement artwork; source ZIP omitted original assets",
     "HD2D GLB retains geometry and basic materials",
     "Software WebGL checks do not measure hardware GPU performance"
@@ -178,7 +179,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 18,
+  "revision": 19,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -250,5 +251,20 @@
     "paddingMetres": 1.5,
     "transitionMetres": 8,
     "savedDefaultScope": "browser, shared across three stages and used at startup/reset"
+  },
+  "r19Evidence": [
+    "eight-directions-r19.json",
+    "eight-directions-art-r19.json"
+  ],
+  "directionalMonsters": {
+    "species": 5,
+    "authoredViews": 40,
+    "viewsPerSpecies": 8,
+    "selection": "camera-relative world heading; opponent facing in combat, movement facing during manual exploration",
+    "hysteresisDegrees": 5,
+    "textureMode": "one shared immutable atlas per selected species, independent mesh UVs",
+    "decodedBytesPerAtlas": 6294152,
+    "newInitialAtlasBytes": 12588304,
+    "mipmaps": false
   }
 }
