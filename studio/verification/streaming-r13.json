@@ -1,0 +1,422 @@
+{
+  "ok": true,
+  "cases": [
+    {
+      "name": "transient-network",
+      "loading": {
+        "phase": "表示の準備ができました",
+        "queued": 68,
+        "completed": 68,
+        "active": 0,
+        "peakActive": 2,
+        "retries": 2,
+        "failed": 0,
+        "bytes": 42097960,
+        "decodedBytes": 294724996,
+        "warmed": 53,
+        "lastActivity": 1792491297883
+      },
+      "nativeLens": true,
+      "sharedSamples": 0,
+      "ready": true,
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "front",
+        "position": [
+          2.3343880421339276,
+          5.291386123809705,
+          19.359768399150393
+        ],
+        "target": [
+          0,
+          1.8530099999946383,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "optics": {
+        "focus": 19.527821192787968,
+        "fStop": 7.1,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 22,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 1.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 19.527821192787968,
+          "fStop": 7.1,
+          "targetFStop": 7.1,
+          "maxCoC": 0.29764592002466744,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            18.277515695889463,
+            20.9617461807605
+          ],
+          "subjectCount": 2
+        }
+      },
+      "crowd": {
+        "revision": 10,
+        "variants": 64,
+        "sourceSheets": 4,
+        "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+        "usableBenchSegments": 1720,
+        "nominalSeats": 7826,
+        "occupiedSeats": 7719,
+        "emptyUsableSeats": 0,
+        "blockedByRubble": 76,
+        "blockedByPortal": 31,
+        "speciesCounts": {
+          "dwarf": 964,
+          "catfolk": 966,
+          "horned": 966,
+          "rabbitfolk": 483,
+          "human": 963,
+          "lizardfolk": 963,
+          "halfling": 964,
+          "elf": 966,
+          "wolffolk": 484
+        },
+        "spectators": 7719
+      },
+      "lighting": {
+        "inputSHA256": "af7f8f690d3beed23395251d25269a4e1894f9dc751b665b6616e1bcd6e64b44",
+        "revision": 7,
+        "unit": "metre",
+        "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+        "seed": 2187,
+        "aoSamples": 32,
+        "aoRadiusMetres": 3.5,
+        "skySamples": 64,
+        "sunSamples": 7,
+        "sunDirection": [
+          0.43133923411369324,
+          0.6018686890602112,
+          -0.6720867156982422
+        ],
+        "sunDiskRadiusDegrees": 1.15,
+        "rayBiasMetres": 0.018,
+        "packingPaddingPixels": 4,
+        "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+        "occluderTriangles": 71710,
+        "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+        "uvFloatCount": 444504,
+        "elapsedSeconds": 300.9777522087097,
+        "atlasCount": 9,
+        "totalPixels": 34524656,
+        "estimatedMipRGBA8MiB": 175.60148111979166,
+        "receivers": 66,
+        "geometryHashesVerified": true,
+        "geometryVerification": {
+          "method": "exact SHA-256; verified original positions for sub-millimetre platform rounding only",
+          "toleranceMetres": 0.0001,
+          "exactReceivers": 66,
+          "canonicalizedReceivers": [],
+          "canonicalFileVerified": false
+        },
+        "cavityAO": {
+          "revision": 9,
+          "method": "local gallery / portal cavity AO multiplied into existing ray-traced AO",
+          "galleryRearFactor": 0.22
+        }
+      },
+      "quality": "standard"
+    },
+    {
+      "name": "constrained-gpu",
+      "loading": {
+        "phase": "表示の準備ができました",
+        "queued": 68,
+        "completed": 68,
+        "active": 0,
+        "peakActive": 2,
+        "retries": 0,
+        "failed": 0,
+        "bytes": 22004430,
+        "decodedBytes": 159447396,
+        "warmed": 53,
+        "lastActivity": 1792491320639
+      },
+      "nativeLens": true,
+      "sharedSamples": 0,
+      "ready": true,
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "front",
+        "position": [
+          2.3343880421339276,
+          5.3434061238150665,
+          19.359768399150393
+        ],
+        "target": [
+          0,
+          1.90503,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "optics": {
+        "focus": 19.526603351564855,
+        "fStop": 3.7,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 22,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 1.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 19.526603351564855,
+          "fStop": 3.7,
+          "targetFStop": 3.7,
+          "maxCoC": 0.2969003117009298,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            18.268641273580908,
+            20.970621326723712
+          ],
+          "subjectCount": 2
+        }
+      },
+      "crowd": {
+        "revision": 10,
+        "variants": 64,
+        "sourceSheets": 4,
+        "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+        "usableBenchSegments": 1720,
+        "nominalSeats": 7826,
+        "occupiedSeats": 7719,
+        "emptyUsableSeats": 0,
+        "blockedByRubble": 76,
+        "blockedByPortal": 31,
+        "speciesCounts": {
+          "dwarf": 964,
+          "catfolk": 966,
+          "horned": 966,
+          "rabbitfolk": 483,
+          "human": 963,
+          "lizardfolk": 963,
+          "halfling": 964,
+          "elf": 966,
+          "wolffolk": 484
+        },
+        "spectators": 7719
+      },
+      "lighting": {
+        "inputSHA256": "af7f8f690d3beed23395251d25269a4e1894f9dc751b665b6616e1bcd6e64b44",
+        "revision": 7,
+        "unit": "metre",
+        "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+        "seed": 2187,
+        "aoSamples": 32,
+        "aoRadiusMetres": 3.5,
+        "skySamples": 64,
+        "sunSamples": 7,
+        "sunDirection": [
+          0.43133923411369324,
+          0.6018686890602112,
+          -0.6720867156982422
+        ],
+        "sunDiskRadiusDegrees": 1.15,
+        "rayBiasMetres": 0.018,
+        "packingPaddingPixels": 4,
+        "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+        "occluderTriangles": 71710,
+        "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+        "uvFloatCount": 444504,
+        "elapsedSeconds": 300.9777522087097,
+        "atlasCount": 9,
+        "totalPixels": 34524656,
+        "estimatedMipRGBA8MiB": 175.60148111979166,
+        "receivers": 66,
+        "geometryHashesVerified": true,
+        "geometryVerification": {
+          "method": "exact SHA-256; verified original positions for sub-millimetre platform rounding only",
+          "toleranceMetres": 0.0001,
+          "exactReceivers": 66,
+          "canonicalizedReceivers": [],
+          "canonicalFileVerified": false
+        },
+        "cavityAO": {
+          "revision": 9,
+          "method": "local gallery / portal cavity AO multiplied into existing ray-traced AO",
+          "galleryRearFactor": 0.22
+        }
+      },
+      "quality": "low",
+      "upload": {
+        "bytes": 147437924,
+        "peak": 147437924,
+        "lost": false
+      }
+    },
+    {
+      "name": "explicit-retry",
+      "loading": {
+        "phase": "表示の準備ができました",
+        "queued": 68,
+        "completed": 68,
+        "active": 0,
+        "peakActive": 2,
+        "retries": 0,
+        "failed": 0,
+        "bytes": 22004430,
+        "decodedBytes": 159447396,
+        "warmed": 53,
+        "lastActivity": 1792491333668
+      },
+      "nativeLens": true,
+      "sharedSamples": 0,
+      "ready": true,
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "front",
+        "position": [
+          2.50666341082315,
+          5.597154645368056,
+          20.788498832353255
+        ],
+        "target": [
+          0,
+          1.9050300000000004,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      },
+      "optics": {
+        "focus": 21.006282824655024,
+        "fStop": 3.6,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 22,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 1.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 21.006282824655024,
+          "fStop": 3.6,
+          "targetFStop": 3.6,
+          "maxCoC": 0.29313319323755493,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            19.76456534684461,
+            22.414482509262324
+          ],
+          "subjectCount": 2
+        }
+      },
+      "crowd": {
+        "revision": 10,
+        "variants": 64,
+        "sourceSheets": 4,
+        "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+        "usableBenchSegments": 1720,
+        "nominalSeats": 7826,
+        "occupiedSeats": 7719,
+        "emptyUsableSeats": 0,
+        "blockedByRubble": 76,
+        "blockedByPortal": 31,
+        "speciesCounts": {
+          "dwarf": 964,
+          "catfolk": 966,
+          "horned": 966,
+          "rabbitfolk": 483,
+          "human": 963,
+          "lizardfolk": 963,
+          "halfling": 964,
+          "elf": 966,
+          "wolffolk": 484
+        },
+        "spectators": 7719
+      },
+      "lighting": {
+        "inputSHA256": "af7f8f690d3beed23395251d25269a4e1894f9dc751b665b6616e1bcd6e64b44",
+        "revision": 7,
+        "unit": "metre",
+        "algorithm": "xatlas unique charts + Embree nearest-hit ray tracing",
+        "seed": 2187,
+        "aoSamples": 32,
+        "aoRadiusMetres": 3.5,
+        "skySamples": 64,
+        "sunSamples": 7,
+        "sunDirection": [
+          0.43133923411369324,
+          0.6018686890602112,
+          -0.6720867156982422
+        ],
+        "sunDiskRadiusDegrees": 1.15,
+        "rayBiasMetres": 0.018,
+        "packingPaddingPixels": 4,
+        "encoding": "linear RGB irradiance / 1.25; alpha = near-field AO",
+        "occluderTriangles": 71710,
+        "excluded": "crowd alpha cutouts, all magic equipment (including stone pylons), and panorama; opaque authored architecture only",
+        "uvFloatCount": 444504,
+        "elapsedSeconds": 300.9777522087097,
+        "atlasCount": 9,
+        "totalPixels": 34524656,
+        "estimatedMipRGBA8MiB": 175.60148111979166,
+        "receivers": 66,
+        "geometryHashesVerified": true,
+        "geometryVerification": {
+          "method": "exact SHA-256; verified original positions for sub-millimetre platform rounding only",
+          "toleranceMetres": 0.0001,
+          "exactReceivers": 66,
+          "canonicalizedReceivers": [],
+          "canonicalFileVerified": false
+        },
+        "cavityAO": {
+          "revision": 9,
+          "method": "local gallery / portal cavity AO multiplied into existing ray-traced AO",
+          "galleryRearFactor": 0.22
+        }
+      },
+      "quality": "low"
+    }
+  ],
+  "errors": [],
+  "previewBeforeControls": true,
+  "preparedImagesVerified": 52,
+  "initialMonsterRequests": 2,
+  "monstersAfterSelection": 3,
+  "faults": {
+    "http503": 2,
+    "stall": 2
+  },
+  "simulatedLosses": 1,
+  "boundedRecovery": true,
+  "failedStageReleased": true,
+  "switchDuringLoading": true,
+  "otherStages": [
+    "p14",
+    "hd2d"
+  ],
+  "sourceImplementationCommit": "fe87639",
+  "gpuSimulation": "GL_OUT_OF_MEMORY is injected after 220 MiB of decoded image uploads; this is a controlled test, not a hardware performance measurement"
+}

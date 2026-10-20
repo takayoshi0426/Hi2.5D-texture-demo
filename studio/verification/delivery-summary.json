@@ -51,7 +51,11 @@
     "All 66 original geometry hashes verified; real shape changes and corrupt reference data rejected",
     "First-frame GPU sizing bounded at 2560x1440 CSS / DPR 2; crowd and 35 degree lens retained",
     "Both full monster silhouettes kept within 0.30 output-pixel CoC during idle, battle, flight, paused/dead states and free camera across all three stages",
-    "Aperture closes immediately for new depth ranges and reopens smoothly without losing either subject; manual focus and DOF controls retained"
+    "Aperture closes immediately for new depth ranges and reopens smoothly without losing either subject; manual focus and DOF controls retained",
+    "P21 pre-sized downloads with bounded two-slot transfer/decode queue, inactivity timeouts and transient retries",
+    "Background paints before common controls finish; only selected monster artwork loads initially",
+    "One common lens without duplicate native targets; intermediate geometry and lighting pixel caches released",
+    "Simulated GPU upload pressure recovers once in a fresh lightweight frame without overwriting saved preferences; terminal failures release the frame"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -71,7 +75,8 @@
     "cavity-ao-r9.json",
     "fantasy-crowd-r10.json",
     "desktop-r11.json",
-    "pair-focus-r12.json"
+    "pair-focus-r12.json",
+    "streaming-r13.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": {
@@ -164,7 +169,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 12,
+  "revision": 13,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -190,5 +195,26 @@
   ],
   "r12Evidence": [
     "pair-focus-r12.json"
-  ]
+  ],
+  "r13Evidence": [
+    "streaming-r13.json"
+  ],
+  "loading": {
+    "textures": 52,
+    "originalDecodedBytes": 547907824,
+    "profiles": {
+      "standard": {
+        "decodedBytes": 251253536,
+        "transferBytes": 36046452
+      },
+      "low": {
+        "decodedBytes": 115975936,
+        "transferBytes": 15952922
+      }
+    },
+    "concurrency": 2,
+    "inactivityTimeoutSeconds": 25,
+    "maxAttempts": 3,
+    "contextLossRetries": 1
+  }
 }
