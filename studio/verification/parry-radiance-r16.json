@@ -1,0 +1,806 @@
+{
+  "ok": true,
+  "errors": [],
+  "cases": [
+    {
+      "cycle": 0,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 1,
+        "parry": 1,
+        "jump": 0,
+        "peakMeshes": 53,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 53,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 0,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 1,
+        "parry": 1,
+        "jump": 0,
+        "peakMeshes": 53,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 1,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 2,
+        "parry": 3,
+        "jump": 0,
+        "peakMeshes": 69,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 69,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 1,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 2,
+        "parry": 3,
+        "jump": 0,
+        "peakMeshes": 69,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 2,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 3,
+        "parry": 6,
+        "jump": 0,
+        "peakMeshes": 85,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 85,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 2,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 3,
+        "parry": 6,
+        "jump": 0,
+        "peakMeshes": 85,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 3,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 4,
+        "parry": 10,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 101,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 3,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 4,
+        "parry": 10,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 4,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 5,
+        "parry": 11,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 53,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 4,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 5,
+        "parry": 11,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 5,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 6,
+        "parry": 13,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 69,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 5,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 6,
+        "parry": 13,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 6,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 7,
+        "parry": 16,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 85,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 6,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 7,
+        "parry": 16,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 7,
+      "expired": false,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 8,
+        "parry": 20,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 101,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    },
+    {
+      "cycle": 7,
+      "expired": true,
+      "probes": [
+        {
+          "name": "foreground",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0
+        },
+        {
+          "name": "LensLayers",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "IrisFarGather",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 0.58544921875
+        },
+        {
+          "name": "LensComposite",
+          "bad": 0,
+          "negative": 0,
+          "alpha": 1
+        }
+      ],
+      "effects": {
+        "slash": 0,
+        "hit": 0,
+        "projectile": 0,
+        "impact": 8,
+        "parry": 20,
+        "jump": 0,
+        "peakMeshes": 101,
+        "dropped": 0,
+        "enabled": true,
+        "meshes": 0,
+        "projectiles": 0,
+        "presentation": "bold",
+        "budget": 240
+      },
+      "depthWriters": 0,
+      "memory": {
+        "geometries": 3,
+        "textures": 29
+      }
+    }
+  ]
+}

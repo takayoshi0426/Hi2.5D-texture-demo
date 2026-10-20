@@ -1,0 +1,460 @@
+{
+  "ok": true,
+  "base": "http://127.0.0.1:5242/studio/",
+  "stages": [
+    {
+      "id": "p21",
+      "auto": {
+        "effects": {
+          "slash": 9,
+          "hit": 8,
+          "projectile": 8,
+          "impact": 4,
+          "parry": 2,
+          "jump": 4,
+          "peakMeshes": 113,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 13,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "fighters": [
+          {
+            "shots": 3,
+            "parries": 2,
+            "jumps": 4,
+            "hp": 17
+          },
+          {
+            "shots": 5,
+            "parries": 0,
+            "jumps": 0,
+            "hp": 28
+          }
+        ],
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 9.152339049401995,
+          "mode": "front",
+          "position": [
+            0.9550728453989179,
+            5.08,
+            12.509417772980504
+          ],
+          "target": [
+            -1.4152288589216857,
+            1.8900000000000001,
+            -7.148193216926048
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 19.722984768452598,
+          "fStop": 6.7,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 19.722984768452598,
+            "fStop": 6.7,
+            "targetFStop": 6.7,
+            "maxCoC": 0.29596231632967984,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              17.717608811868416,
+              22.240259035644293
+            ],
+            "subjectCount": 2
+          }
+        },
+        "depthWriters": 0
+      },
+      "manualJump": {
+        "height": 1.3462603878116346,
+        "retained": 1.3462603878116346,
+        "blocked": false,
+        "landed": 0
+      },
+      "manualParry": {
+        "parries": 1,
+        "hp": 100,
+        "reflected": true,
+        "effect": 3
+      },
+      "manualShot": 1,
+      "air": {
+        "airMelee": 2,
+        "heights": [
+          2.559724415573148,
+          1.462327116406912
+        ],
+        "shots": [
+          7,
+          4
+        ],
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 3.6670487501265137,
+          "mode": "front",
+          "position": [
+            -3.3557465514963134,
+            5.233532063426942,
+            6.912712386203275
+          ],
+          "target": [
+            -6.01282894990458,
+            3.8110257659900304,
+            -15.123255465833836
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 22.116306074719617,
+          "fStop": 3.5,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 22.116306074719617,
+            "fStop": 3.5,
+            "targetFStop": 3.5,
+            "maxCoC": 0.295331768165988,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              20.737121508792924,
+              23.692014688896336
+            ],
+            "subjectCount": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "p14",
+      "auto": {
+        "effects": {
+          "slash": 11,
+          "hit": 7,
+          "projectile": 8,
+          "impact": 4,
+          "parry": 2,
+          "jump": 5,
+          "peakMeshes": 106,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 19,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "fighters": [
+          {
+            "shots": 3,
+            "parries": 2,
+            "jumps": 5,
+            "hp": 34
+          },
+          {
+            "shots": 5,
+            "parries": 0,
+            "jumps": 0,
+            "hp": 28
+          }
+        ],
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 9.152339620005863,
+          "mode": "front",
+          "position": [
+            -1.5025957517062807,
+            6.4600002023048715,
+            18.940491176496828
+          ],
+          "target": [
+            8.281086800339892,
+            3.27,
+            1.726556248050417
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 19.770298476360754,
+          "fStop": 4.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 19.770298476360754,
+            "fStop": 4.2,
+            "targetFStop": 4.2,
+            "maxCoC": 0.29514305304544747,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              18.46080589575358,
+              21.279749017872405
+            ],
+            "subjectCount": 2
+          }
+        },
+        "depthWriters": 0
+      },
+      "manualJump": {
+        "height": 1.3462603878116346,
+        "retained": 1.3462603878116346,
+        "blocked": false,
+        "landed": 0
+      },
+      "manualParry": {
+        "parries": 1,
+        "hp": 100,
+        "reflected": true,
+        "effect": 3
+      },
+      "manualShot": 1,
+      "air": {
+        "airMelee": 2,
+        "heights": [
+          2.559724415573148,
+          1.462327116406912
+        ],
+        "shots": [
+          6,
+          5
+        ],
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 3.6670487501265105,
+          "mode": "front",
+          "position": [
+            8.72461083065098,
+            6.658147916078514,
+            9.083202148377339
+          ],
+          "target": [
+            5.984191017860741,
+            5.19102576599003,
+            -13.643907455715805
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 22.283015770839118,
+          "fStop": 8.1,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 22.283015770839118,
+            "fStop": 8.1,
+            "targetFStop": 8.1,
+            "maxCoC": 0.2978788799098233,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              19.268187206084868,
+              26.416282865799094
+            ],
+            "subjectCount": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "hd2d",
+      "auto": {
+        "effects": {
+          "slash": 9,
+          "hit": 8,
+          "projectile": 10,
+          "impact": 3,
+          "parry": 2,
+          "jump": 4,
+          "peakMeshes": 127,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 42,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "fighters": [
+          {
+            "shots": 4,
+            "parries": 2,
+            "jumps": 4,
+            "hp": 27
+          },
+          {
+            "shots": 6,
+            "parries": 0,
+            "jumps": 0,
+            "hp": 28
+          }
+        ],
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 9.152339049401995,
+          "mode": "front",
+          "position": [
+            1.941843149604876,
+            4.945,
+            22.529120897797743
+          ],
+          "target": [
+            -0.4284585547157276,
+            1.7550000000000001,
+            2.8715099078911903
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 19.88185176038498,
+          "fStop": 5.1,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 19.88185176038498,
+            "fStop": 5.1,
+            "targetFStop": 5.1,
+            "maxCoC": 0.2985192556276215,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              18.279903180595525,
+              21.791540625324913
+            ],
+            "subjectCount": 2
+          }
+        },
+        "depthWriters": 0
+      },
+      "manualJump": {
+        "height": 1.3462603878116346,
+        "retained": 1.3462603878116346,
+        "blocked": false,
+        "landed": 0
+      },
+      "manualParry": {
+        "parries": 1,
+        "hp": 100,
+        "reflected": true,
+        "effect": 3
+      },
+      "manualShot": 1,
+      "air": {
+        "airMelee": 2,
+        "heights": [
+          2.559724415573148,
+          1.462327116406912
+        ],
+        "shots": [
+          7,
+          4
+        ],
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 3.6670487501265145,
+          "mode": "front",
+          "position": [
+            -26.120634830363187,
+            5.1232303035288655,
+            -0.659009615499377
+          ],
+          "target": [
+            -28.823850774306347,
+            3.67602576599003,
+            -23.077576564544714
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "optics": {
+          "focus": 21.184367985760346,
+          "fStop": 13.3,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 21.184367985760346,
+            "fStop": 13.3,
+            "targetFStop": 13.3,
+            "maxCoC": 0.29875026884964906,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              17.023502693721024,
+              28.03718508174836
+            ],
+            "subjectCount": 2
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

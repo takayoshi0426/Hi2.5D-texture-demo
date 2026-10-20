@@ -59,7 +59,8 @@
     "Overlapping VFX no longer add emission to foreground coverage; particle alpha bounded and scene depth preserved",
     "48 HDR regression frames plus four actual colosseum matches have no non-finite intermediate color; particle resources expire without accumulating",
     "Zero blur radius bypasses lens normalization",
-    "All five P14 monster artworks face the opponent with independent horizontal UV reflection in all three backgrounds, including crossed positions and reverse cameras; overlap deadband and export UVs verified"
+    "All five P14 monster artworks face the opponent with independent horizontal UV reflection in all three backgrounds, including crossed positions and reverse cameras; overlap deadband and export UVs verified",
+    "Flying monsters circle, shoot from altitude and dive into aerial melee; grounded monsters jump and parry projectiles with timed reflection. Shared manual J/F/R controls, all-arena simulation and real browser verification, finite HDR and bounded particle cleanup"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -175,7 +176,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 15,
+  "revision": 16,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -228,5 +229,10 @@
   ],
   "r15Evidence": [
     "facing-r15.json"
+  ],
+  "r16Evidence": [
+    "aerial-combat-r16.json",
+    "aerial-combat-unit-r16.json",
+    "parry-radiance-r16.json"
   ]
 }
