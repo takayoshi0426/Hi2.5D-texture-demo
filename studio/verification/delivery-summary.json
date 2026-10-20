@@ -60,7 +60,8 @@
     "48 HDR regression frames plus four actual colosseum matches have no non-finite intermediate color; particle resources expire without accumulating",
     "Zero blur radius bypasses lens normalization",
     "All five P14 monster artworks face the opponent with independent horizontal UV reflection in all three backgrounds, including crossed positions and reverse cameras; overlap deadband and export UVs verified",
-    "Flying monsters circle, shoot from altitude and dive into aerial melee; grounded monsters jump and parry projectiles with timed reflection. Shared manual J/F/R controls, all-arena simulation and real browser verification, finite HDR and bounded particle cleanup"
+    "Flying monsters circle, shoot from altitude and dive into aerial melee; grounded monsters jump and parry projectiles with timed reflection. Shared manual J/F/R controls, all-arena simulation and real browser verification, finite HDR and bounded particle cleanup",
+    "Protected camera-depth interval spans both complete monsters with 0.2m margins; foreground and background reach strong aperture blur outside it, with default radius 64. Shared interval/capture uniforms across all stages, persisted-setting migration, override behavior, checkerboard contrast and finite HDR tested"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -176,7 +177,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 16,
+  "revision": 17,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -234,5 +235,10 @@
     "aerial-combat-r16.json",
     "aerial-combat-unit-r16.json",
     "parry-radiance-r16.json"
+  ],
+  "r17Evidence": [
+    "focus-band-r17.json",
+    "focus-band-fixture-r17.json",
+    "focus-band-hdr-r17.json"
   ]
 }
