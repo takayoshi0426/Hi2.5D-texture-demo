@@ -1,0 +1,6565 @@
+{
+  "ok": true,
+  "errors": [],
+  "fixture": {
+    "cases": [
+      {
+        "cycle": 0,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 1,
+          "hit": 1,
+          "projectile": 0,
+          "impact": 1,
+          "peakMeshes": 83,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 83,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 0,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 1,
+          "hit": 1,
+          "projectile": 0,
+          "impact": 1,
+          "peakMeshes": 83,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 1,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 3,
+          "hit": 3,
+          "projectile": 0,
+          "impact": 3,
+          "peakMeshes": 166,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 166,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 1,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 3,
+          "hit": 3,
+          "projectile": 0,
+          "impact": 3,
+          "peakMeshes": 166,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 2,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 6,
+          "hit": 6,
+          "projectile": 0,
+          "impact": 6,
+          "peakMeshes": 240,
+          "dropped": 9,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 2,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 6,
+          "hit": 6,
+          "projectile": 0,
+          "impact": 6,
+          "peakMeshes": 240,
+          "dropped": 9,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 3,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 10,
+          "hit": 10,
+          "projectile": 0,
+          "impact": 10,
+          "peakMeshes": 240,
+          "dropped": 101,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 3,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 10,
+          "hit": 10,
+          "projectile": 0,
+          "impact": 10,
+          "peakMeshes": 240,
+          "dropped": 101,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 4,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 15,
+          "hit": 15,
+          "projectile": 0,
+          "impact": 15,
+          "peakMeshes": 240,
+          "dropped": 276,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 4,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 15,
+          "hit": 15,
+          "projectile": 0,
+          "impact": 15,
+          "peakMeshes": 240,
+          "dropped": 276,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 5,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 21,
+          "hit": 21,
+          "projectile": 0,
+          "impact": 21,
+          "peakMeshes": 240,
+          "dropped": 534,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 5,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 21,
+          "hit": 21,
+          "projectile": 0,
+          "impact": 21,
+          "peakMeshes": 240,
+          "dropped": 534,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 6,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 28,
+          "hit": 28,
+          "projectile": 0,
+          "impact": 28,
+          "peakMeshes": 240,
+          "dropped": 875,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 6,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 28,
+          "hit": 28,
+          "projectile": 0,
+          "impact": 28,
+          "peakMeshes": 240,
+          "dropped": 875,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 7,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 36,
+          "hit": 36,
+          "projectile": 0,
+          "impact": 36,
+          "peakMeshes": 240,
+          "dropped": 1299,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 7,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 36,
+          "hit": 36,
+          "projectile": 0,
+          "impact": 36,
+          "peakMeshes": 240,
+          "dropped": 1299,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 8,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 37,
+          "hit": 37,
+          "projectile": 0,
+          "impact": 37,
+          "peakMeshes": 240,
+          "dropped": 1299,
+          "enabled": true,
+          "meshes": 83,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 8,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 37,
+          "hit": 37,
+          "projectile": 0,
+          "impact": 37,
+          "peakMeshes": 240,
+          "dropped": 1299,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 9,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 39,
+          "hit": 39,
+          "projectile": 0,
+          "impact": 39,
+          "peakMeshes": 240,
+          "dropped": 1299,
+          "enabled": true,
+          "meshes": 166,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 9,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 39,
+          "hit": 39,
+          "projectile": 0,
+          "impact": 39,
+          "peakMeshes": 240,
+          "dropped": 1299,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 10,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 42,
+          "hit": 42,
+          "projectile": 0,
+          "impact": 42,
+          "peakMeshes": 240,
+          "dropped": 1308,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 10,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 42,
+          "hit": 42,
+          "projectile": 0,
+          "impact": 42,
+          "peakMeshes": 240,
+          "dropped": 1308,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 11,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 46,
+          "hit": 46,
+          "projectile": 0,
+          "impact": 46,
+          "peakMeshes": 240,
+          "dropped": 1400,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 11,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 46,
+          "hit": 46,
+          "projectile": 0,
+          "impact": 46,
+          "peakMeshes": 240,
+          "dropped": 1400,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 12,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 51,
+          "hit": 51,
+          "projectile": 0,
+          "impact": 51,
+          "peakMeshes": 240,
+          "dropped": 1575,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 12,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 51,
+          "hit": 51,
+          "projectile": 0,
+          "impact": 51,
+          "peakMeshes": 240,
+          "dropped": 1575,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 13,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 57,
+          "hit": 57,
+          "projectile": 0,
+          "impact": 57,
+          "peakMeshes": 240,
+          "dropped": 1833,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 13,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 57,
+          "hit": 57,
+          "projectile": 0,
+          "impact": 57,
+          "peakMeshes": 240,
+          "dropped": 1833,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 14,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 64,
+          "hit": 64,
+          "projectile": 0,
+          "impact": 64,
+          "peakMeshes": 240,
+          "dropped": 2174,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 14,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 64,
+          "hit": 64,
+          "projectile": 0,
+          "impact": 64,
+          "peakMeshes": 240,
+          "dropped": 2174,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 15,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 72,
+          "hit": 72,
+          "projectile": 0,
+          "impact": 72,
+          "peakMeshes": 240,
+          "dropped": 2598,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 15,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 72,
+          "hit": 72,
+          "projectile": 0,
+          "impact": 72,
+          "peakMeshes": 240,
+          "dropped": 2598,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 16,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 73,
+          "hit": 73,
+          "projectile": 0,
+          "impact": 73,
+          "peakMeshes": 240,
+          "dropped": 2598,
+          "enabled": true,
+          "meshes": 83,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 16,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 73,
+          "hit": 73,
+          "projectile": 0,
+          "impact": 73,
+          "peakMeshes": 240,
+          "dropped": 2598,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 17,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 75,
+          "hit": 75,
+          "projectile": 0,
+          "impact": 75,
+          "peakMeshes": 240,
+          "dropped": 2598,
+          "enabled": true,
+          "meshes": 166,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 17,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 75,
+          "hit": 75,
+          "projectile": 0,
+          "impact": 75,
+          "peakMeshes": 240,
+          "dropped": 2598,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 18,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 78,
+          "hit": 78,
+          "projectile": 0,
+          "impact": 78,
+          "peakMeshes": 240,
+          "dropped": 2607,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 18,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 78,
+          "hit": 78,
+          "projectile": 0,
+          "impact": 78,
+          "peakMeshes": 240,
+          "dropped": 2607,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 19,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 82,
+          "hit": 82,
+          "projectile": 0,
+          "impact": 82,
+          "peakMeshes": 240,
+          "dropped": 2699,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 19,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 82,
+          "hit": 82,
+          "projectile": 0,
+          "impact": 82,
+          "peakMeshes": 240,
+          "dropped": 2699,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 20,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 87,
+          "hit": 87,
+          "projectile": 0,
+          "impact": 87,
+          "peakMeshes": 240,
+          "dropped": 2874,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 20,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 87,
+          "hit": 87,
+          "projectile": 0,
+          "impact": 87,
+          "peakMeshes": 240,
+          "dropped": 2874,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 21,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 93,
+          "hit": 93,
+          "projectile": 0,
+          "impact": 93,
+          "peakMeshes": 240,
+          "dropped": 3132,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 21,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 93,
+          "hit": 93,
+          "projectile": 0,
+          "impact": 93,
+          "peakMeshes": 240,
+          "dropped": 3132,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 22,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 100,
+          "hit": 100,
+          "projectile": 0,
+          "impact": 100,
+          "peakMeshes": 240,
+          "dropped": 3473,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 22,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 100,
+          "hit": 100,
+          "projectile": 0,
+          "impact": 100,
+          "peakMeshes": 240,
+          "dropped": 3473,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      },
+      {
+        "cycle": 23,
+        "stage": "peak",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 108,
+          "hit": 108,
+          "projectile": 0,
+          "impact": 108,
+          "peakMeshes": 240,
+          "dropped": 3897,
+          "enabled": true,
+          "meshes": 240,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "depthWriters": 0
+      },
+      {
+        "cycle": 23,
+        "stage": "expired",
+        "probes": [
+          {
+            "name": "foreground",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0
+          },
+          {
+            "name": "LensLayers",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "IrisFarGather",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 0.58544921875
+          },
+          {
+            "name": "LensComposite",
+            "bad": 0,
+            "negative": 0,
+            "alpha": 1
+          }
+        ],
+        "effects": {
+          "slash": 108,
+          "hit": 108,
+          "projectile": 0,
+          "impact": 108,
+          "peakMeshes": 240,
+          "dropped": 3897,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 3,
+          "textures": 31
+        },
+        "programs": 15
+      }
+    ]
+  },
+  "colosseum": {
+    "frames": [
+      {
+        "match": 0,
+        "step": 0,
+        "bad": 0,
+        "effects": {
+          "slash": 0,
+          "hit": 0,
+          "projectile": 0,
+          "impact": 0,
+          "peakMeshes": 0,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 145,
+          "textures": 90
+        },
+        "programs": 54,
+        "optics": {
+          "focus": 32.10715925253477,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 32.10715925253477,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.23042561016832142,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              30.72127531392588,
+              33.623989069227974
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 180,
+        "bad": 0,
+        "effects": {
+          "slash": 0,
+          "hit": 0,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 8,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 149,
+          "textures": 92
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 49.38641203394989,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 49.38641203394989,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.2642264148504308,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.71193842952687,
+              53.703253408445406
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 233,
+        "bad": 0,
+        "effects": {
+          "slash": 1,
+          "hit": 1,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 154,
+          "textures": 96
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 46.4919731575847,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.4919731575847,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.2606479407357111,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              43.266067301326075,
+              50.23768054400052
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 268,
+        "bad": 0,
+        "effects": {
+          "slash": 2,
+          "hit": 2,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 96
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 45.26712256358199,
+          "fStop": 1.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 45.26712256358199,
+            "fStop": 1.4,
+            "targetFStop": 1.4,
+            "maxCoC": 0.2791753108381285,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.50412152289432,
+              49.78050815307459
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 360,
+        "bad": 0,
+        "effects": {
+          "slash": 2,
+          "hit": 2,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 150,
+          "textures": 96
+        },
+        "programs": 57,
+        "optics": {
+          "focus": 30.75724918031295,
+          "fStop": 2.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 30.75724918031295,
+            "fStop": 2.4,
+            "targetFStop": 2.4,
+            "maxCoC": 0.29371948022939504,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.708512335344786,
+              34.55982876431933
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 540,
+        "bad": 0,
+        "effects": {
+          "slash": 2,
+          "hit": 2,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 150,
+          "textures": 96
+        },
+        "programs": 57,
+        "optics": {
+          "focus": 34.36253349848615,
+          "fStop": 2.2950751449240205,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 34.36253349848615,
+            "fStop": 2.2950751449240205,
+            "targetFStop": 1.2,
+            "maxCoC": 0.14569336015791362,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              32.46353227360482,
+              36.49750795955763
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 556,
+        "bad": 0,
+        "effects": {
+          "slash": 3,
+          "hit": 3,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 96
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 33.487180116602936,
+          "fStop": 2.2010741151808575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.487180116602936,
+            "fStop": 2.2010741151808575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.15785885178199754,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.615711084491203,
+              35.59414994459883
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 591,
+        "bad": 0,
+        "effects": {
+          "slash": 4,
+          "hit": 4,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 96
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 38.10591557455345,
+          "fStop": 2.1166242188053137,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.10591557455345,
+            "fStop": 2.1166242188053137,
+            "targetFStop": 1.2,
+            "maxCoC": 0.11786993404100987,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.34222720612342,
+              40.04951881304414
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 720,
+        "bad": 0,
+        "effects": {
+          "slash": 4,
+          "hit": 4,
+          "projectile": 1,
+          "impact": 0,
+          "peakMeshes": 50,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 150,
+          "textures": 96
+        },
+        "programs": 57,
+        "optics": {
+          "focus": 33.76048815798536,
+          "fStop": 2.051117610780725,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.76048815798536,
+            "fStop": 2.051117610780725,
+            "targetFStop": 1.3,
+            "maxCoC": 0.17740414604017807,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.774236575524313,
+              36.011624750274876
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 766,
+        "bad": 0,
+        "effects": {
+          "slash": 4,
+          "hit": 4,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 73,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 73,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 150,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 38.28468077373477,
+          "fStop": 1.9814174739127004,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.28468077373477,
+            "fStop": 1.9814174739127004,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1261667142276615,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.501178733796536,
+              40.25142546291551
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 879,
+        "bad": 0,
+        "effects": {
+          "slash": 5,
+          "hit": 5,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 72,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 42.098782830861204,
+          "fStop": 1.918358404346107,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 42.098782830861204,
+            "fStop": 1.918358404346107,
+            "targetFStop": 1.2,
+            "maxCoC": 0.09094940455655014,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              40.57393054176355,
+              43.74272497342589
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 900,
+        "bad": 0,
+        "effects": {
+          "slash": 5,
+          "hit": 5,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 19,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 150,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 41.199695485177905,
+          "fStop": 1.8611843575505678,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.199695485177905,
+            "fStop": 1.8611843575505678,
+            "targetFStop": 1.2,
+            "maxCoC": 0.09912102152480061,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              39.65816169228583,
+              42.865916406265065
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 926,
+        "bad": 0,
+        "effects": {
+          "slash": 6,
+          "hit": 6,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 39.95855613498977,
+          "fStop": 1.8092413281494575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 39.95855613498977,
+            "fStop": 1.8092413281494575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.10910728502488115,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.410196267823764,
+              41.63699190245506
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1080,
+        "bad": 0,
+        "effects": {
+          "slash": 6,
+          "hit": 6,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 150,
+          "textures": 100
+        },
+        "programs": 57,
+        "optics": {
+          "focus": 44.35875699686534,
+          "fStop": 1.7619614870401799,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 44.35875699686534,
+            "fStop": 1.7619614870401799,
+            "targetFStop": 1.2,
+            "maxCoC": 0.15567279468592685,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.75630598093437,
+              47.3071637965307
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1214,
+        "bad": 0,
+        "effects": {
+          "slash": 7,
+          "hit": 7,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 159,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 56.357167218497864,
+          "fStop": 1.7188500788933974,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 56.357167218497864,
+            "fStop": 1.7188500788933974,
+            "targetFStop": 1.2,
+            "maxCoC": 0.12779397405715068,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              52.982422343443766,
+              60.1910709799546
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1251,
+        "bad": 0,
+        "effects": {
+          "slash": 8,
+          "hit": 8,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 55.221131838507105,
+          "fStop": 1.6794745531878734,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 55.221131838507105,
+            "fStop": 1.6794745531878734,
+            "targetFStop": 1.2,
+            "maxCoC": 0.17485180044900916,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              50.96978958140821,
+              60.246211752661665
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1260,
+        "bad": 0,
+        "effects": {
+          "slash": 8,
+          "hit": 8,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 40,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 53.97983581521514,
+          "fStop": 1.6434555107184576,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 53.97983581521514,
+            "fStop": 1.6434555107184576,
+            "targetFStop": 1.2,
+            "maxCoC": 0.20563036038049315,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              49.35102618860561,
+              59.56682149867066
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1440,
+        "bad": 0,
+        "effects": {
+          "slash": 8,
+          "hit": 8,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 28.867058482597095,
+          "fStop": 1.6406176681497966,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 28.867058482597095,
+            "fStop": 1.6406176681497966,
+            "targetFStop": 1.6,
+            "maxCoC": 0.27931650351909976,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.05450781519273,
+              30.93991700986136
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1539,
+        "bad": 0,
+        "effects": {
+          "slash": 9,
+          "hit": 9,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.62097463778334,
+          "fStop": 2.9,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.62097463778334,
+            "fStop": 2.9,
+            "targetFStop": 2.9,
+            "maxCoC": 0.2968262626512626,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.859559483083917,
+              30.105241389089272
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1574,
+        "bad": 0,
+        "effects": {
+          "slash": 10,
+          "hit": 10,
+          "projectile": 3,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.817494442581122,
+          "fStop": 3.5,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.817494442581122,
+            "fStop": 3.5,
+            "targetFStop": 3.5,
+            "maxCoC": 0.29691008544447683,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.507844399084068,
+              31.21177445027992
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1620,
+        "bad": 0,
+        "effects": {
+          "slash": 10,
+          "hit": 10,
+          "projectile": 4,
+          "impact": 1,
+          "peakMeshes": 86,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 14,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 27.169467654801153,
+          "fStop": 4.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 27.169467654801153,
+            "fStop": 4.4,
+            "targetFStop": 4.4,
+            "maxCoC": 0.2986338876349582,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.016418630050396,
+              33.15122666752113
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1636,
+        "bad": 0,
+        "effects": {
+          "slash": 10,
+          "hit": 10,
+          "projectile": 5,
+          "impact": 2,
+          "peakMeshes": 91,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 91,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.724722092994554,
+          "fStop": 4.6,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.724722092994554,
+            "fStop": 4.6,
+            "targetFStop": 4.6,
+            "maxCoC": 0.2978939837851511,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              22.552784190799585,
+              32.79048638234139
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1800,
+        "bad": 0,
+        "effects": {
+          "slash": 10,
+          "hit": 10,
+          "projectile": 5,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 41.48468601470605,
+          "fStop": 4.239973392653558,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.48468601470605,
+            "fStop": 4.239973392653558,
+            "targetFStop": 1.3,
+            "maxCoC": 0.0903584995050957,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.36577578218645,
+              45.1555659549892
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 0,
+        "step": 1862,
+        "bad": 0,
+        "effects": {
+          "slash": 11,
+          "hit": 11,
+          "projectile": 5,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 46.86924072204372,
+          "fStop": 3.9084920121638826,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.86924072204372,
+            "fStop": 3.9084920121638826,
+            "targetFStop": 1.2,
+            "maxCoC": 0.025353781352666048,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.77889066949044,
+              48.01279740075621
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 0,
+        "bad": 0,
+        "effects": {
+          "slash": 11,
+          "hit": 11,
+          "projectile": 5,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 32.10715925253477,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 32.10715925253477,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.23042561016832142,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              30.72127531392588,
+              33.623989069227974
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 180,
+        "bad": 0,
+        "effects": {
+          "slash": 11,
+          "hit": 11,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 8,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 49.39384820026558,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 49.39384820026558,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.26354206044279943,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.72711258329254,
+              53.69990048791636
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 233,
+        "bad": 0,
+        "effects": {
+          "slash": 12,
+          "hit": 12,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 46.49175574225906,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.49175574225906,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.2610950334773945,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              43.26073045710372,
+              50.24436989990146
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 268,
+        "bad": 0,
+        "effects": {
+          "slash": 13,
+          "hit": 13,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 45.2578516026239,
+          "fStop": 1.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 45.2578516026239,
+            "fStop": 1.4,
+            "targetFStop": 1.4,
+            "maxCoC": 0.2799586537149883,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.48666726533288,
+              49.78320002329485
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 360,
+        "bad": 0,
+        "effects": {
+          "slash": 13,
+          "hit": 13,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 30.767446678824815,
+          "fStop": 2.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 30.767446678824815,
+            "fStop": 2.4,
+            "targetFStop": 2.4,
+            "maxCoC": 0.29274095181998805,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.725918950163326,
+              34.55850805741149
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 540,
+        "bad": 0,
+        "effects": {
+          "slash": 13,
+          "hit": 13,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 34.357023625840654,
+          "fStop": 2.2950751449240205,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 34.357023625840654,
+            "fStop": 2.2950751449240205,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1453954493105354,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              32.46229011333083,
+              36.48664768785101
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 556,
+        "bad": 0,
+        "effects": {
+          "slash": 14,
+          "hit": 14,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 33.481129805466104,
+          "fStop": 2.2010741151808575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.481129805466104,
+            "fStop": 2.2010741151808575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1580565750697861,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.608114875412653,
+              35.59010728043446
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 591,
+        "bad": 0,
+        "effects": {
+          "slash": 15,
+          "hit": 15,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 38.10574138855236,
+          "fStop": 2.1166242188053137,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.10574138855236,
+            "fStop": 2.1166242188053137,
+            "targetFStop": 1.2,
+            "maxCoC": 0.11857718683725392,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.33197902874916,
+              40.06158680774455
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 720,
+        "bad": 0,
+        "effects": {
+          "slash": 15,
+          "hit": 15,
+          "projectile": 6,
+          "impact": 2,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 33.760117143718745,
+          "fStop": 2.051117610780725,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.760117143718745,
+            "fStop": 2.051117610780725,
+            "targetFStop": 1.3,
+            "maxCoC": 0.17765853957514427,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.77122811901216,
+              36.01464544813889
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 766,
+        "bad": 0,
+        "effects": {
+          "slash": 15,
+          "hit": 15,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 73,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 38.290873985032356,
+          "fStop": 1.9814174739127004,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.290873985032356,
+            "fStop": 1.9814174739127004,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1260970214027009,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.507741199321906,
+              40.257136987423905
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 879,
+        "bad": 0,
+        "effects": {
+          "slash": 16,
+          "hit": 16,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 72,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 42.10150935617115,
+          "fStop": 1.918358404346107,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 42.10150935617115,
+            "fStop": 1.918358404346107,
+            "targetFStop": 1.2,
+            "maxCoC": 0.09146895106194144,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              40.56806651340611,
+              43.755432261552805
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 900,
+        "bad": 0,
+        "effects": {
+          "slash": 16,
+          "hit": 16,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 19,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 41.200806691032994,
+          "fStop": 1.8611843575505678,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.200806691032994,
+            "fStop": 1.8611843575505678,
+            "targetFStop": 1.2,
+            "maxCoC": 0.09925553292459796,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              39.65717673334029,
+              42.86947321172587
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 926,
+        "bad": 0,
+        "effects": {
+          "slash": 17,
+          "hit": 17,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 39.95456256341248,
+          "fStop": 1.8092413281494575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 39.95456256341248,
+            "fStop": 1.8092413281494575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1087881322207084,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.41086295814716,
+              41.62753755927331
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1080,
+        "bad": 0,
+        "effects": {
+          "slash": 17,
+          "hit": 17,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 44.358052065475036,
+          "fStop": 1.7619614870401799,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 44.358052065475036,
+            "fStop": 1.7619614870401799,
+            "targetFStop": 1.2,
+            "maxCoC": 0.15565869308854252,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.75590406180687,
+              47.30607616966035
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1214,
+        "bad": 0,
+        "effects": {
+          "slash": 18,
+          "hit": 18,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 56.3589698216316,
+          "fStop": 1.7188500788933974,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 56.3589698216316,
+            "fStop": 1.7188500788933974,
+            "targetFStop": 1.2,
+            "maxCoC": 0.12778980033068837,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              52.98411747562462,
+              60.192995603390564
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1251,
+        "bad": 0,
+        "effects": {
+          "slash": 19,
+          "hit": 19,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 55.21867951650108,
+          "fStop": 1.6794745531878734,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 55.21867951650108,
+            "fStop": 1.6794745531878734,
+            "targetFStop": 1.2,
+            "maxCoC": 0.17474790488956302,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              50.970034793358124,
+              60.24003164224327
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1260,
+        "bad": 0,
+        "effects": {
+          "slash": 19,
+          "hit": 19,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 40,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 53.97810843436181,
+          "fStop": 1.6434555107184576,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 53.97810843436181,
+            "fStop": 1.6434555107184576,
+            "targetFStop": 1.2,
+            "maxCoC": 0.2054689190253368,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              49.35290718236375,
+              59.55987502663415
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1440,
+        "bad": 0,
+        "effects": {
+          "slash": 19,
+          "hit": 19,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 28.870922974424754,
+          "fStop": 1.6406176681497966,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 28.870922974424754,
+            "fStop": 1.6406176681497966,
+            "targetFStop": 1.6,
+            "maxCoC": 0.2796319968079983,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.05597566947663,
+              30.946876580080314
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1539,
+        "bad": 0,
+        "effects": {
+          "slash": 20,
+          "hit": 20,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.62570131687315,
+          "fStop": 2.9,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.62570131687315,
+            "fStop": 2.9,
+            "targetFStop": 2.9,
+            "maxCoC": 0.29742307489006925,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.858363871775914,
+              30.119239220886918
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1574,
+        "bad": 0,
+        "effects": {
+          "slash": 21,
+          "hit": 21,
+          "projectile": 8,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.820858238202877,
+          "fStop": 3.5,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.820858238202877,
+            "fStop": 3.5,
+            "targetFStop": 3.5,
+            "maxCoC": 0.29716359150282534,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.507938905452377,
+              31.220722247169274
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1620,
+        "bad": 0,
+        "effects": {
+          "slash": 21,
+          "hit": 21,
+          "projectile": 9,
+          "impact": 3,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 14,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 27.165472501847614,
+          "fStop": 4.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 27.165472501847614,
+            "fStop": 4.4,
+            "targetFStop": 4.4,
+            "maxCoC": 0.2983572440170984,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.016828230921018,
+              33.13848411233212
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1636,
+        "bad": 0,
+        "effects": {
+          "slash": 21,
+          "hit": 21,
+          "projectile": 10,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 91,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.720338529388155,
+          "fStop": 4.6,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.720338529388155,
+            "fStop": 4.6,
+            "targetFStop": 4.6,
+            "maxCoC": 0.2975818748244522,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              22.553371005341564,
+              32.77605154562667
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1800,
+        "bad": 0,
+        "effects": {
+          "slash": 21,
+          "hit": 21,
+          "projectile": 10,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 41.48598891554882,
+          "fStop": 4.239973392653558,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.48598891554882,
+            "fStop": 4.239973392653558,
+            "targetFStop": 1.3,
+            "maxCoC": 0.09062992956109522,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.358224954132154,
+              45.169119291294265
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 1,
+        "step": 1862,
+        "bad": 0,
+        "effects": {
+          "slash": 22,
+          "hit": 22,
+          "projectile": 10,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 46.86924072204372,
+          "fStop": 3.9084920121638826,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.86924072204372,
+            "fStop": 3.9084920121638826,
+            "targetFStop": 1.2,
+            "maxCoC": 0.025353781352666048,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.77889066949044,
+              48.01279740075621
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 0,
+        "bad": 0,
+        "effects": {
+          "slash": 22,
+          "hit": 22,
+          "projectile": 10,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 32.10715925253477,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 32.10715925253477,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.23042561016832142,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              30.72127531392588,
+              33.623989069227974
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 180,
+        "bad": 0,
+        "effects": {
+          "slash": 22,
+          "hit": 22,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 8,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 49.397754202473266,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 49.397754202473266,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.2629077556899692,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.73862790054836,
+              53.69325711461339
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 233,
+        "bad": 0,
+        "effects": {
+          "slash": 23,
+          "hit": 23,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 46.49611778098511,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.49611778098511,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.2610224583601458,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              43.2653374481713,
+              50.24834469949839
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 268,
+        "bad": 0,
+        "effects": {
+          "slash": 24,
+          "hit": 24,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 45.25231153088698,
+          "fStop": 1.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 45.25231153088698,
+            "fStop": 1.4,
+            "targetFStop": 1.4,
+            "maxCoC": 0.28068380441542046,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.47307042689901,
+              49.78937764648185
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 360,
+        "bad": 0,
+        "effects": {
+          "slash": 24,
+          "hit": 24,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 30.77589605274324,
+          "fStop": 2.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 30.77589605274324,
+            "fStop": 2.4,
+            "targetFStop": 2.4,
+            "maxCoC": 0.2916086248239407,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.743368198262512,
+              34.552730864030124
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 540,
+        "bad": 0,
+        "effects": {
+          "slash": 24,
+          "hit": 24,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 34.3543838427875,
+          "fStop": 2.2950751449240205,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 34.3543838427875,
+            "fStop": 2.2950751449240205,
+            "targetFStop": 1.2,
+            "maxCoC": 0.14468689348369568,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              32.46866265858143,
+              36.47264932869477
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 556,
+        "bad": 0,
+        "effects": {
+          "slash": 25,
+          "hit": 25,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 33.47618957525326,
+          "fStop": 2.2010741151808575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.47618957525326,
+            "fStop": 2.2010741151808575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1575657826688639,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.609209270883703,
+              35.57755819401768
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 591,
+        "bad": 0,
+        "effects": {
+          "slash": 26,
+          "hit": 26,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 38.10133423179453,
+          "fStop": 2.1166242188053137,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.10133423179453,
+            "fStop": 2.1166242188053137,
+            "targetFStop": 1.2,
+            "maxCoC": 0.11901451314155755,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.32174253146247,
+              40.064293009375106
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 720,
+        "bad": 0,
+        "effects": {
+          "slash": 26,
+          "hit": 26,
+          "projectile": 11,
+          "impact": 4,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 33.756137086062836,
+          "fStop": 2.051117610780725,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.756137086062836,
+            "fStop": 2.051117610780725,
+            "targetFStop": 1.3,
+            "maxCoC": 0.17780721410715297,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.766143379435864,
+              36.01212051909365
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 766,
+        "bad": 0,
+        "effects": {
+          "slash": 26,
+          "hit": 26,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 73,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 38.29518169091438,
+          "fStop": 1.9814174739127004,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.29518169091438,
+            "fStop": 1.9814174739127004,
+            "targetFStop": 1.2,
+            "maxCoC": 0.12620742395378523,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.51016359037956,
+              40.26371462338383
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 879,
+        "bad": 0,
+        "effects": {
+          "slash": 27,
+          "hit": 27,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 72,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 42.104891451592785,
+          "fStop": 1.918358404346107,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 42.104891451592785,
+            "fStop": 1.918358404346107,
+            "targetFStop": 1.2,
+            "maxCoC": 0.09204319410916596,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              40.56192842264654,
+              43.76988410816618
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 900,
+        "bad": 0,
+        "effects": {
+          "slash": 27,
+          "hit": 27,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 19,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 41.20495822888041,
+          "fStop": 1.8611843575505678,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.20495822888041,
+            "fStop": 1.8611843575505678,
+            "targetFStop": 1.2,
+            "maxCoC": 0.09972835275516774,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              39.65394165007548,
+              42.88224608072949
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 926,
+        "bad": 0,
+        "effects": {
+          "slash": 28,
+          "hit": 28,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 39.95513095642938,
+          "fStop": 1.8092413281494575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 39.95513095642938,
+            "fStop": 1.8092413281494575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.10883495975127629,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.41074896925716,
+              41.628905445090055
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1080,
+        "bad": 0,
+        "effects": {
+          "slash": 28,
+          "hit": 28,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 44.36230194133701,
+          "fStop": 1.7619614870401799,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 44.36230194133701,
+            "fStop": 1.7619614870401799,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1559020871821596,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.75583451014199,
+              47.31583360251973
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1214,
+        "bad": 0,
+        "effects": {
+          "slash": 29,
+          "hit": 29,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 56.36270083922482,
+          "fStop": 1.7188500788933974,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 56.36270083922482,
+            "fStop": 1.7188500788933974,
+            "targetFStop": 1.2,
+            "maxCoC": 0.12783906236273404,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              52.98618835989777,
+              60.19883480652519
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1251,
+        "bad": 0,
+        "effects": {
+          "slash": 30,
+          "hit": 30,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 55.2164084179406,
+          "fStop": 1.6794745531878734,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 55.2164084179406,
+            "fStop": 1.6794745531878734,
+            "targetFStop": 1.2,
+            "maxCoC": 0.17477671933583497,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              50.96745583823452,
+              60.23822813873151
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1260,
+        "bad": 0,
+        "effects": {
+          "slash": 30,
+          "hit": 30,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 40,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 53.975307205820855,
+          "fStop": 1.6434555107184576,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 53.975307205820855,
+            "fStop": 1.6434555107184576,
+            "targetFStop": 1.2,
+            "maxCoC": 0.20545163478171377,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              49.35092491558749,
+              59.55594098838851
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1440,
+        "bad": 0,
+        "effects": {
+          "slash": 30,
+          "hit": 30,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 28.873207504081655,
+          "fStop": 1.6406176681497966,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 28.873207504081655,
+            "fStop": 1.6406176681497966,
+            "targetFStop": 1.6,
+            "maxCoC": 0.28000004442419446,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.055738800754845,
+              30.952436817372696
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1539,
+        "bad": 0,
+        "effects": {
+          "slash": 31,
+          "hit": 31,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.627208386696715,
+          "fStop": 2.9,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.627208386696715,
+            "fStop": 2.9,
+            "targetFStop": 2.9,
+            "maxCoC": 0.29770718481361697,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.85720022666548,
+              30.124951674514868
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1574,
+        "bad": 0,
+        "effects": {
+          "slash": 32,
+          "hit": 32,
+          "projectile": 13,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.826090067063436,
+          "fStop": 3.5,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.826090067063436,
+            "fStop": 3.5,
+            "targetFStop": 3.5,
+            "maxCoC": 0.2975850371359821,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.50781918902095,
+              31.23511557224906
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1620,
+        "bad": 0,
+        "effects": {
+          "slash": 32,
+          "hit": 32,
+          "projectile": 14,
+          "impact": 5,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 14,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 27.164867048381097,
+          "fStop": 4.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 27.164867048381097,
+            "fStop": 4.4,
+            "targetFStop": 4.4,
+            "maxCoC": 0.2982610261508961,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.01752990373961,
+              33.13522800744864
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1636,
+        "bad": 0,
+        "effects": {
+          "slash": 32,
+          "hit": 32,
+          "projectile": 15,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 91,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.71780557739215,
+          "fStop": 4.6,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.71780557739215,
+            "fStop": 4.6,
+            "targetFStop": 4.6,
+            "maxCoC": 0.2973157162204454,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              22.554723914975863,
+              32.765574717951914
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1800,
+        "bad": 0,
+        "effects": {
+          "slash": 32,
+          "hit": 32,
+          "projectile": 15,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 41.48296163029055,
+          "fStop": 4.239973392653558,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.48296163029055,
+            "fStop": 4.239973392653558,
+            "targetFStop": 1.3,
+            "maxCoC": 0.09087250055837835,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.3479039798346,
+              45.17625796328563
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 2,
+        "step": 1862,
+        "bad": 0,
+        "effects": {
+          "slash": 33,
+          "hit": 33,
+          "projectile": 15,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 46.86924072204372,
+          "fStop": 3.9084920121638826,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.86924072204372,
+            "fStop": 3.9084920121638826,
+            "targetFStop": 1.2,
+            "maxCoC": 0.025353781352666048,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.77889066949044,
+              48.01279740075621
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 0,
+        "bad": 0,
+        "effects": {
+          "slash": 33,
+          "hit": 33,
+          "projectile": 15,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 32.10715925253477,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 32.10715925253477,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.23042561016832142,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              30.72127531392588,
+              33.623989069227974
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 180,
+        "bad": 0,
+        "effects": {
+          "slash": 33,
+          "hit": 33,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 8,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 49.39547764833784,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 49.39547764833784,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.262729863623829,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.7389714626299,
+              53.68740466303665
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 233,
+        "bad": 0,
+        "effects": {
+          "slash": 34,
+          "hit": 34,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 46.5025611873577,
+          "fStop": 1.2,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.5025611873577,
+            "fStop": 1.2,
+            "targetFStop": 1.2,
+            "maxCoC": 0.26046092457193853,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              43.27737815956624,
+              50.247156723179316
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 268,
+        "bad": 0,
+        "effects": {
+          "slash": 35,
+          "hit": 35,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 45.253666693105366,
+          "fStop": 1.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 45.253666693105366,
+            "fStop": 1.4,
+            "targetFStop": 1.4,
+            "maxCoC": 0.2809224304191015,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.471261966845496,
+              49.795265863596185
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 360,
+        "bad": 0,
+        "effects": {
+          "slash": 35,
+          "hit": 35,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 30.777227248324085,
+          "fStop": 2.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 30.777227248324085,
+            "fStop": 2.4,
+            "targetFStop": 2.4,
+            "maxCoC": 0.2910341033576752,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.749833739053745,
+              34.546061438594094
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 540,
+        "bad": 0,
+        "effects": {
+          "slash": 35,
+          "hit": 35,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 34.356336734728174,
+          "fStop": 2.2950751449240205,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 34.356336734728174,
+            "fStop": 2.2950751449240205,
+            "targetFStop": 1.2,
+            "maxCoC": 0.14399467980683664,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              32.47893393832243,
+              36.46409671447918
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 556,
+        "bad": 0,
+        "effects": {
+          "slash": 36,
+          "hit": 36,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 33.47542701431247,
+          "fStop": 2.2010741151808575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.47542701431247,
+            "fStop": 2.2010741151808575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1566877787318303,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.61835632113387,
+              35.564255945530604
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 591,
+        "bad": 0,
+        "effects": {
+          "slash": 37,
+          "hit": 37,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 38.0953250055014,
+          "fStop": 2.1166242188053137,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.0953250055014,
+            "fStop": 2.1166242188053137,
+            "targetFStop": 1.2,
+            "maxCoC": 0.11891767044126736,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.31766813096372,
+              40.05596178355624
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 720,
+        "bad": 0,
+        "effects": {
+          "slash": 37,
+          "hit": 37,
+          "projectile": 16,
+          "impact": 6,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 33.75112591247054,
+          "fStop": 2.051117610780725,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 33.75112591247054,
+            "fStop": 2.051117610780725,
+            "targetFStop": 1.3,
+            "maxCoC": 0.177749459298571,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              31.762321437874427,
+              36.00562578630699
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 766,
+        "bad": 0,
+        "effects": {
+          "slash": 37,
+          "hit": 37,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 73,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 38.294767870828096,
+          "fStop": 1.9814174739127004,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 38.294767870828096,
+            "fStop": 1.9814174739127004,
+            "targetFStop": 1.2,
+            "maxCoC": 0.12644134813206542,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              36.50663394037023,
+              40.26709310864901
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 879,
+        "bad": 0,
+        "effects": {
+          "slash": 38,
+          "hit": 38,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 72,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 42.10673032874153,
+          "fStop": 1.918358404346107,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 42.10673032874153,
+            "fStop": 1.918358404346107,
+            "targetFStop": 1.2,
+            "maxCoC": 0.09232869571421035,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              40.55902307451403,
+              43.7772428611003
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 900,
+        "bad": 0,
+        "effects": {
+          "slash": 38,
+          "hit": 38,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 19,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 41.20982503448857,
+          "fStop": 1.8611843575505678,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.20982503448857,
+            "fStop": 1.8611843575505678,
+            "targetFStop": 1.2,
+            "maxCoC": 0.10023007131879934,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              39.65093542250878,
+              42.89630752160171
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 926,
+        "bad": 0,
+        "effects": {
+          "slash": 39,
+          "hit": 39,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 39.95996064177721,
+          "fStop": 1.8092413281494575,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 39.95996064177721,
+            "fStop": 1.8092413281494575,
+            "targetFStop": 1.2,
+            "maxCoC": 0.10921426651635185,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.41003340295905,
+              41.64023337851298
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1080,
+        "bad": 0,
+        "effects": {
+          "slash": 39,
+          "hit": 39,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 44.36875293499566,
+          "fStop": 1.7619614870401799,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 44.36875293499566,
+            "fStop": 1.7619614870401799,
+            "targetFStop": 1.2,
+            "maxCoC": 0.15625490263929173,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              41.75598936131107,
+              47.33031420506892
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1214,
+        "bad": 0,
+        "effects": {
+          "slash": 40,
+          "hit": 40,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 56.36574307684669,
+          "fStop": 1.7188500788933974,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 56.36574307684669,
+            "fStop": 1.7188500788933974,
+            "targetFStop": 1.2,
+            "maxCoC": 0.12792102713673117,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              52.98683887222555,
+              60.204936293719825
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1251,
+        "bad": 0,
+        "effects": {
+          "slash": 41,
+          "hit": 41,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 55.21606997523504,
+          "fStop": 1.6794745531878734,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 55.21606997523504,
+            "fStop": 1.6794745531878734,
+            "targetFStop": 1.2,
+            "maxCoC": 0.1749079848514684,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              50.964222486577896,
+              60.24193963971194
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1260,
+        "bad": 0,
+        "effects": {
+          "slash": 41,
+          "hit": 41,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 40,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 53.97342811792062,
+          "fStop": 1.6434555107184576,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 53.97342811792062,
+            "fStop": 1.6434555107184576,
+            "targetFStop": 1.2,
+            "maxCoC": 0.20557974203008322,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              49.346720418006846,
+              59.55748904022204
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1440,
+        "bad": 0,
+        "effects": {
+          "slash": 41,
+          "hit": 41,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 28.872549608322995,
+          "fStop": 1.6406176681497966,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 28.872549608322995,
+            "fStop": 1.6406176681497966,
+            "targetFStop": 1.6,
+            "maxCoC": 0.28018243147875255,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              27.05405313673185,
+              30.953130999305486
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1539,
+        "bad": 0,
+        "effects": {
+          "slash": 42,
+          "hit": 42,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.62453389924907,
+          "fStop": 2.9,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.62453389924907,
+            "fStop": 2.9,
+            "targetFStop": 2.9,
+            "maxCoC": 0.2975125382524716,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.85668456899915,
+              30.118927851639942
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1574,
+        "bad": 0,
+        "effects": {
+          "slash": 43,
+          "hit": 43,
+          "projectile": 18,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 47,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.830114782650398,
+          "fStop": 3.5,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.830114782650398,
+            "fStop": 3.5,
+            "targetFStop": 3.5,
+            "maxCoC": 0.2979035864313343,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.50778128492275,
+              31.246097525764142
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1620,
+        "bad": 0,
+        "effects": {
+          "slash": 43,
+          "hit": 43,
+          "projectile": 19,
+          "impact": 7,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 14,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 27.16790894842401,
+          "fStop": 4.4,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 27.16790894842401,
+            "fStop": 4.4,
+            "targetFStop": 4.4,
+            "maxCoC": 0.2984123843137914,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              23.0179166185417,
+              33.14347955332976
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1636,
+        "bad": 0,
+        "effects": {
+          "slash": 43,
+          "hit": 43,
+          "projectile": 20,
+          "impact": 8,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 91,
+          "projectiles": 1,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 26.718788820459306,
+          "fStop": 4.6,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 26.718788820459306,
+            "fStop": 4.6,
+            "targetFStop": 4.6,
+            "maxCoC": 0.2972553098599755,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              22.556134133937494,
+              32.76555619906412
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1800,
+        "bad": 0,
+        "effects": {
+          "slash": 43,
+          "hit": 43,
+          "projectile": 20,
+          "impact": 8,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 0,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 155,
+          "textures": 100
+        },
+        "programs": 58,
+        "optics": {
+          "focus": 41.47743837221376,
+          "fStop": 4.239973392653558,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 41.47743837221376,
+            "fStop": 4.239973392653558,
+            "targetFStop": 1.3,
+            "maxCoC": 0.09093699621522078,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              38.34113636215547,
+              45.172549448090585
+            ],
+            "subjectCount": 2
+          }
+        }
+      },
+      {
+        "match": 3,
+        "step": 1862,
+        "bad": 0,
+        "effects": {
+          "slash": 44,
+          "hit": 44,
+          "projectile": 20,
+          "impact": 8,
+          "peakMeshes": 97,
+          "dropped": 0,
+          "enabled": true,
+          "meshes": 46,
+          "projectiles": 0,
+          "presentation": "bold",
+          "budget": 240
+        },
+        "memory": {
+          "geometries": 160,
+          "textures": 100
+        },
+        "programs": 59,
+        "optics": {
+          "focus": 46.86924072204372,
+          "fStop": 3.9084920121638826,
+          "dof": true,
+          "scale": 0.041666666666666664,
+          "maxBlur": 22,
+          "blades": 6,
+          "boost": 0.8,
+          "baseFStop": 1.2,
+          "auto": true,
+          "pairFocus": {
+            "focus": 46.86924072204372,
+            "fStop": 3.9084920121638826,
+            "targetFStop": 1.2,
+            "maxCoC": 0.025353781352666048,
+            "sharpRadius": 0.3,
+            "depthRange": [
+              45.77889066949044,
+              48.01279740075621
+            ],
+            "subjectCount": 2
+          }
+        }
+      }
+    ],
+    "clean": {
+      "geometries": 155,
+      "textures": 100
+    },
+    "effects": {
+      "slash": 44,
+      "hit": 44,
+      "projectile": 20,
+      "impact": 8,
+      "peakMeshes": 97,
+      "dropped": 0,
+      "enabled": true,
+      "meshes": 0,
+      "projectiles": 0,
+      "presentation": "bold",
+      "budget": 240
+    },
+    "crowd": {
+      "revision": 10,
+      "variants": 64,
+      "sourceSheets": 4,
+      "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+      "usableBenchSegments": 1720,
+      "nominalSeats": 7826,
+      "occupiedSeats": 7719,
+      "emptyUsableSeats": 0,
+      "blockedByRubble": 76,
+      "blockedByPortal": 31,
+      "speciesCounts": {
+        "dwarf": 964,
+        "catfolk": 966,
+        "horned": 966,
+        "rabbitfolk": 483,
+        "human": 963,
+        "lizardfolk": 963,
+        "halfling": 964,
+        "elf": 966,
+        "wolffolk": 484
+      },
+      "spectators": 7719
+    },
+    "ao": {
+      "revision": 9,
+      "method": "local gallery / portal cavity AO multiplied into existing ray-traced AO",
+      "galleryRearFactor": 0.22
+    },
+    "camera": {
+      "source": "uploaded HD2D",
+      "cutaway": {
+        "active": false,
+        "kind": "foreground cutaway above floor; whole geometry retained for export"
+      },
+      "pitchLimitDegrees": 10,
+      "pitchDegrees": 8.400102624517778,
+      "mode": "angle",
+      "position": [
+        4.771668939985137,
+        9.48,
+        18.907172594737187
+      ],
+      "target": [
+        8.466976414970583,
+        5.256667091895035,
+        -9.45309367103184
+      ],
+      "fov": 35,
+      "yaw": 0,
+      "tilt": 0
+    }
+  },
+  "otherStages": [
+    {
+      "stage": "p14",
+      "depthTestedEffects": 36,
+      "depthWriters": 0
+    },
+    {
+      "stage": "p21",
+      "depthTestedEffects": 36,
+      "depthWriters": 0
+    },
+    {
+      "stage": "hd2d",
+      "depthTestedEffects": 36,
+      "depthWriters": 0
+    }
+  ],
+  "regressionEvidence": [
+    "before-single.json",
+    "after.json",
+    "current-effects-verification.json"
+  ]
+}

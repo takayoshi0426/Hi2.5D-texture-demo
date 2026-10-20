@@ -55,7 +55,10 @@
     "P21 pre-sized downloads with bounded two-slot transfer/decode queue, inactivity timeouts and transient retries",
     "Background paints before common controls finish; only selected monster artwork loads initially",
     "One common lens without duplicate native targets; intermediate geometry and lighting pixel caches released",
-    "Simulated GPU upload pressure recovers once in a fresh lightweight frame without overwriting saved preferences; terminal failures release the frame"
+    "Simulated GPU upload pressure recovers once in a fresh lightweight frame without overwriting saved preferences; terminal failures release the frame",
+    "Overlapping VFX no longer add emission to foreground coverage; particle alpha bounded and scene depth preserved",
+    "48 HDR regression frames plus four actual colosseum matches have no non-finite intermediate color; particle resources expire without accumulating",
+    "Zero blur radius bypasses lens normalization"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -76,7 +79,8 @@
     "fantasy-crowd-r10.json",
     "desktop-r11.json",
     "pair-focus-r12.json",
-    "streaming-r13.json"
+    "streaming-r13.json",
+    "vfx-stability-r14.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": {
@@ -104,7 +108,8 @@
     "review": "vfx/work/threejs-independent-review.json",
     "nativeEffekseerCompiled": false,
     "presentation": "bold-vfx-v4",
-    "reviewEvidence": "threejs-bold-r4-20261019"
+    "reviewEvidence": "threejs-bold-r4-20261019",
+    "stability": "Depth-tested transparent radiance; no depth writing; additive RGB preserves destination alpha"
   },
   "flight": {
     "actors": [
@@ -169,7 +174,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 13,
+  "revision": 14,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -216,5 +221,8 @@
     "inactivityTimeoutSeconds": 25,
     "maxAttempts": 3,
     "contextLossRetries": 1
-  }
+  },
+  "r14Evidence": [
+    "vfx-stability-r14.json"
+  ]
 }
