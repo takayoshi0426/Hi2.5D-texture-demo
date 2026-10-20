@@ -1,0 +1,555 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "id": "p21",
+      "config": {
+        "maxBlur": 12,
+        "blurTransition": 8,
+        "focusPadding": 1.5,
+        "pairBlur": true
+      },
+      "optics": {
+        "focusBand": {
+          "enabled": true,
+          "near": 17.34719352580504,
+          "far": 23.01451091857172,
+          "falloff": 8
+        },
+        "focus": 20.092716919533355,
+        "fStop": 4.2,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 12,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 4.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 20.092716919533355,
+          "fStop": 4.2,
+          "targetFStop": 4.2,
+          "maxCoC": 0.2703475873566335,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            18.84719352580504,
+            21.51451091857172
+          ],
+          "subjectCount": 2
+        }
+      },
+      "depths": [
+        20.6309781154308,
+        21.16721456323786,
+        20.97827447076466,
+        21.51451091857172,
+        19.87636823481754,
+        18.84719352580504,
+        20.55998735216323,
+        19.53081264315073
+      ],
+      "uniforms": {
+        "radius": 12,
+        "falloff": 8,
+        "near": 17.34719352580504,
+        "far": 23.01451091857172,
+        "enabled": true
+      },
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10.000000000000002,
+        "mode": "front",
+        "position": [
+          2.400147657445873,
+          5.3993150380706805,
+          19.905132280166814
+        ],
+        "target": [
+          0,
+          1.8640800000053646,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    },
+    {
+      "id": "p14",
+      "config": {
+        "maxBlur": 12,
+        "blurTransition": 8,
+        "focusPadding": 1.5,
+        "pairBlur": true
+      },
+      "optics": {
+        "focusBand": {
+          "enabled": true,
+          "near": 17.355571478017225,
+          "far": 23.06411538890901,
+          "falloff": 8
+        },
+        "focus": 20.11909297637296,
+        "fStop": 4.2,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 12,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 4.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 20.11909297637296,
+          "fStop": 4.2,
+          "targetFStop": 4.2,
+          "maxCoC": 0.27375583719062324,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            18.855571478017225,
+            21.56411538890901
+          ],
+          "subjectCount": 2
+        }
+      },
+      "depths": [
+        20.68112418003865,
+        21.21681903357515,
+        21.02842053537251,
+        21.56411538890901,
+        19.88408485373799,
+        18.855571478017225,
+        20.56741579126312,
+        19.538902415542356
+      ],
+      "uniforms": {
+        "radius": 12,
+        "falloff": 8,
+        "near": 17.355571478017225,
+        "far": 23.06411538890901,
+        "enabled": true
+      },
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 10,
+        "mode": "front",
+        "position": [
+          2.40279104518819,
+          6.809128547257069,
+          19.9270546741976
+        ],
+        "target": [
+          0,
+          3.27,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    },
+    {
+      "id": "hd2d",
+      "config": {
+        "maxBlur": 12,
+        "blurTransition": 8,
+        "focusPadding": 1.5,
+        "pairBlur": true
+      },
+      "optics": {
+        "focusBand": {
+          "enabled": true,
+          "near": 17.332933243067806,
+          "far": 22.952039670085334,
+          "falloff": 8
+        },
+        "focus": 20.057346539878193,
+        "fStop": 4.2,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 12,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 4.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 20.057346539878193,
+          "fStop": 4.2,
+          "targetFStop": 4.2,
+          "maxCoC": 0.26645816515237425,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            18.832933243067806,
+            21.452039670085334
+          ],
+          "subjectCount": 2
+        }
+      },
+      "depths": [
+        20.596518899132814,
+        21.13391968501685,
+        20.9146388842013,
+        21.452039670085334,
+        19.863293265834177,
+        18.832933243067806,
+        20.488259877583015,
+        19.45789985481664
+      ],
+      "uniforms": {
+        "radius": 12,
+        "falloff": 8,
+        "near": 17.332933243067806,
+        "far": 22.952039670085334,
+        "enabled": true
+      },
+      "camera": {
+        "source": "uploaded HD2D",
+        "cutaway": {
+          "active": false,
+          "kind": "foreground cutaway above floor; whole geometry retained for export"
+        },
+        "pitchLimitDegrees": 10,
+        "pitchDegrees": 9.152339049401995,
+        "mode": "front",
+        "position": [
+          2.4010029307509346,
+          4.986318331811615,
+          19.912225313889188
+        ],
+        "target": [
+          0,
+          1.7550000000000001,
+          0
+        ],
+        "fov": 35,
+        "yaw": 0,
+        "tilt": 0
+      }
+    }
+  ],
+  "errors": [],
+  "migrated": {
+    "config": {
+      "maxBlur": 12,
+      "blurTransition": 8,
+      "focusPadding": 1.5,
+      "pairBlur": true
+    },
+    "optics": {
+      "focusBand": {
+        "enabled": true,
+        "near": 17.344278658857824,
+        "far": 23.008598854942306,
+        "falloff": 8
+      },
+      "focus": 20.08848217803111,
+      "fStop": 4.2,
+      "dof": true,
+      "scale": 0.041666666666666664,
+      "maxBlur": 12,
+      "blades": 6,
+      "boost": 0.8,
+      "baseFStop": 4.2,
+      "auto": true,
+      "pairFocus": {
+        "focus": 20.08848217803111,
+        "fStop": 4.2,
+        "targetFStop": 4.2,
+        "maxCoC": 0.270162526202975,
+        "sharpRadius": 0.3,
+        "depthRange": [
+          18.844278658857824,
+          21.508598854942306
+        ],
+        "subjectCount": 2
+      }
+    },
+    "depths": [
+      20.62499349129599,
+      21.161302499608446,
+      20.97228984662985,
+      21.508598854942306,
+      19.857335915120697,
+      18.844278658857824,
+      20.551928625788417,
+      19.538871369525545
+    ],
+    "uniforms": {
+      "radius": 12,
+      "falloff": 8,
+      "near": 17.344278658857824,
+      "far": 23.008598854942306,
+      "enabled": true
+    },
+    "camera": {
+      "source": "uploaded HD2D",
+      "cutaway": {
+        "active": false,
+        "kind": "foreground cutaway above floor; whole geometry retained for export"
+      },
+      "pitchLimitDegrees": 10,
+      "pitchDegrees": 9.999999999999998,
+      "mode": "front",
+      "position": [
+        2.399793901404176,
+        5.381513982308744,
+        19.90219847699723
+      ],
+      "target": [
+        0,
+        1.8468,
+        0
+      ],
+      "fov": 35,
+      "yaw": 0,
+      "tilt": 0
+    }
+  },
+  "adjusted": {
+    "config": {
+      "maxBlur": 7,
+      "blurTransition": 14,
+      "focusPadding": 3,
+      "pairBlur": true
+    },
+    "optics": {
+      "focusBand": {
+        "enabled": true,
+        "near": 15.844278658857824,
+        "far": 24.508598854942306,
+        "falloff": 14
+      },
+      "focus": 20.08848217803111,
+      "fStop": 4.2,
+      "dof": true,
+      "scale": 0.041666666666666664,
+      "maxBlur": 7,
+      "blades": 6,
+      "boost": 0.8,
+      "baseFStop": 4.2,
+      "auto": true,
+      "pairFocus": {
+        "focus": 20.08848217803111,
+        "fStop": 4.2,
+        "targetFStop": 4.2,
+        "maxCoC": 0.270162526202975,
+        "sharpRadius": 0.3,
+        "depthRange": [
+          18.844278658857824,
+          21.508598854942306
+        ],
+        "subjectCount": 2
+      }
+    },
+    "depths": [
+      20.62499349129599,
+      21.161302499608446,
+      20.97228984662985,
+      21.508598854942306,
+      19.857335915120697,
+      18.844278658857824,
+      20.551928625788417,
+      19.538871369525545
+    ],
+    "uniforms": {
+      "radius": 7,
+      "falloff": 14,
+      "near": 15.844278658857824,
+      "far": 24.508598854942306,
+      "enabled": true
+    },
+    "camera": {
+      "source": "uploaded HD2D",
+      "cutaway": {
+        "active": false,
+        "kind": "foreground cutaway above floor; whole geometry retained for export"
+      },
+      "pitchLimitDegrees": 10,
+      "pitchDegrees": 9.999999999999998,
+      "mode": "front",
+      "position": [
+        2.399793901404176,
+        5.381513982308744,
+        19.90219847699723
+      ],
+      "target": [
+        0,
+        1.8468,
+        0
+      ],
+      "fov": 35,
+      "yaw": 0,
+      "tilt": 0
+    }
+  },
+  "saved": {
+    "maxBlur": 7,
+    "blurTransition": 14,
+    "focusPadding": 3,
+    "blurProfile": "natural-r18",
+    "pairBlur": true
+  },
+  "reloaded": {
+    "config": {
+      "maxBlur": 7,
+      "blurTransition": 14,
+      "focusPadding": 3,
+      "pairBlur": true
+    },
+    "optics": {
+      "focusBand": {
+        "enabled": true,
+        "near": 15.84719352580504,
+        "far": 24.51451091857172,
+        "falloff": 14
+      },
+      "focus": 20.092716919533355,
+      "fStop": 4.2,
+      "dof": true,
+      "scale": 0.041666666666666664,
+      "maxBlur": 7,
+      "blades": 6,
+      "boost": 0.8,
+      "baseFStop": 4.2,
+      "auto": true,
+      "pairFocus": {
+        "focus": 20.092716919533355,
+        "fStop": 4.2,
+        "targetFStop": 4.2,
+        "maxCoC": 0.2703475873566335,
+        "sharpRadius": 0.3,
+        "depthRange": [
+          18.84719352580504,
+          21.51451091857172
+        ],
+        "subjectCount": 2
+      }
+    },
+    "depths": [
+      20.6309781154308,
+      21.16721456323786,
+      20.97827447076466,
+      21.51451091857172,
+      19.87636823481754,
+      18.84719352580504,
+      20.55998735216323,
+      19.53081264315073
+    ],
+    "uniforms": {
+      "radius": 7,
+      "falloff": 14,
+      "near": 15.84719352580504,
+      "far": 24.51451091857172,
+      "enabled": true
+    },
+    "camera": {
+      "source": "uploaded HD2D",
+      "cutaway": {
+        "active": false,
+        "kind": "foreground cutaway above floor; whole geometry retained for export"
+      },
+      "pitchLimitDegrees": 10,
+      "pitchDegrees": 10.000000000000002,
+      "mode": "front",
+      "position": [
+        2.400147657445873,
+        5.3993150380706805,
+        19.905132280166814
+      ],
+      "target": [
+        0,
+        1.8640800000053646,
+        0
+      ],
+      "fov": 35,
+      "yaw": 0,
+      "tilt": 0
+    }
+  },
+  "restored": {
+    "config": {
+      "maxBlur": 12,
+      "blurTransition": 8,
+      "focusPadding": 1.5,
+      "pairBlur": true
+    },
+    "optics": {
+      "focusBand": {
+        "enabled": true,
+        "near": 17.34719352580504,
+        "far": 23.01451091857172,
+        "falloff": 8
+      },
+      "focus": 20.092716919533355,
+      "fStop": 4.2,
+      "dof": true,
+      "scale": 0.041666666666666664,
+      "maxBlur": 12,
+      "blades": 6,
+      "boost": 0.8,
+      "baseFStop": 4.2,
+      "auto": true,
+      "pairFocus": {
+        "focus": 20.092716919533355,
+        "fStop": 4.2,
+        "targetFStop": 4.2,
+        "maxCoC": 0.2703475873566335,
+        "sharpRadius": 0.3,
+        "depthRange": [
+          18.84719352580504,
+          21.51451091857172
+        ],
+        "subjectCount": 2
+      }
+    },
+    "depths": [
+      20.6309781154308,
+      21.16721456323786,
+      20.97827447076466,
+      21.51451091857172,
+      19.87636823481754,
+      18.84719352580504,
+      20.55998735216323,
+      19.53081264315073
+    ],
+    "uniforms": {
+      "radius": 12,
+      "falloff": 8,
+      "near": 17.34719352580504,
+      "far": 23.01451091857172,
+      "enabled": true
+    },
+    "camera": {
+      "source": "uploaded HD2D",
+      "cutaway": {
+        "active": false,
+        "kind": "foreground cutaway above floor; whole geometry retained for export"
+      },
+      "pitchLimitDegrees": 10,
+      "pitchDegrees": 10.000000000000002,
+      "mode": "front",
+      "position": [
+        2.400147657445873,
+        5.3993150380706805,
+        19.905132280166814
+      ],
+      "target": [
+        0,
+        1.8640800000053646,
+        0
+      ],
+      "fov": 35,
+      "yaw": 0,
+      "tilt": 0
+    }
+  }
+}
