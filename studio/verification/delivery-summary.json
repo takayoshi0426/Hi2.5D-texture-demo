@@ -46,7 +46,10 @@
     "Four portals retain original baked shading with multiplicative depth dimming and local floor / ceiling cavity AO",
     "P21 GLB saved through actual UI click with both fighters and crafted scenery",
     "P21 7,719 occupied bench seats with 64 cutout variants across 9 species; stairways and all four monster portals kept clear",
-    "168 actual bench support probes; 21 rows and no consecutive identical spectators"
+    "168 actual bench support probes; 21 rows and no consecutive identical spectators",
+    "Reported architecture:trim-0 error reproduced with a 0.00002m coordinate change; verified canonical geometry allows startup",
+    "All 66 original geometry hashes verified; real shape changes and corrupt reference data rejected",
+    "First-frame GPU sizing bounded at 2560x1440 CSS / DPR 2; crowd and 35 degree lens retained"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -64,7 +67,8 @@
     "crafted-detail-r8.json",
     "gates-r8.json",
     "cavity-ao-r9.json",
-    "fantasy-crowd-r10.json"
+    "fantasy-crowd-r10.json",
+    "desktop-r11.json"
   ],
   "outputs": "shared-battle-outputs.json",
   "camera": {
@@ -156,7 +160,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 10,
+  "revision": 11,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -176,5 +180,8 @@
   "r10Evidence": [
     "fantasy-crowd-r10.json",
     "forest-exports.json"
+  ],
+  "r11Evidence": [
+    "desktop-r11.json"
   ]
 }

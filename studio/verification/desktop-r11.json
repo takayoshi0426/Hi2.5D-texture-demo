@@ -1,0 +1,333 @@
+{
+  "ok": true,
+  "release": 11,
+  "reportedError": "Lighting geometry mismatch: architecture:trim-0",
+  "before": {
+    "ok": true,
+    "phase": "before",
+    "simulation": "Small platform rounding is injected into the actual architecture:trim-0 position buffer immediately before its checksum; real shape changes are tested separately",
+    "cases": [
+      {
+        "mode": "rounding",
+        "ready": false,
+        "message": "Lighting geometry mismatch: architecture:trim-0",
+        "injection": {
+          "delta": 2e-05,
+          "applied": true
+        }
+      }
+    ],
+    "errors": []
+  },
+  "after": {
+    "ok": true,
+    "phase": "after",
+    "simulation": "Small platform rounding is injected into the actual architecture:trim-0 position buffer immediately before its checksum; real shape changes are tested separately",
+    "cases": [
+      {
+        "mode": "exact",
+        "ready": true,
+        "message": "背景を読み込んでいます…",
+        "verification": {
+          "method": "exact SHA-256; verified original positions for sub-millimetre platform rounding only",
+          "toleranceMetres": 0.0001,
+          "exactReceivers": 66,
+          "canonicalizedReceivers": [],
+          "canonicalFileVerified": false
+        },
+        "crowd": {
+          "revision": 10,
+          "variants": 64,
+          "sourceSheets": 4,
+          "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+          "usableBenchSegments": 1720,
+          "nominalSeats": 7826,
+          "occupiedSeats": 7719,
+          "emptyUsableSeats": 0,
+          "blockedByRubble": 76,
+          "blockedByPortal": 31,
+          "speciesCounts": {
+            "dwarf": 964,
+            "catfolk": 966,
+            "horned": 966,
+            "rabbitfolk": 483,
+            "human": 963,
+            "lizardfolk": 963,
+            "halfling": 964,
+            "elf": 966,
+            "wolffolk": 484
+          },
+          "spectators": 7719
+        },
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10.000000000000002,
+          "mode": "front",
+          "position": [
+            2.4009859855651485,
+            5.4414998316545615,
+            19.91208478246666
+          ],
+          "target": [
+            0,
+            1.9050299999999991,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "injection": {
+          "delta": 0,
+          "applied": false
+        }
+      },
+      {
+        "mode": "rounding",
+        "ready": true,
+        "message": "背景を読み込んでいます…",
+        "verification": {
+          "method": "exact SHA-256; verified original positions for sub-millimetre platform rounding only",
+          "toleranceMetres": 0.0001,
+          "exactReceivers": 65,
+          "canonicalizedReceivers": [
+            {
+              "name": "architecture:trim-0",
+              "maxDeltaMetres": 1.9073486328125e-05
+            }
+          ],
+          "canonicalFileVerified": true
+        },
+        "crowd": {
+          "revision": 10,
+          "variants": 64,
+          "sourceSheets": 4,
+          "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+          "usableBenchSegments": 1720,
+          "nominalSeats": 7826,
+          "occupiedSeats": 7719,
+          "emptyUsableSeats": 0,
+          "blockedByRubble": 76,
+          "blockedByPortal": 31,
+          "speciesCounts": {
+            "dwarf": 964,
+            "catfolk": 966,
+            "horned": 966,
+            "rabbitfolk": 483,
+            "human": 963,
+            "lizardfolk": 963,
+            "halfling": 964,
+            "elf": 966,
+            "wolffolk": 484
+          },
+          "spectators": 7719
+        },
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10.000000000000002,
+          "mode": "front",
+          "position": [
+            2.4006782915081435,
+            5.426016621699769,
+            19.90953298491891
+          ],
+          "target": [
+            0,
+            1.8900000000000001,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "injection": {
+          "delta": 2e-05,
+          "applied": true
+        }
+      },
+      {
+        "mode": "shape-change",
+        "ready": false,
+        "message": "Lighting geometry mismatch: architecture:trim-0",
+        "injection": {
+          "delta": 0.01,
+          "applied": true
+        }
+      },
+      {
+        "mode": "retina",
+        "ready": true,
+        "message": "背景を読み込んでいます…",
+        "verification": {
+          "method": "exact SHA-256; verified original positions for sub-millimetre platform rounding only",
+          "toleranceMetres": 0.0001,
+          "exactReceivers": 66,
+          "canonicalizedReceivers": [],
+          "canonicalFileVerified": false
+        },
+        "crowd": {
+          "revision": 10,
+          "variants": 64,
+          "sourceSheets": 4,
+          "occupancy": "all usable bench seats; aisles, portals and rubble excluded",
+          "usableBenchSegments": 1720,
+          "nominalSeats": 7826,
+          "occupiedSeats": 7719,
+          "emptyUsableSeats": 0,
+          "blockedByRubble": 76,
+          "blockedByPortal": 31,
+          "speciesCounts": {
+            "dwarf": 964,
+            "catfolk": 966,
+            "horned": 966,
+            "rabbitfolk": 483,
+            "human": 963,
+            "lizardfolk": 963,
+            "halfling": 964,
+            "elf": 966,
+            "wolffolk": 484
+          },
+          "spectators": 7719
+        },
+        "camera": {
+          "source": "uploaded HD2D",
+          "cutaway": {
+            "active": false,
+            "kind": "foreground cutaway above floor; whole geometry retained for export"
+          },
+          "pitchLimitDegrees": 10,
+          "pitchDegrees": 10,
+          "mode": "front",
+          "position": [
+            2.3343880421339276,
+            5.328376123815067,
+            19.359768399150393
+          ],
+          "target": [
+            0,
+            1.8900000000000001,
+            0
+          ],
+          "fov": 35,
+          "yaw": 0,
+          "tilt": 0
+        },
+        "injection": {
+          "delta": 0,
+          "applied": false
+        },
+        "allocations": [
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1445,
+            "height": 831,
+            "pixels": 1200795
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1445,
+            "height": 831,
+            "pixels": 1200795
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          },
+          {
+            "name": "renderbufferStorageMultisample",
+            "width": 1497,
+            "height": 801,
+            "pixels": 1199097
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "unit": {
+    "ok": true,
+    "command": "node scripts/test-p21-geometry.mjs",
+    "passed": 6,
+    "canonicalReceiversVerified": 66,
+    "checks": [
+      "All original geometry hashes match the reference",
+      "Exact matches avoid reference loading",
+      "Small coordinate differences restore original hashes",
+      "One-centimetre shape changes are rejected",
+      "Wrong counts and non-finite coordinates are rejected",
+      "Corrupt canonical data is rejected"
+    ]
+  },
+  "gpuBefore": {
+    "ready": false,
+    "allocations": [
+      {
+        "name": "renderbufferStorageMultisample",
+        "width": 3402,
+        "height": 1956,
+        "pixels": 6654312
+      },
+      {
+        "name": "renderbufferStorageMultisample",
+        "width": 3402,
+        "height": 1956,
+        "pixels": 6654312
+      }
+    ],
+    "errors": [],
+    "simulation": "GPU loses context for framebuffer allocations over 1.205 million pixels; 2560x1440 CSS at DPR 2"
+  },
+  "limitations": [
+    "Desktop Chromium with injected numeric differences and a controlled framebuffer budget; not a direct run on the user Mac."
+  ],
+  "reference": "p21/assets/baked/positions.bin; verified against all 66 existing bake record SHA-256 values",
+  "artworkAndCrowd": "Existing lighting, AO, 64 crowd variants and 7,719 spectators retained"
+}
