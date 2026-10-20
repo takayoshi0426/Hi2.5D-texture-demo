@@ -1,0 +1,2062 @@
+{
+  "ok": true,
+  "base": "http://127.0.0.1:5242/studio/",
+  "stages": [
+    {
+      "id": "p21",
+      "cases": [
+        {
+          "label": "pair-pink",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "pink",
+              "facing": "right",
+              "mirrored": false,
+              "size": 2,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "6ff24377-f765-457e-b46a-face51c46654"
+            },
+            {
+              "art": "pink",
+              "facing": "left",
+              "mirrored": true,
+              "size": 2,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "6ff24377-f765-457e-b46a-face51c46654"
+            }
+          ],
+          "scales": [
+            [
+              2.1061571125265393,
+              2,
+              1
+            ],
+            [
+              2.1061571125265393,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-toad",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "toad",
+              "facing": "right",
+              "mirrored": true,
+              "size": 2,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "e46948d5-2620-4c52-9a4b-ac71ba41aaf3"
+            },
+            {
+              "art": "toad",
+              "facing": "left",
+              "mirrored": false,
+              "size": 2,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "e46948d5-2620-4c52-9a4b-ac71ba41aaf3"
+            }
+          ],
+          "scales": [
+            [
+              2.3294117647058825,
+              2,
+              1
+            ],
+            [
+              2.3294117647058825,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-robot",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "robot",
+              "facing": "right",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "1ae39a3f-db0f-4541-8a21-726e9e2c605f"
+            },
+            {
+              "art": "robot",
+              "facing": "left",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "1ae39a3f-db0f-4541-8a21-726e9e2c605f"
+            }
+          ],
+          "scales": [
+            [
+              4.341356673960613,
+              4,
+              1
+            ],
+            [
+              4.341356673960613,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-harpy",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "7cf91107-32bd-4cb7-ae55-68729fe9de23"
+            },
+            {
+              "art": "harpy",
+              "facing": "left",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "7cf91107-32bd-4cb7-ae55-68729fe9de23"
+            }
+          ],
+          "scales": [
+            [
+              4.159329140461216,
+              4,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-dragon",
+          "fov": 35,
+          "pitch": 10,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "right",
+              "mirrored": true,
+              "size": 8,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "e768e8ac-648f-4ade-bc70-edbf7cc864ae"
+            },
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "e768e8ac-648f-4ade-bc70-edbf7cc864ae"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              8.520547945205479,
+              8,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "angle",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "right",
+              "mirrored": true,
+              "size": 8,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "e768e8ac-648f-4ade-bc70-edbf7cc864ae"
+            },
+            {
+              "art": "harpy",
+              "facing": "left",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "7cf91107-32bd-4cb7-ae55-68729fe9de23"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "crossed",
+          "fov": 35,
+          "pitch": 10,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "e768e8ac-648f-4ade-bc70-edbf7cc864ae"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "7cf91107-32bd-4cb7-ae55-68729fe9de23"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "overlap-deadband",
+          "fov": 35,
+          "pitch": 10,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "e768e8ac-648f-4ade-bc70-edbf7cc864ae"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "7cf91107-32bd-4cb7-ae55-68729fe9de23"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "reverse-camera",
+          "fov": 35,
+          "pitch": 5.355825042855191,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "e768e8ac-648f-4ade-bc70-edbf7cc864ae"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "7cf91107-32bd-4cb7-ae55-68729fe9de23"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        }
+      ],
+      "optics": {
+        "focus": 27.87985577320028,
+        "fStop": 2.2,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 22,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 1.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 27.87985577320028,
+          "fStop": 2.2,
+          "targetFStop": 2.2,
+          "maxCoC": 0.2969637438665119,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            26.464968736719275,
+            29.454575048949625
+          ],
+          "subjectCount": 2
+        }
+      }
+    },
+    {
+      "id": "p14",
+      "cases": [
+        {
+          "label": "pair-pink",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "pink",
+              "facing": "right",
+              "mirrored": false,
+              "size": 2,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "c4e03876-4ad2-45b1-81bb-a39f79570a09"
+            },
+            {
+              "art": "pink",
+              "facing": "left",
+              "mirrored": true,
+              "size": 2,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "c4e03876-4ad2-45b1-81bb-a39f79570a09"
+            }
+          ],
+          "scales": [
+            [
+              2.1061571125265393,
+              2,
+              1
+            ],
+            [
+              2.1061571125265393,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-toad",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "toad",
+              "facing": "right",
+              "mirrored": true,
+              "size": 2,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "f32d652d-8897-4875-bf16-ed3a753c7488"
+            },
+            {
+              "art": "toad",
+              "facing": "left",
+              "mirrored": false,
+              "size": 2,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "f32d652d-8897-4875-bf16-ed3a753c7488"
+            }
+          ],
+          "scales": [
+            [
+              2.3294117647058825,
+              2,
+              1
+            ],
+            [
+              2.3294117647058825,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-robot",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "robot",
+              "facing": "right",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "4c0876a4-462c-4122-99e6-74a47d31cca0"
+            },
+            {
+              "art": "robot",
+              "facing": "left",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "4c0876a4-462c-4122-99e6-74a47d31cca0"
+            }
+          ],
+          "scales": [
+            [
+              4.341356673960613,
+              4,
+              1
+            ],
+            [
+              4.341356673960613,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-harpy",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "6da55224-92c7-4c55-8762-ef6ea4540432"
+            },
+            {
+              "art": "harpy",
+              "facing": "left",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "6da55224-92c7-4c55-8762-ef6ea4540432"
+            }
+          ],
+          "scales": [
+            [
+              4.159329140461216,
+              4,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-dragon",
+          "fov": 35,
+          "pitch": 10,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "right",
+              "mirrored": true,
+              "size": 8,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "562a82f5-e1be-400b-b19b-37c243c2072a"
+            },
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "562a82f5-e1be-400b-b19b-37c243c2072a"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              8.520547945205479,
+              8,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "angle",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "right",
+              "mirrored": true,
+              "size": 8,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "562a82f5-e1be-400b-b19b-37c243c2072a"
+            },
+            {
+              "art": "harpy",
+              "facing": "left",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "6da55224-92c7-4c55-8762-ef6ea4540432"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "crossed",
+          "fov": 35,
+          "pitch": 10,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "562a82f5-e1be-400b-b19b-37c243c2072a"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "6da55224-92c7-4c55-8762-ef6ea4540432"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "overlap-deadband",
+          "fov": 35,
+          "pitch": 10.000000000000004,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "562a82f5-e1be-400b-b19b-37c243c2072a"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "6da55224-92c7-4c55-8762-ef6ea4540432"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "reverse-camera",
+          "fov": 35,
+          "pitch": 5.355825042855191,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "562a82f5-e1be-400b-b19b-37c243c2072a"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "6da55224-92c7-4c55-8762-ef6ea4540432"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        }
+      ],
+      "optics": {
+        "focus": 27.87671541463872,
+        "fStop": 2.3,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 22,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 1.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 27.87671541463872,
+          "fStop": 2.3,
+          "targetFStop": 2.3,
+          "maxCoC": 0.28728217715844595,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            26.446884348909506,
+            29.469988341676107
+          ],
+          "subjectCount": 2
+        }
+      }
+    },
+    {
+      "id": "hd2d",
+      "cases": [
+        {
+          "label": "pair-pink",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "pink",
+              "facing": "right",
+              "mirrored": false,
+              "size": 2,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "6752d18f-1a91-4572-b819-33878bf67f23"
+            },
+            {
+              "art": "pink",
+              "facing": "left",
+              "mirrored": true,
+              "size": 2,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "6752d18f-1a91-4572-b819-33878bf67f23"
+            }
+          ],
+          "scales": [
+            [
+              2.1061571125265393,
+              2,
+              1
+            ],
+            [
+              2.1061571125265393,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-toad",
+          "fov": 35,
+          "pitch": 10.000000000000002,
+          "fighters": [
+            {
+              "art": "toad",
+              "facing": "right",
+              "mirrored": true,
+              "size": 2,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "4dde3e7b-a649-4931-b42f-5deb4a2c8ccd"
+            },
+            {
+              "art": "toad",
+              "facing": "left",
+              "mirrored": false,
+              "size": 2,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "4dde3e7b-a649-4931-b42f-5deb4a2c8ccd"
+            }
+          ],
+          "scales": [
+            [
+              2.3294117647058825,
+              2,
+              1
+            ],
+            [
+              2.3294117647058825,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-robot",
+          "fov": 35,
+          "pitch": 9.40600265259335,
+          "fighters": [
+            {
+              "art": "robot",
+              "facing": "right",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "8b9778d2-f675-41ed-bd57-ae510e2f2f40"
+            },
+            {
+              "art": "robot",
+              "facing": "left",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "8b9778d2-f675-41ed-bd57-ae510e2f2f40"
+            }
+          ],
+          "scales": [
+            [
+              4.341356673960613,
+              4,
+              1
+            ],
+            [
+              4.341356673960613,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-harpy",
+          "fov": 35,
+          "pitch": 9.40600265259335,
+          "fighters": [
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "b064c86a-c3e9-40a8-ab46-c113640679d1"
+            },
+            {
+              "art": "harpy",
+              "facing": "left",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "b064c86a-c3e9-40a8-ab46-c113640679d1"
+            }
+          ],
+          "scales": [
+            [
+              4.159329140461216,
+              4,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "pair-dragon",
+          "fov": 35,
+          "pitch": 7.489638850371527,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "right",
+              "mirrored": true,
+              "size": 8,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "aeaf4614-ff9a-405d-9054-9a1f81256742"
+            },
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "aeaf4614-ff9a-405d-9054-9a1f81256742"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              8.520547945205479,
+              8,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "angle",
+          "fov": 35,
+          "pitch": 10.000000000000004,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "right",
+              "mirrored": true,
+              "size": 8,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "aeaf4614-ff9a-405d-9054-9a1f81256742"
+            },
+            {
+              "art": "harpy",
+              "facing": "left",
+              "mirrored": true,
+              "size": 4,
+              "uv": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "cloneUV": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "texture": "b064c86a-c3e9-40a8-ab46-c113640679d1"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "crossed",
+          "fov": 35,
+          "pitch": 7.489638850371527,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "aeaf4614-ff9a-405d-9054-9a1f81256742"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "b064c86a-c3e9-40a8-ab46-c113640679d1"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "overlap-deadband",
+          "fov": 35,
+          "pitch": 7.489638850371527,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "aeaf4614-ff9a-405d-9054-9a1f81256742"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "b064c86a-c3e9-40a8-ab46-c113640679d1"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "label": "reverse-camera",
+          "fov": 35,
+          "pitch": 5.355825042855191,
+          "fighters": [
+            {
+              "art": "dragon",
+              "facing": "left",
+              "mirrored": false,
+              "size": 8,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "aeaf4614-ff9a-405d-9054-9a1f81256742"
+            },
+            {
+              "art": "harpy",
+              "facing": "right",
+              "mirrored": false,
+              "size": 4,
+              "uv": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "cloneUV": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "texture": "b064c86a-c3e9-40a8-ab46-c113640679d1"
+            }
+          ],
+          "scales": [
+            [
+              8.520547945205479,
+              8,
+              1
+            ],
+            [
+              4.159329140461216,
+              4,
+              1
+            ]
+          ]
+        }
+      ],
+      "optics": {
+        "focus": 29.128130942146342,
+        "fStop": 1.9,
+        "dof": true,
+        "scale": 0.041666666666666664,
+        "maxBlur": 22,
+        "blades": 6,
+        "boost": 0.8,
+        "baseFStop": 1.2,
+        "auto": true,
+        "pairFocus": {
+          "focus": 29.128130942146342,
+          "fStop": 1.9,
+          "targetFStop": 1.9,
+          "maxCoC": 0.2922741874142196,
+          "sharpRadius": 0.3,
+          "depthRange": [
+            27.806045218964847,
+            30.582214349414205
+          ],
+          "subjectCount": 2
+        }
+      }
+    }
+  ],
+  "errors": []
+}

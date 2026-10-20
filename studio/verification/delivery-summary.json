@@ -58,7 +58,8 @@
     "Simulated GPU upload pressure recovers once in a fresh lightweight frame without overwriting saved preferences; terminal failures release the frame",
     "Overlapping VFX no longer add emission to foreground coverage; particle alpha bounded and scene depth preserved",
     "48 HDR regression frames plus four actual colosseum matches have no non-finite intermediate color; particle resources expire without accumulating",
-    "Zero blur radius bypasses lens normalization"
+    "Zero blur radius bypasses lens normalization",
+    "All five P14 monster artworks face the opponent with independent horizontal UV reflection in all three backgrounds, including crossed positions and reverse cameras; overlap deadband and export UVs verified"
   ],
   "limitations": [
     "Actors use P14 single-pose 2D artwork",
@@ -174,7 +175,7 @@
     ],
     "detailReference": "翠影の闘技場 / uploaded HD2D modeled detail"
   },
-  "revision": 14,
+  "revision": 15,
   "r7Evidence": [
     "gates-r7.json",
     "painted-dolly-r7.json",
@@ -224,5 +225,8 @@
   },
   "r14Evidence": [
     "vfx-stability-r14.json"
+  ],
+  "r15Evidence": [
+    "facing-r15.json"
   ]
 }
